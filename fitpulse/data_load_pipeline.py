@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+from scipy import stats
 
 def load_data(file_path):
     if file_path.endswith('.csv'):
@@ -21,6 +23,25 @@ def data_quality_report(df):
         "quality_score": f"{quality_score}%"
     }
     return report
+
+def detect_anomalies(df, column, threshold=3, custom_bounds=None):
+    """
+    Detect anomalies using Z-score method and custom bounds
+    Returns a boolean mask where True indicates an anomaly
+    """
+    anomalies = np.zeros(len(df), dtype=bool)
+    
+    # Z-score based anomalies
+    z_scores = np.abs(stats.zscore(df[column]))
+    anomalies = z_scores > threshold
+    
+    # Custom bounds based anomalies
+    if custom_bounds:
+        lower, upper = custom_bounds
+        bound_anomalies = (df[column] < lower) | (df[column] > upper)
+        anomalies = anomalies | bound_anomalies
+    
+    return anomalies
 
 def quality_check(df):
     errors = []
@@ -58,10 +79,52 @@ def run_pipeline(file_path):
     print(f"Shape: {report['shape']}")
     print(f"Missing Values: {report['missing']}")
     print(f"Quality Score: {report['quality_score']}")
-    # Optionally print describe: print(f"Describe: {report['describe']}")
+
+    # Define anomaly detection parameters for each metric
+    anomaly_configs = {
+        'heart_rate': {
+            'label': 'Heart Rate',
+            'bounds': (50, 100),  # Normal heart rate range
+            'z_threshold': 2.5
+        },
+        'sleep_duration': {
+            'label': 'Sleep Duration',
+            'bounds': (4, 10),    # Normal sleep duration range (hours)
+            'z_threshold': 2.5
+        },
+        'step_count': {
+            'label': 'Step Count',
+            'bounds': (1000, 20000),  # Normal daily steps range
+            'z_threshold': 2.5
+        }
+    }
+
+    print("\nAnomaly Detection Results:")
+    for col, config in anomaly_configs.items():
+        if col in df.columns:
+            anomalies = detect_anomalies(
+                df, 
+                col, 
+                threshold=config['z_threshold'],
+                custom_bounds=config['bounds']
+            )
+            anomaly_count = anomalies.sum()
+            
+            print(f"\n{config['label']} Anomalies:")
+            print(f"- Found {anomaly_count} anomalies")
+            print(f"- Normal range: {config['bounds'][0]} to {config['bounds'][1]}")
+            
+            if anomaly_count > 0:
+                print("- Anomalous values:")
+                anomaly_data = df[anomalies]
+                anomaly_report = pd.DataFrame({
+                    'Timestamp': anomaly_data['timestamp'],
+                    'Value': anomaly_data[col]
+                })
+                print(anomaly_report.to_string(index=False))
 
     if not errors:
-        print(f"\n{file_path} - No errors found. Showing 5 data lines:\n")
+        print(f"\n{file_path} - No quality errors found. Showing 5 data lines:\n")
         print(df.head())
     else:
         print(f"\n{file_path} - Data Quality Errors Detected:")
@@ -70,5 +133,4 @@ def run_pipeline(file_path):
         print("\nRows with errors:\n", error_rows)
 
 if __name__ == "__main__":
-    for file in ['fitness_data.csv', 'fitness_data.json']:
-        run_pipeline(file)
+    run_pipeline('fitness_data.csv')
