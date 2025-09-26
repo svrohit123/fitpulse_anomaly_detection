@@ -192,7 +192,7 @@ st.markdown("""
 # Title and description
 st.markdown("""
 <div style='text-align: center; padding: 20px;'>
-    <h1 style='color: #00ccff;'>🏃 FitPulse Anomaly Detection</h1>
+    <h1 style='color: #00ccff;'> FitPulse Anomaly Detection</h1>
     <p style='font-size: 1.2em; color: #00ccff;'>
         This application analyzes fitness data for anomalies in heart rate, sleep duration, and step count.<br>
         Upload your fitness data file (CSV or JSON) to get started!
@@ -216,7 +216,7 @@ if uploaded_file is not None:
         # Display basic statistics
         st.markdown("""
         <div style='padding: 20px 0;'>
-            <h2 style='color: #2C3E50; text-align: center; margin-bottom: 20px;'>📊 Data Overview</h2>
+            <h2 style='color: #00ccff; text-align: center; margin-bottom: 20px;'>📊 Data Overview</h2>
         </div>
         """, unsafe_allow_html=True)
         
