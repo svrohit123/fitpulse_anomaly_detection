@@ -2,8 +2,9 @@ import json
 import random
 from datetime import datetime, timedelta
 
-# Number of records to generate
-NUM_RECORDS = 100
+# Number of records to generate (capped at 1000)
+NUM_RECORDS = 1000
+NUM_RECORDS = min(NUM_RECORDS, 1000)
 
 # Start time (current time - NUM_RECORDS minutes)
 start_time = datetime.now() - timedelta(minutes=NUM_RECORDS)
@@ -31,4 +32,4 @@ for i in range(NUM_RECORDS):
 with open(filename, "w") as file:
     json.dump(data, file, indent=4)
 
-print(f"✅ JSON file '{filename}' created with {NUM_RECORDS} records.")
+print(f"JSON file '{filename}' created with {NUM_RECORDS} records.")

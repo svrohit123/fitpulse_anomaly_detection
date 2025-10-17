@@ -10,6 +10,10 @@ FitPulse Anomaly Detection is an interactive web application that helps users id
 - **Real-time Visualization**: Interactive plots using Plotly for detailed data exploration
 - **Dark Theme**: High-contrast visual design for better readability
 - **User-friendly Dashboard**: Easy-to-use interface with informative sidebar
+- **TSFresh Feature Extraction**: Advanced time series feature extraction for comprehensive analysis
+- **Prophet Seasonal Modeling**: Facebook Prophet integration for seasonal pattern detection and forecasting
+- **Clustering Analysis**: KMeans and DBSCAN clustering to group similar fitness behaviors
+- **Enhanced Data Pipeline**: Comprehensive analysis combining multiple advanced techniques
 
 ## Installation
 
@@ -26,7 +30,12 @@ cd fitpulse_anomaly_detection
 
 2. Install required packages:
 ```bash
-pip install streamlit pandas plotly numpy scipy
+pip install -r requirements.txt
+```
+
+Or install individual packages:
+```bash
+pip install streamlit pandas plotly numpy scipy tsfresh prophet scikit-learn
 ```
 
 ## Usage
@@ -47,7 +56,11 @@ http://localhost:8501
 ```
 
 4. Upload your fitness data file (CSV or JSON format)
-5. View the analysis results and interactive visualizations
+5. Explore the analysis results across multiple tabs:
+   - **Heart Rate, Sleep Duration, Step Count**: Basic anomaly detection and visualization
+   - **Advanced Features**: TSFresh feature extraction and analysis
+   - **Seasonal Modeling**: Prophet-based seasonal pattern detection and forecasting
+   - **Clustering Analysis**: KMeans and DBSCAN clustering for behavior grouping
 
 ## Data Format
 The application accepts two types of files:
@@ -75,19 +88,58 @@ JSON files should follow the structure:
 - **Data Processing**: Python (Pandas, NumPy)
 - **Visualization**: Plotly
 - **Statistical Analysis**: SciPy
+- **Feature Extraction**: TSFresh
+- **Seasonal Modeling**: Facebook Prophet
+- **Clustering**: Scikit-learn (KMeans, DBSCAN)
+- **Machine Learning**: Scikit-learn
 
 ## Project Structure
 ```
 fitpulse_anomaly_detection/
 ├── fitpulse/
-│   ├── app.py                 # Main Streamlit application
-│   ├── data_load_pipeline.py  # Data processing and analysis
-│   ├── Create_csv.py          # CSV data creation utility
-│   ├── Create_Json.py         # JSON data creation utility
-│   ├── load_csv.py            # CSV data loader
-│   └── load_json.py           # JSON data loader
+│   ├── app.py                    # Main Streamlit application
+│   ├── data_load_pipeline.py     # Original data processing and analysis
+│   ├── enhanced_data_pipeline.py # Enhanced pipeline with new features
+│   ├── tsfresh_features.py       # TSFresh feature extraction module
+│   ├── prophet_modeling.py       # Facebook Prophet modeling module
+│   ├── clustering_analysis.py    # Clustering analysis module
+│   ├── Create_csv.py             # CSV data creation utility
+│   ├── Create_Json.py            # JSON data creation utility
+│   ├── load_csv.py               # CSV data loader
+│   └── load_json.py              # JSON data loader
+├── requirements.txt              # Python dependencies
 └── README.md
 ```
+
+## Advanced Features
+
+### TSFresh Feature Extraction
+The application now includes advanced time series feature extraction using TSFresh:
+- **Statistical Features**: Mean, standard deviation, skewness, kurtosis, and more
+- **Trend Features**: Linear and polynomial trend analysis
+- **Seasonal Features**: Seasonal decomposition and pattern detection
+- **Custom Features**: User-defined feature extraction parameters
+
+### Prophet Seasonal Modeling
+Facebook Prophet integration for advanced time series analysis:
+- **Seasonal Pattern Detection**: Automatic detection of yearly, weekly, and daily patterns
+- **Forecasting**: Future value prediction with confidence intervals
+- **Anomaly Detection**: Prophet-based anomaly detection using prediction intervals
+- **Component Analysis**: Trend, seasonal, and holiday component visualization
+
+### Clustering Analysis
+Behavioral clustering using machine learning algorithms:
+- **KMeans Clustering**: Groups similar fitness behaviors into clusters
+- **DBSCAN Clustering**: Density-based clustering with noise detection
+- **Feature Engineering**: Automatic feature creation for clustering
+- **Visualization**: 2D cluster plots and characteristic analysis
+
+### Enhanced Data Pipeline
+Comprehensive analysis combining all advanced techniques:
+- **Multi-method Anomaly Detection**: Z-score, IQR, and custom bounds
+- **Feature Integration**: Seamless integration of all analysis methods
+- **Performance Optimization**: Efficient processing for large datasets
+- **Error Handling**: Robust error handling and user feedback
 
 ## Contributing
 1. Fork the repository

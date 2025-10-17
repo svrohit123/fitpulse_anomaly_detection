@@ -1,0 +1,28 @@
+# Core dependencies
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.24.0
+plotly>=5.15.0
+scipy>=1.10.0
+
+# TSFresh for time series feature extraction
+tsfresh>=0.20.0
+
+# Facebook Prophet for seasonal modeling
+prophet>=1.1.4
+
+# Scikit-learn for clustering
+scikit-learn>=1.3.0
+
+# Additional dependencies for Prophet (optional - will be installed with prophet)
+# pystan>=3.0.0
+# cmdstanpy>=1.1.0
+
+# Optional dependencies for better performance
+numba>=0.57.0
+joblib>=1.3.0
+
+# Development dependencies (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0

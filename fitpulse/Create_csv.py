@@ -3,7 +3,7 @@ import random
 from datetime import datetime, timedelta
 
 # Number of records to generate
-NUM_RECORDS = 100
+NUM_RECORDS = 1000
 
 # Start time (current time - NUM_RECORDS minutes)
 start_time = datetime.now() - timedelta(minutes=NUM_RECORDS)

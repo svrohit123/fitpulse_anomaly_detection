@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
-from data_load_pipeline import load_data, detect_anomalies, data_quality_report
+from enhanced_data_pipeline import EnhancedFitnessPipeline, load_data, detect_anomalies, data_quality_report
 
 # Page config
 st.set_page_config(page_title="FitPulse Anomaly Detection", page_icon="🏃", layout="wide")
@@ -41,6 +41,9 @@ with st.sidebar:
             <li>Customizable thresholds</li>
             <li>CSV & JSON support</li>
             <li>Detailed anomaly reports</li>
+            <li>TSFresh feature extraction</li>
+            <li>Prophet seasonal modeling</li>
+            <li>KMeans & DBSCAN clustering</li>
         </ul>
     </div>
     """, unsafe_allow_html=True)
@@ -240,7 +243,7 @@ if uploaded_file is not None:
             </div>
             """, unsafe_allow_html=True)
         with col3:
-            missing_values = sum(report['missing'].values())
+            missing_values = sum(report['missing'].values()) if isinstance(report['missing'], dict) and report['missing'] is not None else 0
             st.markdown(f"""
             <div class='metric-card'>
                 <h4 style='color: #7F8C8D; margin: 0;'>Missing Values</h4>
@@ -316,13 +319,17 @@ if uploaded_file is not None:
         }
         
         # Create tabs for different visualizations
-        tab1, tab2, tab3 = st.tabs(["Heart Rate", "Sleep Duration", "Step Count"])
+        tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
+            "Heart Rate", "Sleep Duration", "Step Count", 
+            "Advanced Features", "Seasonal Modeling", "Clustering Analysis"
+        ])
         
         for (col, config), tab in zip(anomaly_configs.items(), [tab1, tab2, tab3]):
             if col in df.columns:
                 with tab:
-                    anomalies = detect_anomalies(df, col, custom_bounds=config['bounds'])
-                    anomaly_count = anomalies.sum()
+                    anomaly_result = detect_anomalies(df, col, custom_bounds=config['bounds'])
+                    anomaly_mask = anomaly_result['anomalies'] if isinstance(anomaly_result, dict) else anomaly_result
+                    anomaly_count = anomaly_mask.sum()
                     
                     st.markdown(f"### {config['label']} Analysis")
                     st.metric("Anomalies Detected", anomaly_count)
@@ -331,7 +338,7 @@ if uploaded_file is not None:
                     fig = go.Figure()
                     
                     # Add normal data points
-                    normal_data = df[~anomalies]
+                    normal_data = df[~anomaly_mask]
                     fig.add_trace(go.Scatter(
                         x=normal_data['timestamp'],
                         y=normal_data[col],
@@ -341,7 +348,7 @@ if uploaded_file is not None:
                     ))
                     
                     # Add anomaly points
-                    anomaly_data = df[anomalies]
+                    anomaly_data = df[anomaly_mask]
                     fig.add_trace(go.Scatter(
                         x=anomaly_data['timestamp'],
                         y=anomaly_data[col],
@@ -377,6 +384,203 @@ if uploaded_file is not None:
                             'Value': anomaly_data[col]
                         })
                         st.dataframe(anomaly_df)
+        
+        # Advanced Features Tab
+        with tab4:
+            st.markdown("### 🔬 Advanced Feature Analysis")
+            st.markdown("This section provides advanced statistical features extracted using TSFresh and other methods.")
+            
+            # Initialize enhanced pipeline
+            pipeline = EnhancedFitnessPipeline()
+            
+            # Feature extraction options
+            feature_method = st.selectbox(
+                "Select Feature Extraction Method:",
+                ["Simple", "TSFresh"],
+                help="Simple: Basic statistical features, TSFresh: Comprehensive time series features"
+            )
+            
+            if st.button("Extract Features", key="extract_features"):
+                with st.spinner("Extracting features..."):
+                    try:
+                        method = 'simple' if feature_method == 'Simple' else 'tsfresh'
+                        features = pipeline.extract_features(df, method=method)
+                        
+                        st.success(f"Successfully extracted {len(features.columns)} features!")
+                        
+                        # Display feature summary
+                        col1, col2 = st.columns(2)
+                        with col1:
+                            st.metric("Total Features", len(features.columns))
+                        with col2:
+                            st.metric("Feature Method", feature_method)
+                        
+                        # Display features
+                        st.markdown("#### Extracted Features")
+                        st.dataframe(features, use_container_width=True)
+                        
+                        # Feature importance plot
+                        if len(features.columns) > 1:
+                            st.markdown("#### Feature Importance")
+                            feature_importance = features.var().sort_values(ascending=False)
+                            
+                            fig = px.bar(
+                                x=feature_importance.values,
+                                y=feature_importance.index,
+                                orientation='h',
+                                title="Feature Variance (Importance)",
+                                labels={'x': 'Variance', 'y': 'Features'}
+                            )
+                            fig.update_layout(
+                                paper_bgcolor='#1a1a1a',
+                                plot_bgcolor='#2d2d2d',
+                                font=dict(color='#ffffff'),
+                                xaxis=dict(gridcolor='#444444', zerolinecolor='#444444'),
+                                yaxis=dict(gridcolor='#444444', zerolinecolor='#444444')
+                            )
+                            st.plotly_chart(fig, use_container_width=True)
+                        
+                    except Exception as e:
+                        st.error(f"Feature extraction failed: {str(e)}")
+        
+        # Seasonal Modeling Tab
+        with tab5:
+            st.markdown("### 📈 Seasonal Pattern Modeling")
+            st.markdown("This section uses Facebook Prophet to model seasonal patterns and make forecasts.")
+            
+            # Prophet modeling options
+            col1, col2 = st.columns(2)
+            with col1:
+                forecast_periods = st.slider("Forecast Periods", 1, 30, 7, help="Number of periods to forecast")
+            with col2:
+                seasonality_mode = st.selectbox("Seasonality Mode", ["additive", "multiplicative"])
+            
+            if st.button("Run Prophet Analysis", key="prophet_analysis"):
+                with st.spinner("Running Prophet analysis..."):
+                    try:
+                        # Initialize Prophet modeler
+                        from prophet_modeling import ProphetFitnessModeler
+                        modeler = ProphetFitnessModeler(seasonality_mode=seasonality_mode)
+                        
+                        # Model each metric
+                        prophet_results = {}
+                        for col in ['heart_rate', 'sleep_duration', 'step_count']:
+                            if col in df.columns:
+                                st.markdown(f"#### {col.replace('_', ' ').title()} Analysis")
+                                
+                                # Fit model
+                                model = modeler.fit_model(df, col)
+                                
+                                # Make forecast
+                                forecast = modeler.make_forecast(col, periods=forecast_periods)
+                                
+                                # Detect anomalies
+                                anomalies = modeler.detect_anomalies_with_prophet(df, col)
+                                
+                                prophet_results[col] = {
+                                    'model': model,
+                                    'forecast': forecast,
+                                    'anomalies': anomalies
+                                }
+                                
+                                # Display results
+                                col_a, col_b = st.columns(2)
+                                with col_a:
+                                    st.metric("Prophet Anomalies", anomalies['anomaly'].sum())
+                                with col_b:
+                                    st.metric("Forecast Periods", forecast_periods)
+                                
+                                # Plot forecast
+                                fig = modeler.plot_forecast(col)
+                                st.plotly_chart(fig, use_container_width=True)
+                                
+                                # Plot components
+                                fig_components = modeler.plot_components(col)
+                                st.plotly_chart(fig_components, use_container_width=True)
+                        
+                        st.success("Prophet analysis completed successfully!")
+                        
+                    except Exception as e:
+                        st.error(f"Prophet analysis failed: {str(e)}")
+        
+        # Clustering Analysis Tab
+        with tab6:
+            st.markdown("### 🎯 Clustering Analysis")
+            st.markdown("This section groups similar fitness behaviors using KMeans and DBSCAN clustering.")
+            
+            # Clustering options
+            col1, col2 = st.columns(2)
+            with col1:
+                clustering_methods = st.multiselect(
+                    "Select Clustering Methods:",
+                    ["KMeans", "DBSCAN"],
+                    default=["KMeans"],
+                    help="Choose which clustering algorithms to use"
+                )
+            with col2:
+                n_clusters = st.slider("Number of Clusters (KMeans)", 2, 10, 3, help="Number of clusters for KMeans")
+            
+            if st.button("Run Clustering Analysis", key="clustering_analysis"):
+                with st.spinner("Running clustering analysis..."):
+                    try:
+                        # Initialize clustering analyzer
+                        from clustering_analysis import FitnessClusteringAnalyzer
+                        analyzer = FitnessClusteringAnalyzer()
+                        
+                        # Perform clustering
+                        clustering_results = {}
+                        for method in clustering_methods:
+                            method_lower = method.lower()
+                            st.markdown(f"#### {method} Results")
+                            
+                            if method_lower == 'kmeans':
+                                result = analyzer.perform_kmeans_clustering(
+                                    df, n_clusters=n_clusters
+                                )
+                            elif method_lower == 'dbscan':
+                                result = analyzer.perform_dbscan_clustering(df)
+                            
+                            clustering_results[method_lower] = result
+                            
+                            # Display results
+                            col_a, col_b, col_c = st.columns(3)
+                            with col_a:
+                                st.metric("Number of Clusters", result['n_clusters'])
+                            with col_b:
+                                st.metric("Silhouette Score", f"{result['silhouette_score']:.3f}")
+                            with col_c:
+                                if method_lower == 'dbscan':
+                                    st.metric("Noise Points", result['n_noise'])
+                                else:
+                                    st.metric("Calinski-Harabasz Score", f"{result['calinski_harabasz_score']:.1f}")
+                            
+                            # Plot clusters
+                            fig = analyzer.plot_clusters_2d(
+                                result['results_df'], 
+                                result['features_used'], 
+                                method=method_lower
+                            )
+                            st.plotly_chart(fig, use_container_width=True)
+                            
+                            # Plot cluster characteristics
+                            fig_chars = analyzer.plot_cluster_characteristics(
+                                result['cluster_stats'], 
+                                method=method_lower
+                            )
+                            st.plotly_chart(fig_chars, use_container_width=True)
+                            
+                            # Display cluster summary
+                            st.markdown("#### Cluster Summary")
+                            summary = analyzer.get_cluster_summary(result['cluster_stats'], method_lower)
+                            
+                            for cluster_id, details in summary['cluster_details'].items():
+                                with st.expander(f"Cluster {cluster_id} ({details['size']} points, {details['percentage']:.1f}%)"):
+                                    st.json(details['characteristics'])
+                        
+                        st.success("Clustering analysis completed successfully!")
+                        
+                    except Exception as e:
+                        st.error(f"Clustering analysis failed: {str(e)}")
         
         # Distribution plots
         st.subheader("Data Distribution Analysis")

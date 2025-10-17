@@ -13,12 +13,14 @@ def load_data(file_path):
 
 def data_quality_report(df):
     total_records = len(df)
-    missing = df.isnull().sum().sum()
-    quality_score = round(100 * (1 - missing / (df.shape[0] * df.shape[1])), 2) if df.shape[0] > 0 else 0
+    missing_values = df.isnull().sum()
+    total_missing = missing_values.sum()
+    quality_score = round(100 * (1 - total_missing / (df.shape[0] * df.shape[1])), 2) if df.shape[0] > 0 else 0
     report = {
         "total_records": total_records,
         "shape": df.shape,
-        "missing": df.isnull().sum().to_dict(),
+        "missing": missing_values.to_dict(),
+        "missing_total": int(total_missing),
         "describe": df.describe(include='all').to_dict(),
         "quality_score": f"{quality_score}%"
     }
