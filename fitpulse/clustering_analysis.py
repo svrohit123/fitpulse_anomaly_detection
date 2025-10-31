@@ -362,7 +362,7 @@ class FitnessClusteringAnalyzer:
     
     def plot_cluster_characteristics(self, cluster_stats, method='kmeans', title=None):
         """
-        Plot cluster characteristics.
+        Plot cluster characteristics with enhanced visualizations.
         
         Args:
             cluster_stats: Dictionary with cluster statistics
@@ -380,11 +380,29 @@ class FitnessClusteringAnalyzer:
         cluster_sizes = [cluster_stats[cid]['size'] for cid in cluster_ids]
         cluster_percentages = [cluster_stats[cid]['percentage'] for cid in cluster_ids]
         
+        # Get feature statistics
+        feature_stats = {}
+        for cid in cluster_ids:
+            for key, value in cluster_stats[cid].items():
+                if '_mean' in key:
+                    feature_name = key.replace('_mean', '')
+                    if feature_name not in feature_stats:
+                        feature_stats[feature_name] = {'means': [], 'stds': []}
+                    feature_stats[feature_name]['means'].append(value)
+                    feature_stats[feature_name]['stds'].append(cluster_stats[cid].get(f'{feature_name}_std', 0))
+        
+        # Calculate number of features for subplot layout
+        n_features = len(feature_stats)
+        n_rows = 2 + (n_features + 1) // 2  # 2 rows for size/percentage + rows for features
+        
         # Create subplots
         fig = make_subplots(
-            rows=2, cols=1,
-            subplot_titles=['Cluster Sizes', 'Cluster Percentages'],
-            vertical_spacing=0.1
+            rows=n_rows,
+            cols=2,
+            subplot_titles=['Cluster Sizes', 'Cluster Percentages'] + 
+                         [f'{feature.replace("_", " ").title()} Distribution' for feature in feature_stats.keys()],
+            vertical_spacing=0.1,
+            horizontal_spacing=0.1
         )
         
         # Add cluster sizes
@@ -392,7 +410,8 @@ class FitnessClusteringAnalyzer:
             x=cluster_ids,
             y=cluster_sizes,
             name='Size',
-            marker_color='lightblue'
+            marker_color='#4CAF50',
+            showlegend=False
         ), row=1, col=1)
         
         # Add cluster percentages
@@ -400,23 +419,81 @@ class FitnessClusteringAnalyzer:
             x=cluster_ids,
             y=cluster_percentages,
             name='Percentage',
-            marker_color='lightgreen'
-        ), row=2, col=1)
+            marker_color='#2196F3',
+            showlegend=False
+        ), row=1, col=2)
+        
+        # Add feature distributions
+        for i, (feature, stats) in enumerate(feature_stats.items()):
+            row = 2 + i // 2
+            col = 1 + i % 2
+            
+            # Add mean values as bars
+            fig.add_trace(go.Bar(
+                x=cluster_ids,
+                y=stats['means'],
+                name=f'{feature} Mean',
+                marker_color='#FF9800',
+                error_y=dict(
+                    type='data',
+                    array=stats['stds'],
+                    visible=True,
+                    color='#FFFFFF'
+                ),
+                showlegend=False
+            ), row=row, col=col)
         
         # Update layout
         fig.update_layout(
-            title=title,
-            height=600,
+            title=dict(
+                text=title,
+                x=0.5,
+                font=dict(size=24, color='#FFFFFF')
+            ),
+            height=300 * n_rows,
             paper_bgcolor='#1a1a1a',
             plot_bgcolor='#2d2d2d',
             font=dict(color='#ffffff'),
-            showlegend=False
+            showlegend=False,
+            template='plotly_dark'
         )
         
         # Update axes
-        for i in range(1, 3):
-            fig.update_xaxes(gridcolor='#444444', zerolinecolor='#444444', row=i, col=1)
-            fig.update_yaxes(gridcolor='#444444', zerolinecolor='#444444', row=i, col=1)
+        for i in range(1, n_rows + 1):
+            for j in range(1, 3):
+                fig.update_xaxes(
+                    title_text="Cluster ID" if i == 1 else "",
+                    gridcolor='#444444',
+                    zerolinecolor='#444444',
+                    tickfont=dict(size=10),
+                    row=i, col=j
+                )
+                fig.update_yaxes(
+                    gridcolor='#444444',
+                    zerolinecolor='#444444',
+                    tickfont=dict(size=10),
+                    row=i, col=j
+                )
+        
+        # Add cluster information annotations
+        annotation_text = f"Total Clusters: {len(cluster_ids)}"
+        if method == 'dbscan' and -1 in cluster_ids:
+            n_noise = cluster_stats.get(-1, {}).get('size', 0)
+            annotation_text += f"<br>Noise Points: {n_noise}"
+        
+        fig.add_annotation(
+            text=annotation_text,
+            xref="paper",
+            yref="paper",
+            x=1.0,
+            y=1.0,
+            showarrow=False,
+            font=dict(size=12, color='#FFFFFF'),
+            bgcolor='rgba(0,0,0,0.5)',
+            bordercolor='#FFFFFF',
+            borderwidth=1,
+            borderpad=4
+        )
         
         return fig
     

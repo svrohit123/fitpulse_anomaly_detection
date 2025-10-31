@@ -9,9 +9,30 @@ import pandas as pd
 import numpy as np
 from tsfresh import extract_features, select_features
 from tsfresh.utilities.dataframe_functions import impute
-from tsfresh.feature_extraction import ComprehensiveFCParameters
 import warnings
 warnings.filterwarnings('ignore')
+
+def build_minimal_fc_parameters():
+    """
+    Minimal TSFresh feature set:
+    - mean, median, standard deviation
+    - sample entropy (entropy)
+    - absolute energy (energy)
+    - autocorrelation (lags 1, 6, 24)
+    - number of peaks (n = 5, 10)
+    - skewness, kurtosis
+    """
+    return {
+        'mean': None,
+        'median': None,
+        'standard_deviation': None,
+        'sample_entropy': None,
+        'abs_energy': None,
+        'autocorrelation': [{"lag": 1}, {"lag": 6}, {"lag": 24}],
+        'number_peaks': [{"n": 5}, {"n": 10}],
+        'skewness': None,
+        'kurtosis': None,
+    }
 
 class TSFreshFeatureExtractor:
     """
@@ -27,8 +48,8 @@ class TSFreshFeatureExtractor:
                                  If None, uses comprehensive parameters.
         """
         if default_fc_parameters is None:
-            # Use comprehensive feature calculator parameters
-            self.fc_parameters = ComprehensiveFCParameters()
+            # Use a focused, minimal feature set as requested
+            self.fc_parameters = build_minimal_fc_parameters()
         else:
             self.fc_parameters = default_fc_parameters
     
@@ -217,6 +238,12 @@ class TSFreshFeatureExtractor:
                 # Count features
                 features[f'{col}_count'] = len(df[col])
                 features[f'{col}_non_zero_count'] = (df[col] != 0).sum()
+                
+                # Additional features for better visualization
+                features[f'{col}_cv'] = df[col].std() / df[col].mean() if df[col].mean() != 0 else 0  # Coefficient of variation
+                features[f'{col}_q25'] = df[col].quantile(0.25)
+                features[f'{col}_q75'] = df[col].quantile(0.75)
+                features[f'{col}_mad'] = np.median(np.abs(df[col] - df[col].median()))  # Median absolute deviation
         
         return pd.DataFrame([features])
 

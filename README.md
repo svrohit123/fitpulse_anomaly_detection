@@ -3,12 +3,20 @@
 ## Overview
 FitPulse Anomaly Detection is an interactive web application that helps users identify unusual patterns in their fitness data. Using advanced statistical analysis, the system can detect anomalies in various health metrics, providing valuable insights for both fitness enthusiasts and healthcare professionals.
 
+The latest update focuses on a cleaner, high-contrast visual design with a black-and-blue theme, glowing highlight elements, and improved plotting controls for both numeric and categorical features.
+
 ## Features
 - **Interactive Web Interface**: Built with Streamlit for an intuitive user experience
 - **Flexible Data Input**: Support for both CSV and JSON file formats
 - **Advanced Anomaly Detection**: Statistical analysis to identify outliers in fitness metrics
 - **Real-time Visualization**: Interactive plots using Plotly for detailed data exploration
-- **Dark Theme**: High-contrast visual design for better readability
+- **Black & Blue Theme (New)**: High-contrast black background with vibrant blue accents (#2563eb) across the entire app
+- **Glowing Highlights (New)**:
+  - Glowing blue summary metrics in the Data Overview (Total Records, Total Data Points, Quality Score, Missing Values)
+  - Buttons with gradient/glow styling, including glowing blue Download buttons in Reports & Exports
+- **Improved Feature Distribution (New)**:
+  - Numeric features: Box Plot or Violin Plot by cluster
+  - Categorical features: Bar (count) plot by cluster
 - **User-friendly Dashboard**: Easy-to-use interface with informative sidebar
 - **TSFresh Feature Extraction**: Advanced time series feature extraction for comprehensive analysis
 - **Prophet Seasonal Modeling**: Facebook Prophet integration for seasonal pattern detection and forecasting
@@ -61,6 +69,14 @@ http://localhost:8501
    - **Advanced Features**: TSFresh feature extraction and analysis
    - **Seasonal Modeling**: Prophet-based seasonal pattern detection and forecasting
    - **Clustering Analysis**: KMeans and DBSCAN clustering for behavior grouping
+   - **Reports & Exports (Updated)**: Glowing blue Download buttons to export summary and full data
+
+### UI Notes (New)
+- The app uses a black background with vibrant blue accents. Buttons and key metrics have a subtle glow for readability and emphasis.
+- In Feature Distribution Across Clusters:
+  - Choose feature type (Numeric or Categorical)
+  - For Numeric: Box Plot or Violin Plot per cluster
+  - For Categorical: Bar Plot (count) per cluster
 
 ## Data Format
 The application accepts two types of files:
@@ -92,6 +108,11 @@ JSON files should follow the structure:
 - **Seasonal Modeling**: Facebook Prophet
 - **Clustering**: Scikit-learn (KMeans, DBSCAN)
 - **Machine Learning**: Scikit-learn
+
+### Theming and Styling (Updated)
+- Global theme variables define colors for background, cards, text, borders, and accents.
+- Accent color uses a vibrant blue (#2563eb) with a deeper blue (#1e3a8a) for secondary accents.
+- Buttons and key metrics use a blue glow via CSS for enhanced emphasis.
 
 ## Project Structure
 ```
