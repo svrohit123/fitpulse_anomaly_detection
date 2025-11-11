@@ -1,602 +1,6002 @@
 [
     {
-        "timestamp": "2025-09-18 16:08:03",
-        "heart_rate": 115,
-        "sleep_duration": 3.32,
-        "step_count": 126
-    },
-    {
-        "timestamp": "2025-09-18 16:09:03",
-        "heart_rate": 58,
-        "sleep_duration": 8.13,
-        "step_count": 65
-    },
-    {
-        "timestamp": "2025-09-18 16:10:03",
-        "heart_rate": 57,
-        "sleep_duration": 2.6,
-        "step_count": 125
-    },
-    {
-        "timestamp": "2025-09-18 16:11:03",
-        "heart_rate": 63,
-        "sleep_duration": 2.0,
-        "step_count": 193
-    },
-    {
-        "timestamp": "2025-09-18 16:12:03",
-        "heart_rate": 77,
-        "sleep_duration": 7.65,
-        "step_count": 168
-    },
-    {
-        "timestamp": "2025-09-18 16:13:03",
-        "heart_rate": 78,
-        "sleep_duration": 1.29,
-        "step_count": 50
-    },
-    {
-        "timestamp": "2025-09-18 16:14:03",
-        "heart_rate": 99,
-        "sleep_duration": 2.77,
-        "step_count": 127
-    },
-    {
-        "timestamp": "2025-09-18 16:15:03",
-        "heart_rate": 110,
-        "sleep_duration": 9.22,
-        "step_count": 79
-    },
-    {
-        "timestamp": "2025-09-18 16:16:03",
-        "heart_rate": 59,
-        "sleep_duration": 7.94,
-        "step_count": 20
-    },
-    {
-        "timestamp": "2025-09-18 16:17:03",
-        "heart_rate": 98,
-        "sleep_duration": 5.21,
-        "step_count": 6
-    },
-    {
-        "timestamp": "2025-09-18 16:18:03",
-        "heart_rate": 91,
-        "sleep_duration": 0.16,
-        "step_count": 171
-    },
-    {
-        "timestamp": "2025-09-18 16:19:03",
-        "heart_rate": 83,
-        "sleep_duration": 0.38,
-        "step_count": 185
-    },
-    {
-        "timestamp": "2025-09-18 16:20:03",
-        "heart_rate": 91,
-        "sleep_duration": 0.36,
-        "step_count": 43
-    },
-    {
-        "timestamp": "2025-09-18 16:21:03",
-        "heart_rate": 86,
-        "sleep_duration": 4.92,
-        "step_count": 171
-    },
-    {
-        "timestamp": "2025-09-18 16:22:03",
-        "heart_rate": 59,
-        "sleep_duration": 6.06,
-        "step_count": 164
-    },
-    {
-        "timestamp": "2025-09-18 16:23:03",
-        "heart_rate": 57,
-        "sleep_duration": 4.94,
-        "step_count": 4
-    },
-    {
-        "timestamp": "2025-09-18 16:24:03",
-        "heart_rate": 90,
-        "sleep_duration": 0.74,
-        "step_count": 32
-    },
-    {
-        "timestamp": "2025-09-18 16:25:03",
-        "heart_rate": 109,
-        "sleep_duration": 8.41,
-        "step_count": 179
-    },
-    {
-        "timestamp": "2025-09-18 16:26:03",
-        "heart_rate": 100,
-        "sleep_duration": 8.05,
-        "step_count": 4
-    },
-    {
-        "timestamp": "2025-09-18 16:27:03",
-        "heart_rate": 73,
-        "sleep_duration": 5.42,
-        "step_count": 92
-    },
-    {
-        "timestamp": "2025-09-18 16:28:03",
-        "heart_rate": 79,
-        "sleep_duration": 5.63,
-        "step_count": 28
-    },
-    {
-        "timestamp": "2025-09-18 16:29:03",
-        "heart_rate": 68,
-        "sleep_duration": 9.31,
-        "step_count": 70
-    },
-    {
-        "timestamp": "2025-09-18 16:30:03",
-        "heart_rate": 109,
-        "sleep_duration": 1.96,
-        "step_count": 159
-    },
-    {
-        "timestamp": "2025-09-18 16:31:03",
-        "heart_rate": 93,
-        "sleep_duration": 8.49,
-        "step_count": 97
-    },
-    {
-        "timestamp": "2025-09-18 16:32:03",
-        "heart_rate": 67,
-        "sleep_duration": 1.92,
-        "step_count": 184
-    },
-    {
-        "timestamp": "2025-09-18 16:33:03",
-        "heart_rate": 72,
-        "sleep_duration": 8.14,
-        "step_count": 195
-    },
-    {
-        "timestamp": "2025-09-18 16:34:03",
-        "heart_rate": 117,
-        "sleep_duration": 5.97,
-        "step_count": 118
-    },
-    {
-        "timestamp": "2025-09-18 16:35:03",
-        "heart_rate": 74,
-        "sleep_duration": 1.46,
-        "step_count": 125
-    },
-    {
-        "timestamp": "2025-09-18 16:36:03",
-        "heart_rate": 98,
-        "sleep_duration": 7.67,
-        "step_count": 122
-    },
-    {
-        "timestamp": "2025-09-18 16:37:03",
-        "heart_rate": 92,
-        "sleep_duration": 4.61,
-        "step_count": 93
-    },
-    {
-        "timestamp": "2025-09-18 16:38:03",
-        "heart_rate": 113,
-        "sleep_duration": 3.54,
-        "step_count": 23
-    },
-    {
-        "timestamp": "2025-09-18 16:39:03",
-        "heart_rate": 96,
-        "sleep_duration": 0.97,
-        "step_count": 48
-    },
-    {
-        "timestamp": "2025-09-18 16:40:03",
-        "heart_rate": 78,
-        "sleep_duration": 1.41,
-        "step_count": 184
-    },
-    {
-        "timestamp": "2025-09-18 16:41:03",
-        "heart_rate": 57,
-        "sleep_duration": 9.44,
-        "step_count": 101
-    },
-    {
-        "timestamp": "2025-09-18 16:42:03",
-        "heart_rate": 55,
-        "sleep_duration": 7.46,
-        "step_count": 183
-    },
-    {
-        "timestamp": "2025-09-18 16:43:03",
-        "heart_rate": 72,
-        "sleep_duration": 9.47,
-        "step_count": 34
-    },
-    {
-        "timestamp": "2025-09-18 16:44:03",
-        "heart_rate": 65,
-        "sleep_duration": 2.69,
-        "step_count": 152
-    },
-    {
-        "timestamp": "2025-09-18 16:45:03",
-        "heart_rate": 57,
-        "sleep_duration": 4.37,
-        "step_count": 92
-    },
-    {
-        "timestamp": "2025-09-18 16:46:03",
-        "heart_rate": 62,
-        "sleep_duration": 6.1,
-        "step_count": 66
-    },
-    {
-        "timestamp": "2025-09-18 16:47:03",
-        "heart_rate": 93,
-        "sleep_duration": 4.12,
-        "step_count": 86
-    },
-    {
-        "timestamp": "2025-09-18 16:48:03",
-        "heart_rate": 117,
-        "sleep_duration": 4.47,
-        "step_count": 74
-    },
-    {
-        "timestamp": "2025-09-18 16:49:03",
-        "heart_rate": 64,
-        "sleep_duration": 5.56,
-        "step_count": 184
-    },
-    {
-        "timestamp": "2025-09-18 16:50:03",
-        "heart_rate": 57,
-        "sleep_duration": 5.7,
-        "step_count": 59
-    },
-    {
-        "timestamp": "2025-09-18 16:51:03",
-        "heart_rate": 95,
-        "sleep_duration": 6.49,
-        "step_count": 127
-    },
-    {
-        "timestamp": "2025-09-18 16:52:03",
-        "heart_rate": 93,
-        "sleep_duration": 5.83,
-        "step_count": 86
-    },
-    {
-        "timestamp": "2025-09-18 16:53:03",
-        "heart_rate": 114,
-        "sleep_duration": 8.65,
-        "step_count": 136
-    },
-    {
-        "timestamp": "2025-09-18 16:54:03",
-        "heart_rate": 58,
-        "sleep_duration": 3.01,
-        "step_count": 143
-    },
-    {
-        "timestamp": "2025-09-18 16:55:03",
-        "heart_rate": 74,
-        "sleep_duration": 4.82,
-        "step_count": 37
-    },
-    {
-        "timestamp": "2025-09-18 16:56:03",
-        "heart_rate": 106,
-        "sleep_duration": 4.34,
-        "step_count": 37
-    },
-    {
-        "timestamp": "2025-09-18 16:57:03",
-        "heart_rate": 62,
-        "sleep_duration": 1.59,
-        "step_count": 5
-    },
-    {
-        "timestamp": "2025-09-18 16:58:03",
-        "heart_rate": 108,
-        "sleep_duration": 2.72,
-        "step_count": 20
-    },
-    {
-        "timestamp": "2025-09-18 16:59:03",
-        "heart_rate": 81,
-        "sleep_duration": 2.49,
-        "step_count": 193
-    },
-    {
-        "timestamp": "2025-09-18 17:00:03",
-        "heart_rate": 110,
-        "sleep_duration": 6.87,
-        "step_count": 184
-    },
-    {
-        "timestamp": "2025-09-18 17:01:03",
-        "heart_rate": 90,
-        "sleep_duration": 3.31,
-        "step_count": 139
-    },
-    {
-        "timestamp": "2025-09-18 17:02:03",
-        "heart_rate": 96,
-        "sleep_duration": 0.16,
-        "step_count": 157
-    },
-    {
-        "timestamp": "2025-09-18 17:03:03",
-        "heart_rate": 70,
-        "sleep_duration": 9.89,
-        "step_count": 197
-    },
-    {
-        "timestamp": "2025-09-18 17:04:03",
-        "heart_rate": 97,
-        "sleep_duration": 5.71,
-        "step_count": 189
-    },
-    {
-        "timestamp": "2025-09-18 17:05:03",
-        "heart_rate": 56,
-        "sleep_duration": 3.09,
-        "step_count": 120
-    },
-    {
-        "timestamp": "2025-09-18 17:06:03",
-        "heart_rate": 78,
-        "sleep_duration": 0.86,
-        "step_count": 24
-    },
-    {
-        "timestamp": "2025-09-18 17:07:03",
-        "heart_rate": 70,
-        "sleep_duration": 5.18,
-        "step_count": 116
-    },
-    {
-        "timestamp": "2025-09-18 17:08:03",
+        "timestamp": "2025-10-15 05:00:42",
         "heart_rate": 69,
-        "sleep_duration": 8.97,
-        "step_count": 117
+        "sleep_duration": 0.64,
+        "step_count": 9808
     },
     {
-        "timestamp": "2025-09-18 17:09:03",
-        "heart_rate": 75,
-        "sleep_duration": 0.1,
-        "step_count": 135
-    },
-    {
-        "timestamp": "2025-09-18 17:10:03",
-        "heart_rate": 65,
-        "sleep_duration": 1.56,
-        "step_count": 35
-    },
-    {
-        "timestamp": "2025-09-18 17:11:03",
-        "heart_rate": 99,
-        "sleep_duration": 6.54,
-        "step_count": 142
-    },
-    {
-        "timestamp": "2025-09-18 17:12:03",
-        "heart_rate": 86,
-        "sleep_duration": 1.63,
-        "step_count": 153
-    },
-    {
-        "timestamp": "2025-09-18 17:13:03",
-        "heart_rate": 58,
-        "sleep_duration": 4.7,
-        "step_count": 135
-    },
-    {
-        "timestamp": "2025-09-18 17:14:03",
-        "heart_rate": 62,
-        "sleep_duration": 4.73,
-        "step_count": 87
-    },
-    {
-        "timestamp": "2025-09-18 17:15:03",
-        "heart_rate": 89,
-        "sleep_duration": 5.85,
-        "step_count": 103
-    },
-    {
-        "timestamp": "2025-09-18 17:16:03",
-        "heart_rate": 82,
-        "sleep_duration": 4.47,
-        "step_count": 19
-    },
-    {
-        "timestamp": "2025-09-18 17:17:03",
-        "heart_rate": 111,
-        "sleep_duration": 3.79,
-        "step_count": 170
-    },
-    {
-        "timestamp": "2025-09-18 17:18:03",
-        "heart_rate": 94,
-        "sleep_duration": 7.3,
-        "step_count": 104
-    },
-    {
-        "timestamp": "2025-09-18 17:19:03",
-        "heart_rate": 58,
-        "sleep_duration": 7.6,
-        "step_count": 48
-    },
-    {
-        "timestamp": "2025-09-18 17:20:03",
-        "heart_rate": 106,
-        "sleep_duration": 6.95,
-        "step_count": 89
-    },
-    {
-        "timestamp": "2025-09-18 17:21:03",
-        "heart_rate": 91,
-        "sleep_duration": 4.22,
-        "step_count": 191
-    },
-    {
-        "timestamp": "2025-09-18 17:22:03",
-        "heart_rate": 95,
-        "sleep_duration": 9.27,
-        "step_count": 19
-    },
-    {
-        "timestamp": "2025-09-18 17:23:03",
-        "heart_rate": 116,
-        "sleep_duration": 7.3,
-        "step_count": 71
-    },
-    {
-        "timestamp": "2025-09-18 17:24:03",
-        "heart_rate": 61,
-        "sleep_duration": 2.97,
-        "step_count": 19
-    },
-    {
-        "timestamp": "2025-09-18 17:25:03",
-        "heart_rate": 70,
-        "sleep_duration": 0.08,
-        "step_count": 185
-    },
-    {
-        "timestamp": "2025-09-18 17:26:03",
-        "heart_rate": 63,
-        "sleep_duration": 4.38,
-        "step_count": 64
-    },
-    {
-        "timestamp": "2025-09-18 17:27:03",
-        "heart_rate": 68,
-        "sleep_duration": 3.19,
-        "step_count": 126
-    },
-    {
-        "timestamp": "2025-09-18 17:28:03",
-        "heart_rate": 91,
-        "sleep_duration": 4.86,
-        "step_count": 191
-    },
-    {
-        "timestamp": "2025-09-18 17:29:03",
-        "heart_rate": 57,
-        "sleep_duration": 7.84,
-        "step_count": 175
-    },
-    {
-        "timestamp": "2025-09-18 17:30:03",
-        "heart_rate": 86,
-        "sleep_duration": 8.06,
-        "step_count": 91
-    },
-    {
-        "timestamp": "2025-09-18 17:31:03",
-        "heart_rate": 117,
-        "sleep_duration": 3.69,
-        "step_count": 64
-    },
-    {
-        "timestamp": "2025-09-18 17:32:03",
+        "timestamp": "2025-10-15 05:01:42",
         "heart_rate": 83,
-        "sleep_duration": 3.42,
-        "step_count": 101
+        "sleep_duration": 1.52,
+        "step_count": 10137
     },
     {
-        "timestamp": "2025-09-18 17:33:03",
-        "heart_rate": 56,
-        "sleep_duration": 6.74,
-        "step_count": 77
+        "timestamp": "2025-10-15 05:02:42",
+        "heart_rate": 68,
+        "sleep_duration": 9.88,
+        "step_count": 8324
     },
     {
-        "timestamp": "2025-09-18 17:34:03",
-        "heart_rate": 107,
-        "sleep_duration": 2.17,
-        "step_count": 134
-    },
-    {
-        "timestamp": "2025-09-18 17:35:03",
-        "heart_rate": 66,
-        "sleep_duration": 8.39,
-        "step_count": 74
-    },
-    {
-        "timestamp": "2025-09-18 17:36:03",
-        "heart_rate": 97,
-        "sleep_duration": 9.21,
-        "step_count": 185
-    },
-    {
-        "timestamp": "2025-09-18 17:37:03",
-        "heart_rate": 96,
-        "sleep_duration": 8.48,
-        "step_count": 33
-    },
-    {
-        "timestamp": "2025-09-18 17:38:03",
-        "heart_rate": 109,
-        "sleep_duration": 8.2,
-        "step_count": 45
-    },
-    {
-        "timestamp": "2025-09-18 17:39:03",
-        "heart_rate": 74,
-        "sleep_duration": 3.62,
-        "step_count": 73
-    },
-    {
-        "timestamp": "2025-09-18 17:40:03",
-        "heart_rate": 108,
-        "sleep_duration": 8.64,
-        "step_count": 153
-    },
-    {
-        "timestamp": "2025-09-18 17:41:03",
-        "heart_rate": 80,
-        "sleep_duration": 3.18,
-        "step_count": 186
-    },
-    {
-        "timestamp": "2025-09-18 17:42:03",
-        "heart_rate": 94,
-        "sleep_duration": 4.44,
-        "step_count": 112
-    },
-    {
-        "timestamp": "2025-09-18 17:43:03",
-        "heart_rate": 66,
-        "sleep_duration": 0.96,
-        "step_count": 128
-    },
-    {
-        "timestamp": "2025-09-18 17:44:03",
+        "timestamp": "2025-10-15 05:03:42",
         "heart_rate": 88,
-        "sleep_duration": 0.77,
-        "step_count": 117
+        "sleep_duration": 5.61,
+        "step_count": 8438
     },
     {
-        "timestamp": "2025-09-18 17:45:03",
-        "heart_rate": 82,
-        "sleep_duration": 2.32,
-        "step_count": 19
-    },
-    {
-        "timestamp": "2025-09-18 17:46:03",
-        "heart_rate": 111,
-        "sleep_duration": 5.04,
-        "step_count": 11
-    },
-    {
-        "timestamp": "2025-09-18 17:47:03",
+        "timestamp": "2025-10-15 05:04:42",
         "heart_rate": 87,
-        "sleep_duration": 8.06,
-        "step_count": 18
+        "sleep_duration": 5.77,
+        "step_count": 9663
+    },
+    {
+        "timestamp": "2025-10-15 05:05:42",
+        "heart_rate": 55,
+        "sleep_duration": 6.04,
+        "step_count": 7425
+    },
+    {
+        "timestamp": "2025-10-15 05:06:42",
+        "heart_rate": 85,
+        "sleep_duration": 1.19,
+        "step_count": 7269
+    },
+    {
+        "timestamp": "2025-10-15 05:07:42",
+        "heart_rate": 76,
+        "sleep_duration": 4.52,
+        "step_count": 8340
+    },
+    {
+        "timestamp": "2025-10-15 05:08:42",
+        "heart_rate": 70,
+        "sleep_duration": 2.99,
+        "step_count": 10568
+    },
+    {
+        "timestamp": "2025-10-15 05:09:42",
+        "heart_rate": 78,
+        "sleep_duration": 2.45,
+        "step_count": 8464
+    },
+    {
+        "timestamp": "2025-10-15 05:10:42",
+        "heart_rate": 94,
+        "sleep_duration": 8.64,
+        "step_count": 8390
+    },
+    {
+        "timestamp": "2025-10-15 05:11:42",
+        "heart_rate": 107,
+        "sleep_duration": 0.06,
+        "step_count": 10548
+    },
+    {
+        "timestamp": "2025-10-15 05:12:42",
+        "heart_rate": 92,
+        "sleep_duration": 3.94,
+        "step_count": 7315
+    },
+    {
+        "timestamp": "2025-10-15 05:13:42",
+        "heart_rate": 113,
+        "sleep_duration": 9.85,
+        "step_count": 8654
+    },
+    {
+        "timestamp": "2025-10-15 06:12:42",
+        "heart_rate": 108,
+        "sleep_duration": 2.6,
+        "step_count": 11776
+    },
+    {
+        "timestamp": "2025-10-15 06:13:42",
+        "heart_rate": 66,
+        "sleep_duration": 6.45,
+        "step_count": 7996
+    },
+    {
+        "timestamp": "2025-10-15 06:14:42",
+        "heart_rate": 115,
+        "sleep_duration": 9.76,
+        "step_count": 11253
+    },
+    {
+        "timestamp": "2025-10-15 06:15:42",
+        "heart_rate": 95,
+        "sleep_duration": 7.6,
+        "step_count": 8979
+    },
+    {
+        "timestamp": "2025-10-15 06:16:42",
+        "heart_rate": 66,
+        "sleep_duration": 4.32,
+        "step_count": 9062
+    },
+    {
+        "timestamp": "2025-10-15 06:17:42",
+        "heart_rate": 91,
+        "sleep_duration": 3.27,
+        "step_count": 7251
+    },
+    {
+        "timestamp": "2025-10-15 06:18:42",
+        "heart_rate": 68,
+        "sleep_duration": 1.38,
+        "step_count": 9978
+    },
+    {
+        "timestamp": "2025-10-15 06:19:42",
+        "heart_rate": 73,
+        "sleep_duration": 2.95,
+        "step_count": 7242
+    },
+    {
+        "timestamp": "2025-10-15 06:20:42",
+        "heart_rate": 109,
+        "sleep_duration": 9.55,
+        "step_count": 9943
+    },
+    {
+        "timestamp": "2025-10-15 06:21:42",
+        "heart_rate": 63,
+        "sleep_duration": 0.94,
+        "step_count": 7001
+    },
+    {
+        "timestamp": "2025-10-15 06:22:42",
+        "heart_rate": 120,
+        "sleep_duration": 6.1,
+        "step_count": 10483
+    },
+    {
+        "timestamp": "2025-10-15 06:23:42",
+        "heart_rate": 77,
+        "sleep_duration": 2.84,
+        "step_count": 11985
+    },
+    {
+        "timestamp": "2025-10-15 06:24:42",
+        "heart_rate": 58,
+        "sleep_duration": 9.39,
+        "step_count": 7835
+    },
+    {
+        "timestamp": "2025-10-15 06:25:42",
+        "heart_rate": 66,
+        "sleep_duration": 3.0,
+        "step_count": 10709
+    },
+    {
+        "timestamp": "2025-10-15 06:26:42",
+        "heart_rate": 118,
+        "sleep_duration": 1.79,
+        "step_count": 9616
+    },
+    {
+        "timestamp": "2025-10-15 06:27:42",
+        "heart_rate": 102,
+        "sleep_duration": 4.79,
+        "step_count": 8796
+    },
+    {
+        "timestamp": "2025-10-15 06:28:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.57,
+        "step_count": 11609
+    },
+    {
+        "timestamp": "2025-10-15 06:29:42",
+        "heart_rate": 115,
+        "sleep_duration": 9.01,
+        "step_count": 7061
+    },
+    {
+        "timestamp": "2025-10-15 06:30:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.12,
+        "step_count": 11647
+    },
+    {
+        "timestamp": "2025-10-15 06:31:42",
+        "heart_rate": 113,
+        "sleep_duration": 5.1,
+        "step_count": 11562
+    },
+    {
+        "timestamp": "2025-10-15 06:32:42",
+        "heart_rate": 91,
+        "sleep_duration": 2.44,
+        "step_count": 7278
+    },
+    {
+        "timestamp": "2025-10-15 06:33:42",
+        "heart_rate": 58,
+        "sleep_duration": 6.02,
+        "step_count": 7634
+    },
+    {
+        "timestamp": "2025-10-15 06:34:42",
+        "heart_rate": 111,
+        "sleep_duration": 3.4,
+        "step_count": 10428
+    },
+    {
+        "timestamp": "2025-10-15 06:35:42",
+        "heart_rate": 82,
+        "sleep_duration": 2.25,
+        "step_count": 7205
+    },
+    {
+        "timestamp": "2025-10-15 06:36:42",
+        "heart_rate": 75,
+        "sleep_duration": 2.25,
+        "step_count": 8969
+    },
+    {
+        "timestamp": "2025-10-15 06:37:42",
+        "heart_rate": 104,
+        "sleep_duration": 3.34,
+        "step_count": 10718
+    },
+    {
+        "timestamp": "2025-10-15 06:38:42",
+        "heart_rate": 86,
+        "sleep_duration": 8.98,
+        "step_count": 11974
+    },
+    {
+        "timestamp": "2025-10-15 06:39:42",
+        "heart_rate": 72,
+        "sleep_duration": 7.14,
+        "step_count": 8234
+    },
+    {
+        "timestamp": "2025-10-15 06:40:42",
+        "heart_rate": 59,
+        "sleep_duration": 6.83,
+        "step_count": 11597
+    },
+    {
+        "timestamp": "2025-10-15 06:41:42",
+        "heart_rate": 69,
+        "sleep_duration": 2.54,
+        "step_count": 9530
+    },
+    {
+        "timestamp": "2025-10-15 06:42:42",
+        "heart_rate": 64,
+        "sleep_duration": 2.33,
+        "step_count": 7686
+    },
+    {
+        "timestamp": "2025-10-15 06:43:42",
+        "heart_rate": 108,
+        "sleep_duration": 0.07,
+        "step_count": 11670
+    },
+    {
+        "timestamp": "2025-10-15 06:44:42",
+        "heart_rate": 108,
+        "sleep_duration": 9.71,
+        "step_count": 8676
+    },
+    {
+        "timestamp": "2025-10-15 06:45:42",
+        "heart_rate": 89,
+        "sleep_duration": 9.68,
+        "step_count": 9785
+    },
+    {
+        "timestamp": "2025-10-15 06:46:42",
+        "heart_rate": 86,
+        "sleep_duration": 4.74,
+        "step_count": 9175
+    },
+    {
+        "timestamp": "2025-10-15 06:47:42",
+        "heart_rate": 110,
+        "sleep_duration": 9.25,
+        "step_count": 11686
+    },
+    {
+        "timestamp": "2025-10-15 06:48:42",
+        "heart_rate": 56,
+        "sleep_duration": 7.91,
+        "step_count": 10266
+    },
+    {
+        "timestamp": "2025-10-15 06:49:42",
+        "heart_rate": 63,
+        "sleep_duration": 4.32,
+        "step_count": 10976
+    },
+    {
+        "timestamp": "2025-10-15 06:50:42",
+        "heart_rate": 98,
+        "sleep_duration": 5.57,
+        "step_count": 7356
+    },
+    {
+        "timestamp": "2025-10-15 06:51:42",
+        "heart_rate": 119,
+        "sleep_duration": 4.84,
+        "step_count": 9655
+    },
+    {
+        "timestamp": "2025-10-15 06:52:42",
+        "heart_rate": 81,
+        "sleep_duration": 0.69,
+        "step_count": 10128
+    },
+    {
+        "timestamp": "2025-10-15 06:53:42",
+        "heart_rate": 100,
+        "sleep_duration": 8.35,
+        "step_count": 7168
+    },
+    {
+        "timestamp": "2025-10-15 06:54:42",
+        "heart_rate": 60,
+        "sleep_duration": 3.87,
+        "step_count": 8236
+    },
+    {
+        "timestamp": "2025-10-15 06:55:42",
+        "heart_rate": 65,
+        "sleep_duration": 1.25,
+        "step_count": 8217
+    },
+    {
+        "timestamp": "2025-10-15 06:56:42",
+        "heart_rate": 80,
+        "sleep_duration": 7.2,
+        "step_count": 11691
+    },
+    {
+        "timestamp": "2025-10-15 06:57:42",
+        "heart_rate": 56,
+        "sleep_duration": 7.22,
+        "step_count": 10292
+    },
+    {
+        "timestamp": "2025-10-15 06:58:42",
+        "heart_rate": 89,
+        "sleep_duration": 0.78,
+        "step_count": 8807
+    },
+    {
+        "timestamp": "2025-10-15 06:59:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.99,
+        "step_count": 11356
+    },
+    {
+        "timestamp": "2025-10-15 07:00:42",
+        "heart_rate": 115,
+        "sleep_duration": 7.49,
+        "step_count": 10074
+    },
+    {
+        "timestamp": "2025-10-15 07:01:42",
+        "heart_rate": 82,
+        "sleep_duration": 0.53,
+        "step_count": 10494
+    },
+    {
+        "timestamp": "2025-10-15 07:02:42",
+        "heart_rate": 67,
+        "sleep_duration": 8.42,
+        "step_count": 9577
+    },
+    {
+        "timestamp": "2025-10-15 07:03:42",
+        "heart_rate": 74,
+        "sleep_duration": 3.29,
+        "step_count": 10659
+    },
+    {
+        "timestamp": "2025-10-15 07:04:42",
+        "heart_rate": 92,
+        "sleep_duration": 4.94,
+        "step_count": 9124
+    },
+    {
+        "timestamp": "2025-10-15 07:05:42",
+        "heart_rate": 63,
+        "sleep_duration": 4.66,
+        "step_count": 9624
+    },
+    {
+        "timestamp": "2025-10-15 07:06:42",
+        "heart_rate": 95,
+        "sleep_duration": 1.51,
+        "step_count": 7364
+    },
+    {
+        "timestamp": "2025-10-15 07:07:42",
+        "heart_rate": 93,
+        "sleep_duration": 9.11,
+        "step_count": 9021
+    },
+    {
+        "timestamp": "2025-10-15 07:08:42",
+        "heart_rate": 79,
+        "sleep_duration": 0.72,
+        "step_count": 9089
+    },
+    {
+        "timestamp": "2025-10-15 07:09:42",
+        "heart_rate": 111,
+        "sleep_duration": 2.93,
+        "step_count": 9320
+    },
+    {
+        "timestamp": "2025-10-15 07:10:42",
+        "heart_rate": 58,
+        "sleep_duration": 1.3,
+        "step_count": 11878
+    },
+    {
+        "timestamp": "2025-10-15 07:11:42",
+        "heart_rate": 84,
+        "sleep_duration": 8.99,
+        "step_count": 7003
+    },
+    {
+        "timestamp": "2025-10-15 07:12:42",
+        "heart_rate": 118,
+        "sleep_duration": 1.11,
+        "step_count": 7505
+    },
+    {
+        "timestamp": "2025-10-15 07:13:42",
+        "heart_rate": 77,
+        "sleep_duration": 6.8,
+        "step_count": 7026
+    },
+    {
+        "timestamp": "2025-10-15 07:14:42",
+        "heart_rate": 84,
+        "sleep_duration": 8.55,
+        "step_count": 11985
+    },
+    {
+        "timestamp": "2025-10-15 07:15:42",
+        "heart_rate": 106,
+        "sleep_duration": 1.52,
+        "step_count": 7127
+    },
+    {
+        "timestamp": "2025-10-15 07:16:42",
+        "heart_rate": 85,
+        "sleep_duration": 8.07,
+        "step_count": 10123
+    },
+    {
+        "timestamp": "2025-10-15 07:17:42",
+        "heart_rate": 120,
+        "sleep_duration": 9.79,
+        "step_count": 10184
+    },
+    {
+        "timestamp": "2025-10-15 07:18:42",
+        "heart_rate": 107,
+        "sleep_duration": 9.66,
+        "step_count": 7716
+    },
+    {
+        "timestamp": "2025-10-15 07:19:42",
+        "heart_rate": 116,
+        "sleep_duration": 1.65,
+        "step_count": 9262
+    },
+    {
+        "timestamp": "2025-10-15 07:20:42",
+        "heart_rate": 66,
+        "sleep_duration": 6.14,
+        "step_count": 10559
+    },
+    {
+        "timestamp": "2025-10-15 07:21:42",
+        "heart_rate": 67,
+        "sleep_duration": 4.33,
+        "step_count": 10507
+    },
+    {
+        "timestamp": "2025-10-15 07:22:42",
+        "heart_rate": 98,
+        "sleep_duration": 9.2,
+        "step_count": 9452
+    },
+    {
+        "timestamp": "2025-10-15 07:23:42",
+        "heart_rate": 70,
+        "sleep_duration": 3.78,
+        "step_count": 11091
+    },
+    {
+        "timestamp": "2025-10-15 07:24:42",
+        "heart_rate": 117,
+        "sleep_duration": 2.19,
+        "step_count": 7237
+    },
+    {
+        "timestamp": "2025-10-15 07:25:42",
+        "heart_rate": 90,
+        "sleep_duration": 2.99,
+        "step_count": 8491
+    },
+    {
+        "timestamp": "2025-10-15 07:26:42",
+        "heart_rate": 73,
+        "sleep_duration": 6.25,
+        "step_count": 10456
+    },
+    {
+        "timestamp": "2025-10-15 07:27:42",
+        "heart_rate": 108,
+        "sleep_duration": 7.73,
+        "step_count": 7362
+    },
+    {
+        "timestamp": "2025-10-15 07:28:42",
+        "heart_rate": 101,
+        "sleep_duration": 9.21,
+        "step_count": 10829
+    },
+    {
+        "timestamp": "2025-10-15 07:29:42",
+        "heart_rate": 74,
+        "sleep_duration": 6.36,
+        "step_count": 7545
+    },
+    {
+        "timestamp": "2025-10-15 07:30:42",
+        "heart_rate": 86,
+        "sleep_duration": 8.9,
+        "step_count": 7055
+    },
+    {
+        "timestamp": "2025-10-15 07:31:42",
+        "heart_rate": 86,
+        "sleep_duration": 6.85,
+        "step_count": 9492
+    },
+    {
+        "timestamp": "2025-10-15 07:32:42",
+        "heart_rate": 79,
+        "sleep_duration": 7.27,
+        "step_count": 10329
+    },
+    {
+        "timestamp": "2025-10-15 07:33:42",
+        "heart_rate": 104,
+        "sleep_duration": 8.59,
+        "step_count": 9194
+    },
+    {
+        "timestamp": "2025-10-15 07:34:42",
+        "heart_rate": 63,
+        "sleep_duration": 2.13,
+        "step_count": 9449
+    },
+    {
+        "timestamp": "2025-10-15 07:35:42",
+        "heart_rate": 98,
+        "sleep_duration": 5.7,
+        "step_count": 11969
+    },
+    {
+        "timestamp": "2025-10-15 07:36:42",
+        "heart_rate": 94,
+        "sleep_duration": 6.56,
+        "step_count": 10489
+    },
+    {
+        "timestamp": "2025-10-15 07:37:42",
+        "heart_rate": 112,
+        "sleep_duration": 3.39,
+        "step_count": 10581
+    },
+    {
+        "timestamp": "2025-10-15 07:38:42",
+        "heart_rate": 85,
+        "sleep_duration": 5.93,
+        "step_count": 11771
+    },
+    {
+        "timestamp": "2025-10-15 07:39:42",
+        "heart_rate": 60,
+        "sleep_duration": 6.68,
+        "step_count": 7926
+    },
+    {
+        "timestamp": "2025-10-15 07:40:42",
+        "heart_rate": 83,
+        "sleep_duration": 2.26,
+        "step_count": 8800
+    },
+    {
+        "timestamp": "2025-10-15 07:41:42",
+        "heart_rate": 95,
+        "sleep_duration": 1.18,
+        "step_count": 9801
+    },
+    {
+        "timestamp": "2025-10-15 07:42:42",
+        "heart_rate": 106,
+        "sleep_duration": 6.87,
+        "step_count": 10760
+    },
+    {
+        "timestamp": "2025-10-15 07:43:42",
+        "heart_rate": 92,
+        "sleep_duration": 2.1,
+        "step_count": 8430
+    },
+    {
+        "timestamp": "2025-10-15 07:44:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.38,
+        "step_count": 8067
+    },
+    {
+        "timestamp": "2025-10-15 07:45:42",
+        "heart_rate": 118,
+        "sleep_duration": 9.64,
+        "step_count": 9507
+    },
+    {
+        "timestamp": "2025-10-15 07:46:42",
+        "heart_rate": 57,
+        "sleep_duration": 1.88,
+        "step_count": 10764
+    },
+    {
+        "timestamp": "2025-10-15 07:47:42",
+        "heart_rate": 112,
+        "sleep_duration": 4.31,
+        "step_count": 10330
+    },
+    {
+        "timestamp": "2025-10-15 07:48:42",
+        "heart_rate": 111,
+        "sleep_duration": 3.43,
+        "step_count": 7737
+    },
+    {
+        "timestamp": "2025-10-15 07:49:42",
+        "heart_rate": 105,
+        "sleep_duration": 2.48,
+        "step_count": 9324
+    },
+    {
+        "timestamp": "2025-10-15 07:50:42",
+        "heart_rate": 114,
+        "sleep_duration": 0.86,
+        "step_count": 9777
+    },
+    {
+        "timestamp": "2025-10-15 07:51:42",
+        "heart_rate": 62,
+        "sleep_duration": 0.49,
+        "step_count": 9722
+    },
+    {
+        "timestamp": "2025-10-15 07:52:42",
+        "heart_rate": 97,
+        "sleep_duration": 4.28,
+        "step_count": 11714
+    },
+    {
+        "timestamp": "2025-10-15 07:53:42",
+        "heart_rate": 81,
+        "sleep_duration": 1.74,
+        "step_count": 11353
+    },
+    {
+        "timestamp": "2025-10-15 07:54:42",
+        "heart_rate": 115,
+        "sleep_duration": 5.16,
+        "step_count": 11680
+    },
+    {
+        "timestamp": "2025-10-15 07:55:42",
+        "heart_rate": 89,
+        "sleep_duration": 8.75,
+        "step_count": 10270
+    },
+    {
+        "timestamp": "2025-10-15 07:56:42",
+        "heart_rate": 91,
+        "sleep_duration": 1.75,
+        "step_count": 10909
+    },
+    {
+        "timestamp": "2025-10-15 07:57:42",
+        "heart_rate": 113,
+        "sleep_duration": 4.58,
+        "step_count": 7075
+    },
+    {
+        "timestamp": "2025-10-15 07:58:42",
+        "heart_rate": 105,
+        "sleep_duration": 9.12,
+        "step_count": 7314
+    },
+    {
+        "timestamp": "2025-10-15 07:59:42",
+        "heart_rate": 72,
+        "sleep_duration": 3.81,
+        "step_count": 7137
+    },
+    {
+        "timestamp": "2025-10-15 08:00:42",
+        "heart_rate": 59,
+        "sleep_duration": 6.55,
+        "step_count": 11407
+    },
+    {
+        "timestamp": "2025-10-15 08:01:42",
+        "heart_rate": 82,
+        "sleep_duration": 2.48,
+        "step_count": 8154
+    },
+    {
+        "timestamp": "2025-10-15 08:02:42",
+        "heart_rate": 88,
+        "sleep_duration": 6.26,
+        "step_count": 11788
+    },
+    {
+        "timestamp": "2025-10-15 08:03:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.13,
+        "step_count": 7250
+    },
+    {
+        "timestamp": "2025-10-15 08:04:42",
+        "heart_rate": 57,
+        "sleep_duration": 0.78,
+        "step_count": 7064
+    },
+    {
+        "timestamp": "2025-10-15 08:05:42",
+        "heart_rate": 75,
+        "sleep_duration": 9.69,
+        "step_count": 9818
+    },
+    {
+        "timestamp": "2025-10-15 08:06:42",
+        "heart_rate": 70,
+        "sleep_duration": 9.24,
+        "step_count": 7742
+    },
+    {
+        "timestamp": "2025-10-15 08:07:42",
+        "heart_rate": 80,
+        "sleep_duration": 3.5,
+        "step_count": 7558
+    },
+    {
+        "timestamp": "2025-10-15 08:08:42",
+        "heart_rate": 105,
+        "sleep_duration": 5.98,
+        "step_count": 10377
+    },
+    {
+        "timestamp": "2025-10-15 08:09:42",
+        "heart_rate": 91,
+        "sleep_duration": 6.93,
+        "step_count": 10636
+    },
+    {
+        "timestamp": "2025-10-15 08:10:42",
+        "heart_rate": 94,
+        "sleep_duration": 4.51,
+        "step_count": 8858
+    },
+    {
+        "timestamp": "2025-10-15 08:11:42",
+        "heart_rate": 60,
+        "sleep_duration": 9.98,
+        "step_count": 7714
+    },
+    {
+        "timestamp": "2025-10-15 08:12:42",
+        "heart_rate": 58,
+        "sleep_duration": 4.45,
+        "step_count": 7443
+    },
+    {
+        "timestamp": "2025-10-15 08:13:42",
+        "heart_rate": 78,
+        "sleep_duration": 5.45,
+        "step_count": 7076
+    },
+    {
+        "timestamp": "2025-10-15 08:14:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.87,
+        "step_count": 10635
+    },
+    {
+        "timestamp": "2025-10-15 08:15:42",
+        "heart_rate": 69,
+        "sleep_duration": 6.65,
+        "step_count": 9545
+    },
+    {
+        "timestamp": "2025-10-15 08:16:42",
+        "heart_rate": 117,
+        "sleep_duration": 4.52,
+        "step_count": 7596
+    },
+    {
+        "timestamp": "2025-10-15 08:17:42",
+        "heart_rate": 62,
+        "sleep_duration": 5.58,
+        "step_count": 11806
+    },
+    {
+        "timestamp": "2025-10-15 08:18:42",
+        "heart_rate": 89,
+        "sleep_duration": 4.68,
+        "step_count": 10693
+    },
+    {
+        "timestamp": "2025-10-15 08:19:42",
+        "heart_rate": 77,
+        "sleep_duration": 9.65,
+        "step_count": 9981
+    },
+    {
+        "timestamp": "2025-10-15 08:20:42",
+        "heart_rate": 106,
+        "sleep_duration": 8.07,
+        "step_count": 10637
+    },
+    {
+        "timestamp": "2025-10-15 08:21:42",
+        "heart_rate": 92,
+        "sleep_duration": 0.41,
+        "step_count": 10634
+    },
+    {
+        "timestamp": "2025-10-15 08:22:42",
+        "heart_rate": 116,
+        "sleep_duration": 4.0,
+        "step_count": 9645
+    },
+    {
+        "timestamp": "2025-10-15 08:23:42",
+        "heart_rate": 100,
+        "sleep_duration": 2.51,
+        "step_count": 7067
+    },
+    {
+        "timestamp": "2025-10-15 08:24:42",
+        "heart_rate": 81,
+        "sleep_duration": 8.68,
+        "step_count": 8309
+    },
+    {
+        "timestamp": "2025-10-15 08:25:42",
+        "heart_rate": 75,
+        "sleep_duration": 0.27,
+        "step_count": 7027
+    },
+    {
+        "timestamp": "2025-10-15 08:26:42",
+        "heart_rate": 90,
+        "sleep_duration": 3.69,
+        "step_count": 9063
+    },
+    {
+        "timestamp": "2025-10-15 08:27:42",
+        "heart_rate": 79,
+        "sleep_duration": 7.41,
+        "step_count": 9033
+    },
+    {
+        "timestamp": "2025-10-15 08:28:42",
+        "heart_rate": 67,
+        "sleep_duration": 8.24,
+        "step_count": 9088
+    },
+    {
+        "timestamp": "2025-10-15 08:29:42",
+        "heart_rate": 67,
+        "sleep_duration": 5.3,
+        "step_count": 11903
+    },
+    {
+        "timestamp": "2025-10-15 08:30:42",
+        "heart_rate": 120,
+        "sleep_duration": 6.39,
+        "step_count": 11880
+    },
+    {
+        "timestamp": "2025-10-15 08:31:42",
+        "heart_rate": 87,
+        "sleep_duration": 9.49,
+        "step_count": 8884
+    },
+    {
+        "timestamp": "2025-10-15 08:32:42",
+        "heart_rate": 89,
+        "sleep_duration": 2.35,
+        "step_count": 11567
+    },
+    {
+        "timestamp": "2025-10-15 08:33:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.13,
+        "step_count": 9591
+    },
+    {
+        "timestamp": "2025-10-15 08:34:42",
+        "heart_rate": 76,
+        "sleep_duration": 1.19,
+        "step_count": 7752
+    },
+    {
+        "timestamp": "2025-10-15 08:35:42",
+        "heart_rate": 63,
+        "sleep_duration": 1.09,
+        "step_count": 7060
+    },
+    {
+        "timestamp": "2025-10-15 08:36:42",
+        "heart_rate": 89,
+        "sleep_duration": 6.41,
+        "step_count": 9683
+    },
+    {
+        "timestamp": "2025-10-15 08:37:42",
+        "heart_rate": 70,
+        "sleep_duration": 1.45,
+        "step_count": 9553
+    },
+    {
+        "timestamp": "2025-10-15 08:38:42",
+        "heart_rate": 68,
+        "sleep_duration": 9.29,
+        "step_count": 10868
+    },
+    {
+        "timestamp": "2025-10-15 08:39:42",
+        "heart_rate": 81,
+        "sleep_duration": 3.33,
+        "step_count": 10653
+    },
+    {
+        "timestamp": "2025-10-15 08:40:42",
+        "heart_rate": 105,
+        "sleep_duration": 3.59,
+        "step_count": 11057
+    },
+    {
+        "timestamp": "2025-10-15 08:41:42",
+        "heart_rate": 114,
+        "sleep_duration": 5.6,
+        "step_count": 7036
+    },
+    {
+        "timestamp": "2025-10-15 08:42:42",
+        "heart_rate": 112,
+        "sleep_duration": 4.87,
+        "step_count": 10398
+    },
+    {
+        "timestamp": "2025-10-15 08:43:42",
+        "heart_rate": 82,
+        "sleep_duration": 3.15,
+        "step_count": 10109
+    },
+    {
+        "timestamp": "2025-10-15 08:44:42",
+        "heart_rate": 119,
+        "sleep_duration": 3.17,
+        "step_count": 7351
+    },
+    {
+        "timestamp": "2025-10-15 08:45:42",
+        "heart_rate": 94,
+        "sleep_duration": 0.09,
+        "step_count": 9203
+    },
+    {
+        "timestamp": "2025-10-15 08:46:42",
+        "heart_rate": 76,
+        "sleep_duration": 9.72,
+        "step_count": 8554
+    },
+    {
+        "timestamp": "2025-10-15 08:47:42",
+        "heart_rate": 63,
+        "sleep_duration": 9.59,
+        "step_count": 7159
+    },
+    {
+        "timestamp": "2025-10-15 08:48:42",
+        "heart_rate": 104,
+        "sleep_duration": 2.09,
+        "step_count": 9584
+    },
+    {
+        "timestamp": "2025-10-15 08:49:42",
+        "heart_rate": 74,
+        "sleep_duration": 1.93,
+        "step_count": 9405
+    },
+    {
+        "timestamp": "2025-10-15 08:50:42",
+        "heart_rate": 89,
+        "sleep_duration": 2.74,
+        "step_count": 9614
+    },
+    {
+        "timestamp": "2025-10-15 08:51:42",
+        "heart_rate": 103,
+        "sleep_duration": 6.61,
+        "step_count": 10917
+    },
+    {
+        "timestamp": "2025-10-15 08:52:42",
+        "heart_rate": 91,
+        "sleep_duration": 6.37,
+        "step_count": 9190
+    },
+    {
+        "timestamp": "2025-10-15 08:53:42",
+        "heart_rate": 69,
+        "sleep_duration": 0.99,
+        "step_count": 9295
+    },
+    {
+        "timestamp": "2025-10-15 08:54:42",
+        "heart_rate": 102,
+        "sleep_duration": 6.37,
+        "step_count": 8813
+    },
+    {
+        "timestamp": "2025-10-15 08:55:42",
+        "heart_rate": 93,
+        "sleep_duration": 8.85,
+        "step_count": 8762
+    },
+    {
+        "timestamp": "2025-10-15 08:56:42",
+        "heart_rate": 107,
+        "sleep_duration": 6.04,
+        "step_count": 10473
+    },
+    {
+        "timestamp": "2025-10-15 08:57:42",
+        "heart_rate": 77,
+        "sleep_duration": 9.79,
+        "step_count": 7636
+    },
+    {
+        "timestamp": "2025-10-15 08:58:42",
+        "heart_rate": 96,
+        "sleep_duration": 2.62,
+        "step_count": 7680
+    },
+    {
+        "timestamp": "2025-10-15 08:59:42",
+        "heart_rate": 60,
+        "sleep_duration": 2.21,
+        "step_count": 8592
+    },
+    {
+        "timestamp": "2025-10-15 09:00:42",
+        "heart_rate": 56,
+        "sleep_duration": 4.55,
+        "step_count": 11734
+    },
+    {
+        "timestamp": "2025-10-15 09:01:42",
+        "heart_rate": 72,
+        "sleep_duration": 0.03,
+        "step_count": 9270
+    },
+    {
+        "timestamp": "2025-10-15 09:02:42",
+        "heart_rate": 102,
+        "sleep_duration": 2.59,
+        "step_count": 7888
+    },
+    {
+        "timestamp": "2025-10-15 09:03:42",
+        "heart_rate": 92,
+        "sleep_duration": 4.2,
+        "step_count": 10129
+    },
+    {
+        "timestamp": "2025-10-15 09:04:42",
+        "heart_rate": 76,
+        "sleep_duration": 9.28,
+        "step_count": 8743
+    },
+    {
+        "timestamp": "2025-10-15 09:05:42",
+        "heart_rate": 58,
+        "sleep_duration": 5.84,
+        "step_count": 9855
+    },
+    {
+        "timestamp": "2025-10-15 09:06:42",
+        "heart_rate": 57,
+        "sleep_duration": 7.82,
+        "step_count": 7144
+    },
+    {
+        "timestamp": "2025-10-15 09:07:42",
+        "heart_rate": 117,
+        "sleep_duration": 5.3,
+        "step_count": 8661
+    },
+    {
+        "timestamp": "2025-10-15 09:08:42",
+        "heart_rate": 111,
+        "sleep_duration": 8.83,
+        "step_count": 10506
+    },
+    {
+        "timestamp": "2025-10-15 09:09:42",
+        "heart_rate": 120,
+        "sleep_duration": 9.24,
+        "step_count": 9176
+    },
+    {
+        "timestamp": "2025-10-15 09:10:42",
+        "heart_rate": 112,
+        "sleep_duration": 0.46,
+        "step_count": 7741
+    },
+    {
+        "timestamp": "2025-10-15 09:11:42",
+        "heart_rate": 86,
+        "sleep_duration": 4.01,
+        "step_count": 8644
+    },
+    {
+        "timestamp": "2025-10-15 09:12:42",
+        "heart_rate": 95,
+        "sleep_duration": 2.95,
+        "step_count": 10384
+    },
+    {
+        "timestamp": "2025-10-15 09:13:42",
+        "heart_rate": 76,
+        "sleep_duration": 1.85,
+        "step_count": 7390
+    },
+    {
+        "timestamp": "2025-10-15 09:14:42",
+        "heart_rate": 90,
+        "sleep_duration": 1.83,
+        "step_count": 7209
+    },
+    {
+        "timestamp": "2025-10-15 09:15:42",
+        "heart_rate": 64,
+        "sleep_duration": 9.41,
+        "step_count": 9737
+    },
+    {
+        "timestamp": "2025-10-15 09:16:42",
+        "heart_rate": 118,
+        "sleep_duration": 6.83,
+        "step_count": 11779
+    },
+    {
+        "timestamp": "2025-10-15 09:17:42",
+        "heart_rate": 89,
+        "sleep_duration": 3.79,
+        "step_count": 9413
+    },
+    {
+        "timestamp": "2025-10-15 09:18:42",
+        "heart_rate": 95,
+        "sleep_duration": 1.27,
+        "step_count": 10860
+    },
+    {
+        "timestamp": "2025-10-15 09:19:42",
+        "heart_rate": 78,
+        "sleep_duration": 5.03,
+        "step_count": 10747
+    },
+    {
+        "timestamp": "2025-10-15 09:20:42",
+        "heart_rate": 94,
+        "sleep_duration": 4.47,
+        "step_count": 7523
+    },
+    {
+        "timestamp": "2025-10-15 09:21:42",
+        "heart_rate": 109,
+        "sleep_duration": 3.83,
+        "step_count": 7362
+    },
+    {
+        "timestamp": "2025-10-15 09:22:42",
+        "heart_rate": 112,
+        "sleep_duration": 4.64,
+        "step_count": 7024
+    },
+    {
+        "timestamp": "2025-10-15 09:23:42",
+        "heart_rate": 116,
+        "sleep_duration": 2.44,
+        "step_count": 8955
+    },
+    {
+        "timestamp": "2025-10-15 09:24:42",
+        "heart_rate": 76,
+        "sleep_duration": 4.46,
+        "step_count": 10580
+    },
+    {
+        "timestamp": "2025-10-15 09:25:42",
+        "heart_rate": 64,
+        "sleep_duration": 9.15,
+        "step_count": 9478
+    },
+    {
+        "timestamp": "2025-10-15 09:26:42",
+        "heart_rate": 55,
+        "sleep_duration": 2.81,
+        "step_count": 8974
+    },
+    {
+        "timestamp": "2025-10-15 09:27:42",
+        "heart_rate": 65,
+        "sleep_duration": 1.12,
+        "step_count": 9818
+    },
+    {
+        "timestamp": "2025-10-15 09:28:42",
+        "heart_rate": 74,
+        "sleep_duration": 4.77,
+        "step_count": 9612
+    },
+    {
+        "timestamp": "2025-10-15 09:29:42",
+        "heart_rate": 84,
+        "sleep_duration": 2.6,
+        "step_count": 8223
+    },
+    {
+        "timestamp": "2025-10-15 09:30:42",
+        "heart_rate": 61,
+        "sleep_duration": 2.11,
+        "step_count": 10350
+    },
+    {
+        "timestamp": "2025-10-15 09:31:42",
+        "heart_rate": 88,
+        "sleep_duration": 3.29,
+        "step_count": 10906
+    },
+    {
+        "timestamp": "2025-10-15 09:32:42",
+        "heart_rate": 75,
+        "sleep_duration": 6.17,
+        "step_count": 9755
+    },
+    {
+        "timestamp": "2025-10-15 09:33:42",
+        "heart_rate": 82,
+        "sleep_duration": 9.8,
+        "step_count": 10959
+    },
+    {
+        "timestamp": "2025-10-15 09:34:42",
+        "heart_rate": 77,
+        "sleep_duration": 4.65,
+        "step_count": 11920
+    },
+    {
+        "timestamp": "2025-10-15 09:35:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.71,
+        "step_count": 7489
+    },
+    {
+        "timestamp": "2025-10-15 09:36:42",
+        "heart_rate": 100,
+        "sleep_duration": 3.47,
+        "step_count": 9489
+    },
+    {
+        "timestamp": "2025-10-15 09:37:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.79,
+        "step_count": 10345
+    },
+    {
+        "timestamp": "2025-10-15 09:38:42",
+        "heart_rate": 95,
+        "sleep_duration": 1.61,
+        "step_count": 7839
+    },
+    {
+        "timestamp": "2025-10-15 09:39:42",
+        "heart_rate": 56,
+        "sleep_duration": 6.09,
+        "step_count": 8241
+    },
+    {
+        "timestamp": "2025-10-15 09:40:42",
+        "heart_rate": 73,
+        "sleep_duration": 1.69,
+        "step_count": 9899
+    },
+    {
+        "timestamp": "2025-10-15 09:41:42",
+        "heart_rate": 92,
+        "sleep_duration": 9.49,
+        "step_count": 10406
+    },
+    {
+        "timestamp": "2025-10-15 09:42:42",
+        "heart_rate": 73,
+        "sleep_duration": 6.77,
+        "step_count": 7842
+    },
+    {
+        "timestamp": "2025-10-15 09:43:42",
+        "heart_rate": 111,
+        "sleep_duration": 2.25,
+        "step_count": 11100
+    },
+    {
+        "timestamp": "2025-10-15 09:44:42",
+        "heart_rate": 96,
+        "sleep_duration": 8.24,
+        "step_count": 7250
+    },
+    {
+        "timestamp": "2025-10-15 09:45:42",
+        "heart_rate": 87,
+        "sleep_duration": 4.03,
+        "step_count": 10183
+    },
+    {
+        "timestamp": "2025-10-15 09:46:42",
+        "heart_rate": 81,
+        "sleep_duration": 3.76,
+        "step_count": 9025
+    },
+    {
+        "timestamp": "2025-10-15 09:47:42",
+        "heart_rate": 80,
+        "sleep_duration": 1.96,
+        "step_count": 11729
+    },
+    {
+        "timestamp": "2025-10-15 09:48:42",
+        "heart_rate": 82,
+        "sleep_duration": 8.7,
+        "step_count": 7585
+    },
+    {
+        "timestamp": "2025-10-15 09:49:42",
+        "heart_rate": 119,
+        "sleep_duration": 8.83,
+        "step_count": 11990
+    },
+    {
+        "timestamp": "2025-10-15 09:50:42",
+        "heart_rate": 66,
+        "sleep_duration": 2.41,
+        "step_count": 9973
+    },
+    {
+        "timestamp": "2025-10-15 09:51:42",
+        "heart_rate": 81,
+        "sleep_duration": 5.4,
+        "step_count": 11424
+    },
+    {
+        "timestamp": "2025-10-15 09:52:42",
+        "heart_rate": 57,
+        "sleep_duration": 3.0,
+        "step_count": 9082
+    },
+    {
+        "timestamp": "2025-10-15 09:53:42",
+        "heart_rate": 75,
+        "sleep_duration": 0.26,
+        "step_count": 8770
+    },
+    {
+        "timestamp": "2025-10-15 09:54:42",
+        "heart_rate": 91,
+        "sleep_duration": 8.78,
+        "step_count": 11124
+    },
+    {
+        "timestamp": "2025-10-15 09:55:42",
+        "heart_rate": 110,
+        "sleep_duration": 9.72,
+        "step_count": 9651
+    },
+    {
+        "timestamp": "2025-10-15 09:56:42",
+        "heart_rate": 74,
+        "sleep_duration": 8.75,
+        "step_count": 10701
+    },
+    {
+        "timestamp": "2025-10-15 09:57:42",
+        "heart_rate": 83,
+        "sleep_duration": 2.67,
+        "step_count": 9175
+    },
+    {
+        "timestamp": "2025-10-15 09:58:42",
+        "heart_rate": 101,
+        "sleep_duration": 9.3,
+        "step_count": 7583
+    },
+    {
+        "timestamp": "2025-10-15 09:59:42",
+        "heart_rate": 107,
+        "sleep_duration": 4.76,
+        "step_count": 8082
+    },
+    {
+        "timestamp": "2025-10-15 10:00:42",
+        "heart_rate": 114,
+        "sleep_duration": 7.66,
+        "step_count": 9680
+    },
+    {
+        "timestamp": "2025-10-15 10:01:42",
+        "heart_rate": 100,
+        "sleep_duration": 5.61,
+        "step_count": 10641
+    },
+    {
+        "timestamp": "2025-10-15 10:02:42",
+        "heart_rate": 88,
+        "sleep_duration": 1.01,
+        "step_count": 9245
+    },
+    {
+        "timestamp": "2025-10-15 10:03:42",
+        "heart_rate": 64,
+        "sleep_duration": 6.84,
+        "step_count": 10019
+    },
+    {
+        "timestamp": "2025-10-15 10:04:42",
+        "heart_rate": 81,
+        "sleep_duration": 4.77,
+        "step_count": 10059
+    },
+    {
+        "timestamp": "2025-10-15 10:05:42",
+        "heart_rate": 119,
+        "sleep_duration": 8.67,
+        "step_count": 8715
+    },
+    {
+        "timestamp": "2025-10-15 10:06:42",
+        "heart_rate": 99,
+        "sleep_duration": 1.33,
+        "step_count": 8395
+    },
+    {
+        "timestamp": "2025-10-15 10:07:42",
+        "heart_rate": 111,
+        "sleep_duration": 5.96,
+        "step_count": 7772
+    },
+    {
+        "timestamp": "2025-10-15 10:08:42",
+        "heart_rate": 74,
+        "sleep_duration": 3.99,
+        "step_count": 9916
+    },
+    {
+        "timestamp": "2025-10-15 10:09:42",
+        "heart_rate": 72,
+        "sleep_duration": 8.51,
+        "step_count": 9689
+    },
+    {
+        "timestamp": "2025-10-15 10:10:42",
+        "heart_rate": 60,
+        "sleep_duration": 9.57,
+        "step_count": 8629
+    },
+    {
+        "timestamp": "2025-10-15 10:11:42",
+        "heart_rate": 75,
+        "sleep_duration": 6.08,
+        "step_count": 7840
+    },
+    {
+        "timestamp": "2025-10-15 10:12:42",
+        "heart_rate": 71,
+        "sleep_duration": 7.14,
+        "step_count": 10069
+    },
+    {
+        "timestamp": "2025-10-15 10:13:42",
+        "heart_rate": 118,
+        "sleep_duration": 0.69,
+        "step_count": 9349
+    },
+    {
+        "timestamp": "2025-10-15 10:14:42",
+        "heart_rate": 99,
+        "sleep_duration": 4.02,
+        "step_count": 11462
+    },
+    {
+        "timestamp": "2025-10-15 10:15:42",
+        "heart_rate": 112,
+        "sleep_duration": 2.1,
+        "step_count": 11046
+    },
+    {
+        "timestamp": "2025-10-15 10:16:42",
+        "heart_rate": 108,
+        "sleep_duration": 3.61,
+        "step_count": 11792
+    },
+    {
+        "timestamp": "2025-10-15 10:17:42",
+        "heart_rate": 102,
+        "sleep_duration": 0.73,
+        "step_count": 10343
+    },
+    {
+        "timestamp": "2025-10-15 10:18:42",
+        "heart_rate": 70,
+        "sleep_duration": 3.87,
+        "step_count": 7709
+    },
+    {
+        "timestamp": "2025-10-15 10:19:42",
+        "heart_rate": 113,
+        "sleep_duration": 0.97,
+        "step_count": 7454
+    },
+    {
+        "timestamp": "2025-10-15 10:20:42",
+        "heart_rate": 78,
+        "sleep_duration": 7.93,
+        "step_count": 11111
+    },
+    {
+        "timestamp": "2025-10-15 10:21:42",
+        "heart_rate": 61,
+        "sleep_duration": 0.14,
+        "step_count": 8732
+    },
+    {
+        "timestamp": "2025-10-15 10:22:42",
+        "heart_rate": 58,
+        "sleep_duration": 9.03,
+        "step_count": 8370
+    },
+    {
+        "timestamp": "2025-10-15 10:23:42",
+        "heart_rate": 69,
+        "sleep_duration": 7.49,
+        "step_count": 7267
+    },
+    {
+        "timestamp": "2025-10-15 10:24:42",
+        "heart_rate": 108,
+        "sleep_duration": 1.55,
+        "step_count": 10760
+    },
+    {
+        "timestamp": "2025-10-15 10:25:42",
+        "heart_rate": 75,
+        "sleep_duration": 1.87,
+        "step_count": 9414
+    },
+    {
+        "timestamp": "2025-10-15 10:26:42",
+        "heart_rate": 94,
+        "sleep_duration": 5.93,
+        "step_count": 9623
+    },
+    {
+        "timestamp": "2025-10-15 10:27:42",
+        "heart_rate": 111,
+        "sleep_duration": 2.56,
+        "step_count": 7975
+    },
+    {
+        "timestamp": "2025-10-15 10:28:42",
+        "heart_rate": 57,
+        "sleep_duration": 5.18,
+        "step_count": 11001
+    },
+    {
+        "timestamp": "2025-10-15 10:29:42",
+        "heart_rate": 76,
+        "sleep_duration": 0.07,
+        "step_count": 9857
+    },
+    {
+        "timestamp": "2025-10-15 10:30:42",
+        "heart_rate": 61,
+        "sleep_duration": 0.2,
+        "step_count": 7267
+    },
+    {
+        "timestamp": "2025-10-15 10:31:42",
+        "heart_rate": 90,
+        "sleep_duration": 6.42,
+        "step_count": 7804
+    },
+    {
+        "timestamp": "2025-10-15 10:32:42",
+        "heart_rate": 58,
+        "sleep_duration": 3.67,
+        "step_count": 11480
+    },
+    {
+        "timestamp": "2025-10-15 10:33:42",
+        "heart_rate": 112,
+        "sleep_duration": 0.96,
+        "step_count": 8863
+    },
+    {
+        "timestamp": "2025-10-15 10:34:42",
+        "heart_rate": 57,
+        "sleep_duration": 3.52,
+        "step_count": 11303
+    },
+    {
+        "timestamp": "2025-10-15 10:35:42",
+        "heart_rate": 55,
+        "sleep_duration": 4.42,
+        "step_count": 7267
+    },
+    {
+        "timestamp": "2025-10-15 10:36:42",
+        "heart_rate": 85,
+        "sleep_duration": 5.84,
+        "step_count": 10150
+    },
+    {
+        "timestamp": "2025-10-15 10:37:42",
+        "heart_rate": 94,
+        "sleep_duration": 4.38,
+        "step_count": 9246
+    },
+    {
+        "timestamp": "2025-10-15 10:38:42",
+        "heart_rate": 82,
+        "sleep_duration": 5.83,
+        "step_count": 7521
+    },
+    {
+        "timestamp": "2025-10-15 10:39:42",
+        "heart_rate": 90,
+        "sleep_duration": 0.13,
+        "step_count": 8821
+    },
+    {
+        "timestamp": "2025-10-15 10:40:42",
+        "heart_rate": 77,
+        "sleep_duration": 2.62,
+        "step_count": 9816
+    },
+    {
+        "timestamp": "2025-10-15 10:41:42",
+        "heart_rate": 109,
+        "sleep_duration": 3.35,
+        "step_count": 10533
+    },
+    {
+        "timestamp": "2025-10-15 10:42:42",
+        "heart_rate": 84,
+        "sleep_duration": 3.68,
+        "step_count": 9899
+    },
+    {
+        "timestamp": "2025-10-15 10:43:42",
+        "heart_rate": 102,
+        "sleep_duration": 1.03,
+        "step_count": 10318
+    },
+    {
+        "timestamp": "2025-10-15 10:44:42",
+        "heart_rate": 89,
+        "sleep_duration": 0.98,
+        "step_count": 11943
+    },
+    {
+        "timestamp": "2025-10-15 10:45:42",
+        "heart_rate": 64,
+        "sleep_duration": 6.92,
+        "step_count": 9328
+    },
+    {
+        "timestamp": "2025-10-15 10:46:42",
+        "heart_rate": 113,
+        "sleep_duration": 4.21,
+        "step_count": 8139
+    },
+    {
+        "timestamp": "2025-10-15 10:47:42",
+        "heart_rate": 61,
+        "sleep_duration": 8.4,
+        "step_count": 8592
+    },
+    {
+        "timestamp": "2025-10-15 10:48:42",
+        "heart_rate": 99,
+        "sleep_duration": 3.27,
+        "step_count": 10553
+    },
+    {
+        "timestamp": "2025-10-15 10:49:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.09,
+        "step_count": 11269
+    },
+    {
+        "timestamp": "2025-10-15 10:50:42",
+        "heart_rate": 61,
+        "sleep_duration": 2.53,
+        "step_count": 10825
+    },
+    {
+        "timestamp": "2025-10-15 10:51:42",
+        "heart_rate": 79,
+        "sleep_duration": 4.89,
+        "step_count": 11600
+    },
+    {
+        "timestamp": "2025-10-15 10:52:42",
+        "heart_rate": 59,
+        "sleep_duration": 7.25,
+        "step_count": 11608
+    },
+    {
+        "timestamp": "2025-10-15 10:53:42",
+        "heart_rate": 83,
+        "sleep_duration": 9.59,
+        "step_count": 11162
+    },
+    {
+        "timestamp": "2025-10-15 10:54:42",
+        "heart_rate": 55,
+        "sleep_duration": 9.94,
+        "step_count": 11240
+    },
+    {
+        "timestamp": "2025-10-15 10:55:42",
+        "heart_rate": 56,
+        "sleep_duration": 7.97,
+        "step_count": 7610
+    },
+    {
+        "timestamp": "2025-10-15 10:56:42",
+        "heart_rate": 59,
+        "sleep_duration": 7.73,
+        "step_count": 7828
+    },
+    {
+        "timestamp": "2025-10-15 10:57:42",
+        "heart_rate": 103,
+        "sleep_duration": 3.68,
+        "step_count": 9714
+    },
+    {
+        "timestamp": "2025-10-15 10:58:42",
+        "heart_rate": 112,
+        "sleep_duration": 1.34,
+        "step_count": 10940
+    },
+    {
+        "timestamp": "2025-10-15 10:59:42",
+        "heart_rate": 113,
+        "sleep_duration": 9.08,
+        "step_count": 8447
+    },
+    {
+        "timestamp": "2025-10-15 11:00:42",
+        "heart_rate": 109,
+        "sleep_duration": 4.58,
+        "step_count": 8468
+    },
+    {
+        "timestamp": "2025-10-15 11:01:42",
+        "heart_rate": 80,
+        "sleep_duration": 1.52,
+        "step_count": 7149
+    },
+    {
+        "timestamp": "2025-10-15 11:02:42",
+        "heart_rate": 69,
+        "sleep_duration": 5.42,
+        "step_count": 11760
+    },
+    {
+        "timestamp": "2025-10-15 11:03:42",
+        "heart_rate": 67,
+        "sleep_duration": 0.51,
+        "step_count": 8334
+    },
+    {
+        "timestamp": "2025-10-15 11:04:42",
+        "heart_rate": 73,
+        "sleep_duration": 8.74,
+        "step_count": 9715
+    },
+    {
+        "timestamp": "2025-10-15 11:05:42",
+        "heart_rate": 62,
+        "sleep_duration": 8.77,
+        "step_count": 9799
+    },
+    {
+        "timestamp": "2025-10-15 11:06:42",
+        "heart_rate": 87,
+        "sleep_duration": 4.82,
+        "step_count": 9289
+    },
+    {
+        "timestamp": "2025-10-15 11:07:42",
+        "heart_rate": 76,
+        "sleep_duration": 4.35,
+        "step_count": 7303
+    },
+    {
+        "timestamp": "2025-10-15 11:08:42",
+        "heart_rate": 117,
+        "sleep_duration": 5.22,
+        "step_count": 9916
+    },
+    {
+        "timestamp": "2025-10-15 11:09:42",
+        "heart_rate": 105,
+        "sleep_duration": 7.62,
+        "step_count": 8695
+    },
+    {
+        "timestamp": "2025-10-15 11:10:42",
+        "heart_rate": 79,
+        "sleep_duration": 6.22,
+        "step_count": 9267
+    },
+    {
+        "timestamp": "2025-10-15 11:11:42",
+        "heart_rate": 93,
+        "sleep_duration": 3.16,
+        "step_count": 7276
+    },
+    {
+        "timestamp": "2025-10-15 11:12:42",
+        "heart_rate": 72,
+        "sleep_duration": 3.42,
+        "step_count": 11774
+    },
+    {
+        "timestamp": "2025-10-15 11:13:42",
+        "heart_rate": 57,
+        "sleep_duration": 1.14,
+        "step_count": 10772
+    },
+    {
+        "timestamp": "2025-10-15 11:14:42",
+        "heart_rate": 79,
+        "sleep_duration": 6.58,
+        "step_count": 7324
+    },
+    {
+        "timestamp": "2025-10-15 11:15:42",
+        "heart_rate": 119,
+        "sleep_duration": 3.12,
+        "step_count": 7142
+    },
+    {
+        "timestamp": "2025-10-15 11:16:42",
+        "heart_rate": 106,
+        "sleep_duration": 2.94,
+        "step_count": 7374
+    },
+    {
+        "timestamp": "2025-10-15 11:17:42",
+        "heart_rate": 102,
+        "sleep_duration": 4.58,
+        "step_count": 11954
+    },
+    {
+        "timestamp": "2025-10-15 11:18:42",
+        "heart_rate": 90,
+        "sleep_duration": 5.48,
+        "step_count": 8109
+    },
+    {
+        "timestamp": "2025-10-15 11:19:42",
+        "heart_rate": 114,
+        "sleep_duration": 0.64,
+        "step_count": 11200
+    },
+    {
+        "timestamp": "2025-10-15 11:20:42",
+        "heart_rate": 115,
+        "sleep_duration": 9.2,
+        "step_count": 7383
+    },
+    {
+        "timestamp": "2025-10-15 11:21:42",
+        "heart_rate": 84,
+        "sleep_duration": 2.64,
+        "step_count": 11342
+    },
+    {
+        "timestamp": "2025-10-15 11:22:42",
+        "heart_rate": 73,
+        "sleep_duration": 7.88,
+        "step_count": 10764
+    },
+    {
+        "timestamp": "2025-10-15 11:23:42",
+        "heart_rate": 91,
+        "sleep_duration": 1.3,
+        "step_count": 10872
+    },
+    {
+        "timestamp": "2025-10-15 11:24:42",
+        "heart_rate": 89,
+        "sleep_duration": 2.94,
+        "step_count": 8000
+    },
+    {
+        "timestamp": "2025-10-15 11:25:42",
+        "heart_rate": 82,
+        "sleep_duration": 7.93,
+        "step_count": 7601
+    },
+    {
+        "timestamp": "2025-10-15 11:26:42",
+        "heart_rate": 117,
+        "sleep_duration": 9.94,
+        "step_count": 9236
+    },
+    {
+        "timestamp": "2025-10-15 11:27:42",
+        "heart_rate": 108,
+        "sleep_duration": 0.67,
+        "step_count": 9453
+    },
+    {
+        "timestamp": "2025-10-15 11:28:42",
+        "heart_rate": 56,
+        "sleep_duration": 5.09,
+        "step_count": 8862
+    },
+    {
+        "timestamp": "2025-10-15 11:29:42",
+        "heart_rate": 62,
+        "sleep_duration": 2.76,
+        "step_count": 7733
+    },
+    {
+        "timestamp": "2025-10-15 11:30:42",
+        "heart_rate": 84,
+        "sleep_duration": 7.38,
+        "step_count": 9341
+    },
+    {
+        "timestamp": "2025-10-15 11:31:42",
+        "heart_rate": 72,
+        "sleep_duration": 2.86,
+        "step_count": 8833
+    },
+    {
+        "timestamp": "2025-10-15 11:32:42",
+        "heart_rate": 105,
+        "sleep_duration": 1.0,
+        "step_count": 7311
+    },
+    {
+        "timestamp": "2025-10-15 11:33:42",
+        "heart_rate": 64,
+        "sleep_duration": 8.89,
+        "step_count": 9546
+    },
+    {
+        "timestamp": "2025-10-15 11:34:42",
+        "heart_rate": 79,
+        "sleep_duration": 9.63,
+        "step_count": 9147
+    },
+    {
+        "timestamp": "2025-10-15 11:35:42",
+        "heart_rate": 83,
+        "sleep_duration": 5.53,
+        "step_count": 10898
+    },
+    {
+        "timestamp": "2025-10-15 11:36:42",
+        "heart_rate": 70,
+        "sleep_duration": 4.7,
+        "step_count": 8419
+    },
+    {
+        "timestamp": "2025-10-15 11:37:42",
+        "heart_rate": 74,
+        "sleep_duration": 9.67,
+        "step_count": 10157
+    },
+    {
+        "timestamp": "2025-10-15 11:38:42",
+        "heart_rate": 100,
+        "sleep_duration": 8.53,
+        "step_count": 11200
+    },
+    {
+        "timestamp": "2025-10-15 11:39:42",
+        "heart_rate": 92,
+        "sleep_duration": 7.51,
+        "step_count": 11011
+    },
+    {
+        "timestamp": "2025-10-15 11:40:42",
+        "heart_rate": 64,
+        "sleep_duration": 5.5,
+        "step_count": 9364
+    },
+    {
+        "timestamp": "2025-10-15 11:41:42",
+        "heart_rate": 73,
+        "sleep_duration": 3.46,
+        "step_count": 11951
+    },
+    {
+        "timestamp": "2025-10-15 11:42:42",
+        "heart_rate": 83,
+        "sleep_duration": 3.76,
+        "step_count": 8809
+    },
+    {
+        "timestamp": "2025-10-15 11:43:42",
+        "heart_rate": 65,
+        "sleep_duration": 3.67,
+        "step_count": 9086
+    },
+    {
+        "timestamp": "2025-10-15 11:44:42",
+        "heart_rate": 65,
+        "sleep_duration": 7.03,
+        "step_count": 10809
+    },
+    {
+        "timestamp": "2025-10-15 11:45:42",
+        "heart_rate": 71,
+        "sleep_duration": 6.98,
+        "step_count": 11062
+    },
+    {
+        "timestamp": "2025-10-15 11:46:42",
+        "heart_rate": 61,
+        "sleep_duration": 9.59,
+        "step_count": 10718
+    },
+    {
+        "timestamp": "2025-10-15 11:47:42",
+        "heart_rate": 78,
+        "sleep_duration": 0.75,
+        "step_count": 10913
+    },
+    {
+        "timestamp": "2025-10-15 11:48:42",
+        "heart_rate": 66,
+        "sleep_duration": 4.54,
+        "step_count": 9669
+    },
+    {
+        "timestamp": "2025-10-15 11:49:42",
+        "heart_rate": 114,
+        "sleep_duration": 4.55,
+        "step_count": 7962
+    },
+    {
+        "timestamp": "2025-10-15 11:50:42",
+        "heart_rate": 113,
+        "sleep_duration": 3.29,
+        "step_count": 10676
+    },
+    {
+        "timestamp": "2025-10-15 11:51:42",
+        "heart_rate": 79,
+        "sleep_duration": 5.77,
+        "step_count": 8786
+    },
+    {
+        "timestamp": "2025-10-15 11:52:42",
+        "heart_rate": 77,
+        "sleep_duration": 6.81,
+        "step_count": 9572
+    },
+    {
+        "timestamp": "2025-10-15 11:53:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.51,
+        "step_count": 10364
+    },
+    {
+        "timestamp": "2025-10-15 11:54:42",
+        "heart_rate": 58,
+        "sleep_duration": 4.85,
+        "step_count": 7145
+    },
+    {
+        "timestamp": "2025-10-15 11:55:42",
+        "heart_rate": 103,
+        "sleep_duration": 8.41,
+        "step_count": 9431
+    },
+    {
+        "timestamp": "2025-10-15 11:56:42",
+        "heart_rate": 78,
+        "sleep_duration": 4.39,
+        "step_count": 10520
+    },
+    {
+        "timestamp": "2025-10-15 11:57:42",
+        "heart_rate": 110,
+        "sleep_duration": 0.6,
+        "step_count": 10306
+    },
+    {
+        "timestamp": "2025-10-15 11:58:42",
+        "heart_rate": 110,
+        "sleep_duration": 1.06,
+        "step_count": 7724
+    },
+    {
+        "timestamp": "2025-10-15 11:59:42",
+        "heart_rate": 115,
+        "sleep_duration": 0.44,
+        "step_count": 10252
+    },
+    {
+        "timestamp": "2025-10-15 12:00:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.72,
+        "step_count": 10371
+    },
+    {
+        "timestamp": "2025-10-15 12:01:42",
+        "heart_rate": 64,
+        "sleep_duration": 3.25,
+        "step_count": 10991
+    },
+    {
+        "timestamp": "2025-10-15 12:02:42",
+        "heart_rate": 72,
+        "sleep_duration": 2.24,
+        "step_count": 11154
+    },
+    {
+        "timestamp": "2025-10-15 12:03:42",
+        "heart_rate": 93,
+        "sleep_duration": 9.48,
+        "step_count": 11115
+    },
+    {
+        "timestamp": "2025-10-15 12:04:42",
+        "heart_rate": 67,
+        "sleep_duration": 7.74,
+        "step_count": 9839
+    },
+    {
+        "timestamp": "2025-10-15 12:05:42",
+        "heart_rate": 103,
+        "sleep_duration": 4.33,
+        "step_count": 7692
+    },
+    {
+        "timestamp": "2025-10-15 12:06:42",
+        "heart_rate": 91,
+        "sleep_duration": 6.09,
+        "step_count": 7976
+    },
+    {
+        "timestamp": "2025-10-15 12:07:42",
+        "heart_rate": 71,
+        "sleep_duration": 6.29,
+        "step_count": 11302
+    },
+    {
+        "timestamp": "2025-10-15 12:08:42",
+        "heart_rate": 82,
+        "sleep_duration": 6.29,
+        "step_count": 10538
+    },
+    {
+        "timestamp": "2025-10-15 12:09:42",
+        "heart_rate": 113,
+        "sleep_duration": 2.48,
+        "step_count": 10507
+    },
+    {
+        "timestamp": "2025-10-15 12:10:42",
+        "heart_rate": 91,
+        "sleep_duration": 0.39,
+        "step_count": 10374
+    },
+    {
+        "timestamp": "2025-10-15 12:11:42",
+        "heart_rate": 84,
+        "sleep_duration": 4.75,
+        "step_count": 10371
+    },
+    {
+        "timestamp": "2025-10-15 12:12:42",
+        "heart_rate": 63,
+        "sleep_duration": 9.19,
+        "step_count": 11018
+    },
+    {
+        "timestamp": "2025-10-15 12:13:42",
+        "heart_rate": 95,
+        "sleep_duration": 2.75,
+        "step_count": 9084
+    },
+    {
+        "timestamp": "2025-10-15 12:14:42",
+        "heart_rate": 102,
+        "sleep_duration": 0.91,
+        "step_count": 10035
+    },
+    {
+        "timestamp": "2025-10-15 12:15:42",
+        "heart_rate": 108,
+        "sleep_duration": 3.31,
+        "step_count": 11897
+    },
+    {
+        "timestamp": "2025-10-15 12:16:42",
+        "heart_rate": 116,
+        "sleep_duration": 2.99,
+        "step_count": 7723
+    },
+    {
+        "timestamp": "2025-10-15 12:17:42",
+        "heart_rate": 89,
+        "sleep_duration": 2.0,
+        "step_count": 10888
+    },
+    {
+        "timestamp": "2025-10-15 12:18:42",
+        "heart_rate": 118,
+        "sleep_duration": 2.14,
+        "step_count": 7388
+    },
+    {
+        "timestamp": "2025-10-15 12:19:42",
+        "heart_rate": 61,
+        "sleep_duration": 7.63,
+        "step_count": 7997
+    },
+    {
+        "timestamp": "2025-10-15 12:20:42",
+        "heart_rate": 55,
+        "sleep_duration": 9.88,
+        "step_count": 11264
+    },
+    {
+        "timestamp": "2025-10-15 12:21:42",
+        "heart_rate": 68,
+        "sleep_duration": 6.86,
+        "step_count": 11440
+    },
+    {
+        "timestamp": "2025-10-15 12:22:42",
+        "heart_rate": 79,
+        "sleep_duration": 2.82,
+        "step_count": 7161
+    },
+    {
+        "timestamp": "2025-10-15 12:23:42",
+        "heart_rate": 86,
+        "sleep_duration": 6.05,
+        "step_count": 7117
+    },
+    {
+        "timestamp": "2025-10-15 12:24:42",
+        "heart_rate": 71,
+        "sleep_duration": 0.43,
+        "step_count": 11362
+    },
+    {
+        "timestamp": "2025-10-15 12:25:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.22,
+        "step_count": 10294
+    },
+    {
+        "timestamp": "2025-10-15 12:26:42",
+        "heart_rate": 63,
+        "sleep_duration": 2.03,
+        "step_count": 11941
+    },
+    {
+        "timestamp": "2025-10-15 12:27:42",
+        "heart_rate": 107,
+        "sleep_duration": 0.22,
+        "step_count": 11969
+    },
+    {
+        "timestamp": "2025-10-15 12:28:42",
+        "heart_rate": 86,
+        "sleep_duration": 7.84,
+        "step_count": 9881
+    },
+    {
+        "timestamp": "2025-10-15 12:29:42",
+        "heart_rate": 64,
+        "sleep_duration": 7.34,
+        "step_count": 8816
+    },
+    {
+        "timestamp": "2025-10-15 12:30:42",
+        "heart_rate": 111,
+        "sleep_duration": 9.09,
+        "step_count": 11247
+    },
+    {
+        "timestamp": "2025-10-15 12:31:42",
+        "heart_rate": 100,
+        "sleep_duration": 5.25,
+        "step_count": 7592
+    },
+    {
+        "timestamp": "2025-10-15 12:32:42",
+        "heart_rate": 85,
+        "sleep_duration": 9.17,
+        "step_count": 9897
+    },
+    {
+        "timestamp": "2025-10-15 12:33:42",
+        "heart_rate": 117,
+        "sleep_duration": 1.66,
+        "step_count": 10712
+    },
+    {
+        "timestamp": "2025-10-15 12:34:42",
+        "heart_rate": 101,
+        "sleep_duration": 0.51,
+        "step_count": 7081
+    },
+    {
+        "timestamp": "2025-10-15 12:35:42",
+        "heart_rate": 78,
+        "sleep_duration": 7.73,
+        "step_count": 8218
+    },
+    {
+        "timestamp": "2025-10-15 12:36:42",
+        "heart_rate": 61,
+        "sleep_duration": 0.56,
+        "step_count": 9867
+    },
+    {
+        "timestamp": "2025-10-15 12:37:42",
+        "heart_rate": 65,
+        "sleep_duration": 4.21,
+        "step_count": 9247
+    },
+    {
+        "timestamp": "2025-10-15 12:38:42",
+        "heart_rate": 112,
+        "sleep_duration": 4.85,
+        "step_count": 11147
+    },
+    {
+        "timestamp": "2025-10-15 12:39:42",
+        "heart_rate": 66,
+        "sleep_duration": 3.77,
+        "step_count": 10345
+    },
+    {
+        "timestamp": "2025-10-15 12:40:42",
+        "heart_rate": 78,
+        "sleep_duration": 2.46,
+        "step_count": 11622
+    },
+    {
+        "timestamp": "2025-10-15 12:41:42",
+        "heart_rate": 93,
+        "sleep_duration": 8.03,
+        "step_count": 11194
+    },
+    {
+        "timestamp": "2025-10-15 12:42:42",
+        "heart_rate": 110,
+        "sleep_duration": 0.27,
+        "step_count": 8300
+    },
+    {
+        "timestamp": "2025-10-15 12:43:42",
+        "heart_rate": 92,
+        "sleep_duration": 6.44,
+        "step_count": 11320
+    },
+    {
+        "timestamp": "2025-10-15 12:44:42",
+        "heart_rate": 87,
+        "sleep_duration": 9.42,
+        "step_count": 10490
+    },
+    {
+        "timestamp": "2025-10-15 12:45:42",
+        "heart_rate": 68,
+        "sleep_duration": 6.32,
+        "step_count": 11262
+    },
+    {
+        "timestamp": "2025-10-15 12:46:42",
+        "heart_rate": 58,
+        "sleep_duration": 9.54,
+        "step_count": 9941
+    },
+    {
+        "timestamp": "2025-10-15 12:47:42",
+        "heart_rate": 101,
+        "sleep_duration": 9.3,
+        "step_count": 11058
+    },
+    {
+        "timestamp": "2025-10-15 12:48:42",
+        "heart_rate": 77,
+        "sleep_duration": 5.49,
+        "step_count": 7645
+    },
+    {
+        "timestamp": "2025-10-15 12:49:42",
+        "heart_rate": 103,
+        "sleep_duration": 5.35,
+        "step_count": 8109
+    },
+    {
+        "timestamp": "2025-10-15 12:50:42",
+        "heart_rate": 65,
+        "sleep_duration": 7.91,
+        "step_count": 11329
+    },
+    {
+        "timestamp": "2025-10-15 12:51:42",
+        "heart_rate": 105,
+        "sleep_duration": 8.76,
+        "step_count": 7111
+    },
+    {
+        "timestamp": "2025-10-15 12:52:42",
+        "heart_rate": 107,
+        "sleep_duration": 9.5,
+        "step_count": 11167
+    },
+    {
+        "timestamp": "2025-10-15 12:53:42",
+        "heart_rate": 98,
+        "sleep_duration": 8.14,
+        "step_count": 11296
+    },
+    {
+        "timestamp": "2025-10-15 12:54:42",
+        "heart_rate": 72,
+        "sleep_duration": 8.64,
+        "step_count": 9401
+    },
+    {
+        "timestamp": "2025-10-15 12:55:42",
+        "heart_rate": 77,
+        "sleep_duration": 5.16,
+        "step_count": 9649
+    },
+    {
+        "timestamp": "2025-10-15 12:56:42",
+        "heart_rate": 79,
+        "sleep_duration": 2.92,
+        "step_count": 10990
+    },
+    {
+        "timestamp": "2025-10-15 12:57:42",
+        "heart_rate": 88,
+        "sleep_duration": 7.38,
+        "step_count": 9550
+    },
+    {
+        "timestamp": "2025-10-15 12:58:42",
+        "heart_rate": 108,
+        "sleep_duration": 3.05,
+        "step_count": 7411
+    },
+    {
+        "timestamp": "2025-10-15 12:59:42",
+        "heart_rate": 58,
+        "sleep_duration": 0.94,
+        "step_count": 10311
+    },
+    {
+        "timestamp": "2025-10-15 13:00:42",
+        "heart_rate": 63,
+        "sleep_duration": 7.29,
+        "step_count": 8846
+    },
+    {
+        "timestamp": "2025-10-15 13:01:42",
+        "heart_rate": 63,
+        "sleep_duration": 6.17,
+        "step_count": 7550
+    },
+    {
+        "timestamp": "2025-10-15 13:02:42",
+        "heart_rate": 115,
+        "sleep_duration": 8.16,
+        "step_count": 11537
+    },
+    {
+        "timestamp": "2025-10-15 13:03:42",
+        "heart_rate": 91,
+        "sleep_duration": 4.62,
+        "step_count": 8074
+    },
+    {
+        "timestamp": "2025-10-15 13:04:42",
+        "heart_rate": 72,
+        "sleep_duration": 6.5,
+        "step_count": 9242
+    },
+    {
+        "timestamp": "2025-10-15 13:05:42",
+        "heart_rate": 85,
+        "sleep_duration": 0.17,
+        "step_count": 10160
+    },
+    {
+        "timestamp": "2025-10-15 13:06:42",
+        "heart_rate": 114,
+        "sleep_duration": 1.46,
+        "step_count": 9773
+    },
+    {
+        "timestamp": "2025-10-15 13:07:42",
+        "heart_rate": 65,
+        "sleep_duration": 6.41,
+        "step_count": 10569
+    },
+    {
+        "timestamp": "2025-10-15 13:08:42",
+        "heart_rate": 61,
+        "sleep_duration": 5.19,
+        "step_count": 10399
+    },
+    {
+        "timestamp": "2025-10-15 13:09:42",
+        "heart_rate": 100,
+        "sleep_duration": 4.17,
+        "step_count": 8175
+    },
+    {
+        "timestamp": "2025-10-15 13:10:42",
+        "heart_rate": 60,
+        "sleep_duration": 8.87,
+        "step_count": 11530
+    },
+    {
+        "timestamp": "2025-10-15 13:11:42",
+        "heart_rate": 81,
+        "sleep_duration": 2.42,
+        "step_count": 8359
+    },
+    {
+        "timestamp": "2025-10-15 13:12:42",
+        "heart_rate": 58,
+        "sleep_duration": 6.45,
+        "step_count": 9707
+    },
+    {
+        "timestamp": "2025-10-15 13:13:42",
+        "heart_rate": 77,
+        "sleep_duration": 4.49,
+        "step_count": 7578
+    },
+    {
+        "timestamp": "2025-10-15 13:14:42",
+        "heart_rate": 105,
+        "sleep_duration": 0.14,
+        "step_count": 8803
+    },
+    {
+        "timestamp": "2025-10-15 13:15:42",
+        "heart_rate": 78,
+        "sleep_duration": 0.14,
+        "step_count": 9665
+    },
+    {
+        "timestamp": "2025-10-15 13:16:42",
+        "heart_rate": 114,
+        "sleep_duration": 0.06,
+        "step_count": 10834
+    },
+    {
+        "timestamp": "2025-10-15 13:17:42",
+        "heart_rate": 118,
+        "sleep_duration": 2.34,
+        "step_count": 10515
+    },
+    {
+        "timestamp": "2025-10-15 13:18:42",
+        "heart_rate": 110,
+        "sleep_duration": 2.61,
+        "step_count": 7674
+    },
+    {
+        "timestamp": "2025-10-15 13:19:42",
+        "heart_rate": 101,
+        "sleep_duration": 5.85,
+        "step_count": 10908
+    },
+    {
+        "timestamp": "2025-10-15 13:20:42",
+        "heart_rate": 82,
+        "sleep_duration": 6.95,
+        "step_count": 7090
+    },
+    {
+        "timestamp": "2025-10-15 13:21:42",
+        "heart_rate": 110,
+        "sleep_duration": 4.51,
+        "step_count": 9313
+    },
+    {
+        "timestamp": "2025-10-15 13:22:42",
+        "heart_rate": 100,
+        "sleep_duration": 1.22,
+        "step_count": 10180
+    },
+    {
+        "timestamp": "2025-10-15 13:23:42",
+        "heart_rate": 107,
+        "sleep_duration": 6.52,
+        "step_count": 11512
+    },
+    {
+        "timestamp": "2025-10-15 13:24:42",
+        "heart_rate": 119,
+        "sleep_duration": 3.51,
+        "step_count": 11323
+    },
+    {
+        "timestamp": "2025-10-15 13:25:42",
+        "heart_rate": 57,
+        "sleep_duration": 0.27,
+        "step_count": 10781
+    },
+    {
+        "timestamp": "2025-10-15 13:26:42",
+        "heart_rate": 73,
+        "sleep_duration": 6.79,
+        "step_count": 7888
+    },
+    {
+        "timestamp": "2025-10-15 13:27:42",
+        "heart_rate": 93,
+        "sleep_duration": 5.66,
+        "step_count": 9939
+    },
+    {
+        "timestamp": "2025-10-15 13:28:42",
+        "heart_rate": 106,
+        "sleep_duration": 2.6,
+        "step_count": 8634
+    },
+    {
+        "timestamp": "2025-10-15 13:29:42",
+        "heart_rate": 117,
+        "sleep_duration": 8.95,
+        "step_count": 7443
+    },
+    {
+        "timestamp": "2025-10-15 13:30:42",
+        "heart_rate": 73,
+        "sleep_duration": 8.11,
+        "step_count": 10996
+    },
+    {
+        "timestamp": "2025-10-15 13:31:42",
+        "heart_rate": 102,
+        "sleep_duration": 0.17,
+        "step_count": 7167
+    },
+    {
+        "timestamp": "2025-10-15 13:32:42",
+        "heart_rate": 72,
+        "sleep_duration": 6.34,
+        "step_count": 7389
+    },
+    {
+        "timestamp": "2025-10-15 13:33:42",
+        "heart_rate": 79,
+        "sleep_duration": 7.68,
+        "step_count": 7997
+    },
+    {
+        "timestamp": "2025-10-15 13:34:42",
+        "heart_rate": 76,
+        "sleep_duration": 7.68,
+        "step_count": 11403
+    },
+    {
+        "timestamp": "2025-10-15 13:35:42",
+        "heart_rate": 80,
+        "sleep_duration": 6.35,
+        "step_count": 11826
+    },
+    {
+        "timestamp": "2025-10-15 13:36:42",
+        "heart_rate": 65,
+        "sleep_duration": 8.93,
+        "step_count": 9562
+    },
+    {
+        "timestamp": "2025-10-15 13:37:42",
+        "heart_rate": 72,
+        "sleep_duration": 4.52,
+        "step_count": 11370
+    },
+    {
+        "timestamp": "2025-10-15 13:38:42",
+        "heart_rate": 93,
+        "sleep_duration": 9.89,
+        "step_count": 11934
+    },
+    {
+        "timestamp": "2025-10-15 13:39:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.65,
+        "step_count": 11825
+    },
+    {
+        "timestamp": "2025-10-15 13:40:42",
+        "heart_rate": 58,
+        "sleep_duration": 3.08,
+        "step_count": 7558
+    },
+    {
+        "timestamp": "2025-10-15 13:41:42",
+        "heart_rate": 105,
+        "sleep_duration": 6.42,
+        "step_count": 11777
+    },
+    {
+        "timestamp": "2025-10-15 13:42:42",
+        "heart_rate": 78,
+        "sleep_duration": 9.15,
+        "step_count": 10374
+    },
+    {
+        "timestamp": "2025-10-15 13:43:42",
+        "heart_rate": 99,
+        "sleep_duration": 0.92,
+        "step_count": 8702
+    },
+    {
+        "timestamp": "2025-10-15 13:44:42",
+        "heart_rate": 77,
+        "sleep_duration": 4.58,
+        "step_count": 10206
+    },
+    {
+        "timestamp": "2025-10-15 13:45:42",
+        "heart_rate": 81,
+        "sleep_duration": 2.78,
+        "step_count": 11426
+    },
+    {
+        "timestamp": "2025-10-15 13:46:42",
+        "heart_rate": 113,
+        "sleep_duration": 0.06,
+        "step_count": 9040
+    },
+    {
+        "timestamp": "2025-10-15 13:47:42",
+        "heart_rate": 59,
+        "sleep_duration": 6.7,
+        "step_count": 7182
+    },
+    {
+        "timestamp": "2025-10-15 13:48:42",
+        "heart_rate": 109,
+        "sleep_duration": 3.99,
+        "step_count": 8672
+    },
+    {
+        "timestamp": "2025-10-15 13:49:42",
+        "heart_rate": 106,
+        "sleep_duration": 8.6,
+        "step_count": 8565
+    },
+    {
+        "timestamp": "2025-10-15 13:50:42",
+        "heart_rate": 96,
+        "sleep_duration": 5.65,
+        "step_count": 7118
+    },
+    {
+        "timestamp": "2025-10-15 13:51:42",
+        "heart_rate": 91,
+        "sleep_duration": 4.06,
+        "step_count": 7379
+    },
+    {
+        "timestamp": "2025-10-15 13:52:42",
+        "heart_rate": 107,
+        "sleep_duration": 5.86,
+        "step_count": 8547
+    },
+    {
+        "timestamp": "2025-10-15 13:53:42",
+        "heart_rate": 91,
+        "sleep_duration": 3.93,
+        "step_count": 9685
+    },
+    {
+        "timestamp": "2025-10-15 13:54:42",
+        "heart_rate": 65,
+        "sleep_duration": 4.86,
+        "step_count": 10281
+    },
+    {
+        "timestamp": "2025-10-15 13:55:42",
+        "heart_rate": 83,
+        "sleep_duration": 0.89,
+        "step_count": 8954
+    },
+    {
+        "timestamp": "2025-10-15 13:56:42",
+        "heart_rate": 88,
+        "sleep_duration": 6.4,
+        "step_count": 8287
+    },
+    {
+        "timestamp": "2025-10-15 13:57:42",
+        "heart_rate": 96,
+        "sleep_duration": 3.57,
+        "step_count": 9206
+    },
+    {
+        "timestamp": "2025-10-15 13:58:42",
+        "heart_rate": 67,
+        "sleep_duration": 0.7,
+        "step_count": 7116
+    },
+    {
+        "timestamp": "2025-10-15 13:59:42",
+        "heart_rate": 57,
+        "sleep_duration": 0.05,
+        "step_count": 11247
+    },
+    {
+        "timestamp": "2025-10-15 14:00:42",
+        "heart_rate": 55,
+        "sleep_duration": 4.84,
+        "step_count": 9676
+    },
+    {
+        "timestamp": "2025-10-15 14:01:42",
+        "heart_rate": 83,
+        "sleep_duration": 4.74,
+        "step_count": 7148
+    },
+    {
+        "timestamp": "2025-10-15 14:02:42",
+        "heart_rate": 92,
+        "sleep_duration": 3.31,
+        "step_count": 11495
+    },
+    {
+        "timestamp": "2025-10-15 14:03:42",
+        "heart_rate": 74,
+        "sleep_duration": 2.1,
+        "step_count": 9472
+    },
+    {
+        "timestamp": "2025-10-15 14:04:42",
+        "heart_rate": 110,
+        "sleep_duration": 6.26,
+        "step_count": 9151
+    },
+    {
+        "timestamp": "2025-10-15 14:05:42",
+        "heart_rate": 93,
+        "sleep_duration": 6.84,
+        "step_count": 9525
+    },
+    {
+        "timestamp": "2025-10-15 14:06:42",
+        "heart_rate": 101,
+        "sleep_duration": 5.2,
+        "step_count": 8884
+    },
+    {
+        "timestamp": "2025-10-15 14:07:42",
+        "heart_rate": 57,
+        "sleep_duration": 5.86,
+        "step_count": 9637
+    },
+    {
+        "timestamp": "2025-10-15 14:08:42",
+        "heart_rate": 83,
+        "sleep_duration": 5.96,
+        "step_count": 8517
+    },
+    {
+        "timestamp": "2025-10-15 14:09:42",
+        "heart_rate": 114,
+        "sleep_duration": 9.48,
+        "step_count": 8143
+    },
+    {
+        "timestamp": "2025-10-15 14:10:42",
+        "heart_rate": 102,
+        "sleep_duration": 4.49,
+        "step_count": 8999
+    },
+    {
+        "timestamp": "2025-10-15 14:11:42",
+        "heart_rate": 56,
+        "sleep_duration": 7.98,
+        "step_count": 11079
+    },
+    {
+        "timestamp": "2025-10-15 14:12:42",
+        "heart_rate": 86,
+        "sleep_duration": 6.99,
+        "step_count": 10709
+    },
+    {
+        "timestamp": "2025-10-15 14:13:42",
+        "heart_rate": 70,
+        "sleep_duration": 2.25,
+        "step_count": 11166
+    },
+    {
+        "timestamp": "2025-10-15 14:14:42",
+        "heart_rate": 108,
+        "sleep_duration": 8.23,
+        "step_count": 7705
+    },
+    {
+        "timestamp": "2025-10-15 14:15:42",
+        "heart_rate": 93,
+        "sleep_duration": 4.34,
+        "step_count": 7729
+    },
+    {
+        "timestamp": "2025-10-15 14:16:42",
+        "heart_rate": 65,
+        "sleep_duration": 9.09,
+        "step_count": 9534
+    },
+    {
+        "timestamp": "2025-10-15 14:17:42",
+        "heart_rate": 57,
+        "sleep_duration": 3.94,
+        "step_count": 7390
+    },
+    {
+        "timestamp": "2025-10-15 14:18:42",
+        "heart_rate": 100,
+        "sleep_duration": 6.82,
+        "step_count": 7744
+    },
+    {
+        "timestamp": "2025-10-15 14:19:42",
+        "heart_rate": 114,
+        "sleep_duration": 8.48,
+        "step_count": 11171
+    },
+    {
+        "timestamp": "2025-10-15 14:20:42",
+        "heart_rate": 109,
+        "sleep_duration": 0.23,
+        "step_count": 8920
+    },
+    {
+        "timestamp": "2025-10-15 14:21:42",
+        "heart_rate": 110,
+        "sleep_duration": 1.58,
+        "step_count": 9435
+    },
+    {
+        "timestamp": "2025-10-15 14:22:42",
+        "heart_rate": 90,
+        "sleep_duration": 8.02,
+        "step_count": 11181
+    },
+    {
+        "timestamp": "2025-10-15 14:23:42",
+        "heart_rate": 57,
+        "sleep_duration": 0.5,
+        "step_count": 11002
+    },
+    {
+        "timestamp": "2025-10-15 14:24:42",
+        "heart_rate": 62,
+        "sleep_duration": 3.72,
+        "step_count": 7740
+    },
+    {
+        "timestamp": "2025-10-15 14:25:42",
+        "heart_rate": 81,
+        "sleep_duration": 8.61,
+        "step_count": 10077
+    },
+    {
+        "timestamp": "2025-10-15 14:26:42",
+        "heart_rate": 92,
+        "sleep_duration": 2.54,
+        "step_count": 7785
+    },
+    {
+        "timestamp": "2025-10-15 14:27:42",
+        "heart_rate": 100,
+        "sleep_duration": 2.52,
+        "step_count": 8785
+    },
+    {
+        "timestamp": "2025-10-15 14:28:42",
+        "heart_rate": 80,
+        "sleep_duration": 7.69,
+        "step_count": 9307
+    },
+    {
+        "timestamp": "2025-10-15 14:29:42",
+        "heart_rate": 61,
+        "sleep_duration": 6.15,
+        "step_count": 7664
+    },
+    {
+        "timestamp": "2025-10-15 14:30:42",
+        "heart_rate": 94,
+        "sleep_duration": 1.95,
+        "step_count": 11251
+    },
+    {
+        "timestamp": "2025-10-15 14:31:42",
+        "heart_rate": 89,
+        "sleep_duration": 0.2,
+        "step_count": 11109
+    },
+    {
+        "timestamp": "2025-10-15 14:32:42",
+        "heart_rate": 78,
+        "sleep_duration": 9.29,
+        "step_count": 11125
+    },
+    {
+        "timestamp": "2025-10-15 14:33:42",
+        "heart_rate": 104,
+        "sleep_duration": 4.37,
+        "step_count": 8291
+    },
+    {
+        "timestamp": "2025-10-15 14:34:42",
+        "heart_rate": 88,
+        "sleep_duration": 0.95,
+        "step_count": 10988
+    },
+    {
+        "timestamp": "2025-10-15 14:35:42",
+        "heart_rate": 93,
+        "sleep_duration": 0.8,
+        "step_count": 10860
+    },
+    {
+        "timestamp": "2025-10-15 14:36:42",
+        "heart_rate": 63,
+        "sleep_duration": 6.27,
+        "step_count": 10663
+    },
+    {
+        "timestamp": "2025-10-15 14:37:42",
+        "heart_rate": 83,
+        "sleep_duration": 0.06,
+        "step_count": 8744
+    },
+    {
+        "timestamp": "2025-10-15 14:38:42",
+        "heart_rate": 116,
+        "sleep_duration": 7.01,
+        "step_count": 8835
+    },
+    {
+        "timestamp": "2025-10-15 14:39:42",
+        "heart_rate": 66,
+        "sleep_duration": 5.94,
+        "step_count": 10591
+    },
+    {
+        "timestamp": "2025-10-15 14:40:42",
+        "heart_rate": 68,
+        "sleep_duration": 2.06,
+        "step_count": 11860
+    },
+    {
+        "timestamp": "2025-10-15 14:41:42",
+        "heart_rate": 64,
+        "sleep_duration": 0.49,
+        "step_count": 8482
+    },
+    {
+        "timestamp": "2025-10-15 14:42:42",
+        "heart_rate": 120,
+        "sleep_duration": 2.22,
+        "step_count": 9317
+    },
+    {
+        "timestamp": "2025-10-15 14:43:42",
+        "heart_rate": 74,
+        "sleep_duration": 3.67,
+        "step_count": 9345
+    },
+    {
+        "timestamp": "2025-10-15 14:44:42",
+        "heart_rate": 117,
+        "sleep_duration": 8.2,
+        "step_count": 11002
+    },
+    {
+        "timestamp": "2025-10-15 14:45:42",
+        "heart_rate": 94,
+        "sleep_duration": 2.74,
+        "step_count": 9092
+    },
+    {
+        "timestamp": "2025-10-15 14:46:42",
+        "heart_rate": 120,
+        "sleep_duration": 4.92,
+        "step_count": 8456
+    },
+    {
+        "timestamp": "2025-10-15 14:47:42",
+        "heart_rate": 109,
+        "sleep_duration": 2.42,
+        "step_count": 8908
+    },
+    {
+        "timestamp": "2025-10-15 14:48:42",
+        "heart_rate": 57,
+        "sleep_duration": 1.74,
+        "step_count": 11472
+    },
+    {
+        "timestamp": "2025-10-15 14:49:42",
+        "heart_rate": 79,
+        "sleep_duration": 7.74,
+        "step_count": 11802
+    },
+    {
+        "timestamp": "2025-10-15 14:50:42",
+        "heart_rate": 88,
+        "sleep_duration": 1.24,
+        "step_count": 10161
+    },
+    {
+        "timestamp": "2025-10-15 14:51:42",
+        "heart_rate": 61,
+        "sleep_duration": 7.64,
+        "step_count": 9243
+    },
+    {
+        "timestamp": "2025-10-15 14:52:42",
+        "heart_rate": 89,
+        "sleep_duration": 4.85,
+        "step_count": 7768
+    },
+    {
+        "timestamp": "2025-10-15 14:53:42",
+        "heart_rate": 116,
+        "sleep_duration": 2.63,
+        "step_count": 10378
+    },
+    {
+        "timestamp": "2025-10-15 14:54:42",
+        "heart_rate": 100,
+        "sleep_duration": 3.87,
+        "step_count": 11933
+    },
+    {
+        "timestamp": "2025-10-15 14:55:42",
+        "heart_rate": 70,
+        "sleep_duration": 8.4,
+        "step_count": 7252
+    },
+    {
+        "timestamp": "2025-10-15 14:56:42",
+        "heart_rate": 105,
+        "sleep_duration": 4.97,
+        "step_count": 11263
+    },
+    {
+        "timestamp": "2025-10-15 14:57:42",
+        "heart_rate": 106,
+        "sleep_duration": 5.56,
+        "step_count": 11742
+    },
+    {
+        "timestamp": "2025-10-15 14:58:42",
+        "heart_rate": 93,
+        "sleep_duration": 2.81,
+        "step_count": 9699
+    },
+    {
+        "timestamp": "2025-10-15 14:59:42",
+        "heart_rate": 95,
+        "sleep_duration": 6.21,
+        "step_count": 8600
+    },
+    {
+        "timestamp": "2025-10-15 15:00:42",
+        "heart_rate": 71,
+        "sleep_duration": 2.92,
+        "step_count": 8692
+    },
+    {
+        "timestamp": "2025-10-15 15:01:42",
+        "heart_rate": 75,
+        "sleep_duration": 8.2,
+        "step_count": 7970
+    },
+    {
+        "timestamp": "2025-10-15 15:02:42",
+        "heart_rate": 96,
+        "sleep_duration": 1.23,
+        "step_count": 8468
+    },
+    {
+        "timestamp": "2025-10-15 15:03:42",
+        "heart_rate": 69,
+        "sleep_duration": 9.49,
+        "step_count": 10423
+    },
+    {
+        "timestamp": "2025-10-15 15:04:42",
+        "heart_rate": 116,
+        "sleep_duration": 0.18,
+        "step_count": 9173
+    },
+    {
+        "timestamp": "2025-10-15 15:05:42",
+        "heart_rate": 55,
+        "sleep_duration": 2.78,
+        "step_count": 8820
+    },
+    {
+        "timestamp": "2025-10-15 15:06:42",
+        "heart_rate": 69,
+        "sleep_duration": 8.64,
+        "step_count": 9696
+    },
+    {
+        "timestamp": "2025-10-15 15:07:42",
+        "heart_rate": 103,
+        "sleep_duration": 8.25,
+        "step_count": 9905
+    },
+    {
+        "timestamp": "2025-10-15 15:08:42",
+        "heart_rate": 67,
+        "sleep_duration": 9.74,
+        "step_count": 10863
+    },
+    {
+        "timestamp": "2025-10-15 15:09:42",
+        "heart_rate": 102,
+        "sleep_duration": 7.56,
+        "step_count": 10575
+    },
+    {
+        "timestamp": "2025-10-15 15:10:42",
+        "heart_rate": 88,
+        "sleep_duration": 7.1,
+        "step_count": 9445
+    },
+    {
+        "timestamp": "2025-10-15 15:11:42",
+        "heart_rate": 91,
+        "sleep_duration": 2.78,
+        "step_count": 10348
+    },
+    {
+        "timestamp": "2025-10-15 15:12:42",
+        "heart_rate": 62,
+        "sleep_duration": 0.34,
+        "step_count": 7530
+    },
+    {
+        "timestamp": "2025-10-15 15:13:42",
+        "heart_rate": 118,
+        "sleep_duration": 9.84,
+        "step_count": 7861
+    },
+    {
+        "timestamp": "2025-10-15 15:14:42",
+        "heart_rate": 97,
+        "sleep_duration": 0.48,
+        "step_count": 11839
+    },
+    {
+        "timestamp": "2025-10-15 15:15:42",
+        "heart_rate": 87,
+        "sleep_duration": 5.36,
+        "step_count": 9301
+    },
+    {
+        "timestamp": "2025-10-15 15:16:42",
+        "heart_rate": 105,
+        "sleep_duration": 7.92,
+        "step_count": 7609
+    },
+    {
+        "timestamp": "2025-10-15 15:17:42",
+        "heart_rate": 75,
+        "sleep_duration": 3.37,
+        "step_count": 9596
+    },
+    {
+        "timestamp": "2025-10-15 15:18:42",
+        "heart_rate": 71,
+        "sleep_duration": 6.98,
+        "step_count": 8002
+    },
+    {
+        "timestamp": "2025-10-15 15:19:42",
+        "heart_rate": 77,
+        "sleep_duration": 5.48,
+        "step_count": 11662
+    },
+    {
+        "timestamp": "2025-10-15 15:20:42",
+        "heart_rate": 77,
+        "sleep_duration": 2.58,
+        "step_count": 9929
+    },
+    {
+        "timestamp": "2025-10-15 15:21:42",
+        "heart_rate": 60,
+        "sleep_duration": 9.7,
+        "step_count": 9776
+    },
+    {
+        "timestamp": "2025-10-15 15:22:42",
+        "heart_rate": 104,
+        "sleep_duration": 0.78,
+        "step_count": 8408
+    },
+    {
+        "timestamp": "2025-10-15 15:23:42",
+        "heart_rate": 93,
+        "sleep_duration": 2.59,
+        "step_count": 10738
+    },
+    {
+        "timestamp": "2025-10-15 15:24:42",
+        "heart_rate": 63,
+        "sleep_duration": 2.6,
+        "step_count": 10558
+    },
+    {
+        "timestamp": "2025-10-15 15:25:42",
+        "heart_rate": 71,
+        "sleep_duration": 7.97,
+        "step_count": 9057
+    },
+    {
+        "timestamp": "2025-10-15 15:26:42",
+        "heart_rate": 63,
+        "sleep_duration": 6.44,
+        "step_count": 7322
+    },
+    {
+        "timestamp": "2025-10-15 15:27:42",
+        "heart_rate": 111,
+        "sleep_duration": 3.28,
+        "step_count": 11297
+    },
+    {
+        "timestamp": "2025-10-15 15:28:42",
+        "heart_rate": 70,
+        "sleep_duration": 8.7,
+        "step_count": 10877
+    },
+    {
+        "timestamp": "2025-10-15 15:29:42",
+        "heart_rate": 120,
+        "sleep_duration": 4.06,
+        "step_count": 11253
+    },
+    {
+        "timestamp": "2025-10-15 15:30:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.85,
+        "step_count": 9346
+    },
+    {
+        "timestamp": "2025-10-15 15:31:42",
+        "heart_rate": 97,
+        "sleep_duration": 4.25,
+        "step_count": 7859
+    },
+    {
+        "timestamp": "2025-10-15 15:32:42",
+        "heart_rate": 60,
+        "sleep_duration": 9.15,
+        "step_count": 7788
+    },
+    {
+        "timestamp": "2025-10-15 15:33:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.48,
+        "step_count": 11493
+    },
+    {
+        "timestamp": "2025-10-15 15:34:42",
+        "heart_rate": 87,
+        "sleep_duration": 1.72,
+        "step_count": 7175
+    },
+    {
+        "timestamp": "2025-10-15 15:35:42",
+        "heart_rate": 58,
+        "sleep_duration": 2.37,
+        "step_count": 7472
+    },
+    {
+        "timestamp": "2025-10-15 15:36:42",
+        "heart_rate": 82,
+        "sleep_duration": 7.62,
+        "step_count": 11955
+    },
+    {
+        "timestamp": "2025-10-15 15:37:42",
+        "heart_rate": 75,
+        "sleep_duration": 0.6,
+        "step_count": 9826
+    },
+    {
+        "timestamp": "2025-10-15 15:38:42",
+        "heart_rate": 92,
+        "sleep_duration": 3.46,
+        "step_count": 10277
+    },
+    {
+        "timestamp": "2025-10-15 15:39:42",
+        "heart_rate": 76,
+        "sleep_duration": 5.02,
+        "step_count": 8183
+    },
+    {
+        "timestamp": "2025-10-15 15:40:42",
+        "heart_rate": 108,
+        "sleep_duration": 7.5,
+        "step_count": 8620
+    },
+    {
+        "timestamp": "2025-10-15 15:41:42",
+        "heart_rate": 68,
+        "sleep_duration": 8.18,
+        "step_count": 7821
+    },
+    {
+        "timestamp": "2025-10-15 15:42:42",
+        "heart_rate": 68,
+        "sleep_duration": 0.52,
+        "step_count": 10559
+    },
+    {
+        "timestamp": "2025-10-15 15:43:42",
+        "heart_rate": 77,
+        "sleep_duration": 1.44,
+        "step_count": 10034
+    },
+    {
+        "timestamp": "2025-10-15 15:44:42",
+        "heart_rate": 71,
+        "sleep_duration": 9.85,
+        "step_count": 10142
+    },
+    {
+        "timestamp": "2025-10-15 15:45:42",
+        "heart_rate": 119,
+        "sleep_duration": 8.01,
+        "step_count": 9645
+    },
+    {
+        "timestamp": "2025-10-15 15:46:42",
+        "heart_rate": 85,
+        "sleep_duration": 4.17,
+        "step_count": 8590
+    },
+    {
+        "timestamp": "2025-10-15 15:47:42",
+        "heart_rate": 107,
+        "sleep_duration": 7.82,
+        "step_count": 7087
+    },
+    {
+        "timestamp": "2025-10-15 15:48:42",
+        "heart_rate": 115,
+        "sleep_duration": 9.33,
+        "step_count": 9456
+    },
+    {
+        "timestamp": "2025-10-15 15:49:42",
+        "heart_rate": 61,
+        "sleep_duration": 4.96,
+        "step_count": 10357
+    },
+    {
+        "timestamp": "2025-10-15 15:50:42",
+        "heart_rate": 100,
+        "sleep_duration": 9.66,
+        "step_count": 9981
+    },
+    {
+        "timestamp": "2025-10-15 15:51:42",
+        "heart_rate": 59,
+        "sleep_duration": 6.36,
+        "step_count": 9854
+    },
+    {
+        "timestamp": "2025-10-15 15:52:42",
+        "heart_rate": 84,
+        "sleep_duration": 9.45,
+        "step_count": 9138
+    },
+    {
+        "timestamp": "2025-10-15 15:53:42",
+        "heart_rate": 76,
+        "sleep_duration": 9.94,
+        "step_count": 8329
+    },
+    {
+        "timestamp": "2025-10-15 15:54:42",
+        "heart_rate": 75,
+        "sleep_duration": 6.01,
+        "step_count": 11828
+    },
+    {
+        "timestamp": "2025-10-15 15:55:42",
+        "heart_rate": 75,
+        "sleep_duration": 3.29,
+        "step_count": 9200
+    },
+    {
+        "timestamp": "2025-10-15 15:56:42",
+        "heart_rate": 59,
+        "sleep_duration": 2.54,
+        "step_count": 11581
+    },
+    {
+        "timestamp": "2025-10-15 15:57:42",
+        "heart_rate": 62,
+        "sleep_duration": 1.39,
+        "step_count": 10769
+    },
+    {
+        "timestamp": "2025-10-15 15:58:42",
+        "heart_rate": 118,
+        "sleep_duration": 9.23,
+        "step_count": 11691
+    },
+    {
+        "timestamp": "2025-10-15 15:59:42",
+        "heart_rate": 82,
+        "sleep_duration": 8.3,
+        "step_count": 11620
+    },
+    {
+        "timestamp": "2025-10-15 16:00:42",
+        "heart_rate": 84,
+        "sleep_duration": 0.65,
+        "step_count": 7226
+    },
+    {
+        "timestamp": "2025-10-15 16:01:42",
+        "heart_rate": 88,
+        "sleep_duration": 3.05,
+        "step_count": 10139
+    },
+    {
+        "timestamp": "2025-10-15 16:02:42",
+        "heart_rate": 68,
+        "sleep_duration": 9.24,
+        "step_count": 10160
+    },
+    {
+        "timestamp": "2025-10-15 16:03:42",
+        "heart_rate": 74,
+        "sleep_duration": 0.23,
+        "step_count": 10144
+    },
+    {
+        "timestamp": "2025-10-15 16:04:42",
+        "heart_rate": 76,
+        "sleep_duration": 0.03,
+        "step_count": 7446
+    },
+    {
+        "timestamp": "2025-10-15 16:05:42",
+        "heart_rate": 85,
+        "sleep_duration": 2.24,
+        "step_count": 7085
+    },
+    {
+        "timestamp": "2025-10-15 16:06:42",
+        "heart_rate": 77,
+        "sleep_duration": 1.69,
+        "step_count": 9335
+    },
+    {
+        "timestamp": "2025-10-15 16:07:42",
+        "heart_rate": 58,
+        "sleep_duration": 8.91,
+        "step_count": 11358
+    },
+    {
+        "timestamp": "2025-10-15 16:08:42",
+        "heart_rate": 74,
+        "sleep_duration": 9.15,
+        "step_count": 7312
+    },
+    {
+        "timestamp": "2025-10-15 16:09:42",
+        "heart_rate": 77,
+        "sleep_duration": 7.97,
+        "step_count": 7286
+    },
+    {
+        "timestamp": "2025-10-15 16:10:42",
+        "heart_rate": 58,
+        "sleep_duration": 9.93,
+        "step_count": 9768
+    },
+    {
+        "timestamp": "2025-10-15 16:11:42",
+        "heart_rate": 110,
+        "sleep_duration": 3.35,
+        "step_count": 9719
+    },
+    {
+        "timestamp": "2025-10-15 16:12:42",
+        "heart_rate": 96,
+        "sleep_duration": 8.92,
+        "step_count": 9236
+    },
+    {
+        "timestamp": "2025-10-15 16:13:42",
+        "heart_rate": 112,
+        "sleep_duration": 8.15,
+        "step_count": 11892
+    },
+    {
+        "timestamp": "2025-10-15 16:14:42",
+        "heart_rate": 107,
+        "sleep_duration": 7.45,
+        "step_count": 11144
+    },
+    {
+        "timestamp": "2025-10-15 16:15:42",
+        "heart_rate": 95,
+        "sleep_duration": 6.56,
+        "step_count": 11506
+    },
+    {
+        "timestamp": "2025-10-15 16:16:42",
+        "heart_rate": 86,
+        "sleep_duration": 2.49,
+        "step_count": 7466
+    },
+    {
+        "timestamp": "2025-10-15 16:17:42",
+        "heart_rate": 68,
+        "sleep_duration": 6.02,
+        "step_count": 9239
+    },
+    {
+        "timestamp": "2025-10-15 16:18:42",
+        "heart_rate": 110,
+        "sleep_duration": 3.64,
+        "step_count": 7827
+    },
+    {
+        "timestamp": "2025-10-15 16:19:42",
+        "heart_rate": 98,
+        "sleep_duration": 0.98,
+        "step_count": 9738
+    },
+    {
+        "timestamp": "2025-10-15 16:20:42",
+        "heart_rate": 97,
+        "sleep_duration": 7.57,
+        "step_count": 8460
+    },
+    {
+        "timestamp": "2025-10-15 16:21:42",
+        "heart_rate": 116,
+        "sleep_duration": 0.23,
+        "step_count": 10538
+    },
+    {
+        "timestamp": "2025-10-15 16:22:42",
+        "heart_rate": 56,
+        "sleep_duration": 7.34,
+        "step_count": 7038
+    },
+    {
+        "timestamp": "2025-10-15 16:23:42",
+        "heart_rate": 85,
+        "sleep_duration": 8.77,
+        "step_count": 11305
+    },
+    {
+        "timestamp": "2025-10-15 16:24:42",
+        "heart_rate": 83,
+        "sleep_duration": 0.29,
+        "step_count": 9774
+    },
+    {
+        "timestamp": "2025-10-15 16:25:42",
+        "heart_rate": 90,
+        "sleep_duration": 3.48,
+        "step_count": 7543
+    },
+    {
+        "timestamp": "2025-10-15 16:26:42",
+        "heart_rate": 87,
+        "sleep_duration": 9.99,
+        "step_count": 11169
+    },
+    {
+        "timestamp": "2025-10-15 16:27:42",
+        "heart_rate": 98,
+        "sleep_duration": 9.74,
+        "step_count": 8478
+    },
+    {
+        "timestamp": "2025-10-15 16:28:42",
+        "heart_rate": 96,
+        "sleep_duration": 7.13,
+        "step_count": 11781
+    },
+    {
+        "timestamp": "2025-10-15 16:29:42",
+        "heart_rate": 98,
+        "sleep_duration": 1.88,
+        "step_count": 9189
+    },
+    {
+        "timestamp": "2025-10-15 16:30:42",
+        "heart_rate": 95,
+        "sleep_duration": 5.44,
+        "step_count": 8554
+    },
+    {
+        "timestamp": "2025-10-15 16:31:42",
+        "heart_rate": 106,
+        "sleep_duration": 9.3,
+        "step_count": 8156
+    },
+    {
+        "timestamp": "2025-10-15 16:32:42",
+        "heart_rate": 94,
+        "sleep_duration": 7.3,
+        "step_count": 7915
+    },
+    {
+        "timestamp": "2025-10-15 16:33:42",
+        "heart_rate": 100,
+        "sleep_duration": 9.2,
+        "step_count": 8581
+    },
+    {
+        "timestamp": "2025-10-15 16:34:42",
+        "heart_rate": 57,
+        "sleep_duration": 3.62,
+        "step_count": 9760
+    },
+    {
+        "timestamp": "2025-10-15 16:35:42",
+        "heart_rate": 93,
+        "sleep_duration": 7.58,
+        "step_count": 7691
+    },
+    {
+        "timestamp": "2025-10-15 16:36:42",
+        "heart_rate": 113,
+        "sleep_duration": 4.83,
+        "step_count": 9487
+    },
+    {
+        "timestamp": "2025-10-15 16:37:42",
+        "heart_rate": 55,
+        "sleep_duration": 6.65,
+        "step_count": 11756
+    },
+    {
+        "timestamp": "2025-10-15 16:38:42",
+        "heart_rate": 112,
+        "sleep_duration": 4.0,
+        "step_count": 8303
+    },
+    {
+        "timestamp": "2025-10-15 16:39:42",
+        "heart_rate": 69,
+        "sleep_duration": 1.77,
+        "step_count": 11077
+    },
+    {
+        "timestamp": "2025-10-15 16:40:42",
+        "heart_rate": 59,
+        "sleep_duration": 6.98,
+        "step_count": 11199
+    },
+    {
+        "timestamp": "2025-10-15 16:41:42",
+        "heart_rate": 120,
+        "sleep_duration": 0.04,
+        "step_count": 7972
+    },
+    {
+        "timestamp": "2025-10-15 16:42:42",
+        "heart_rate": 88,
+        "sleep_duration": 5.38,
+        "step_count": 10202
+    },
+    {
+        "timestamp": "2025-10-15 16:43:42",
+        "heart_rate": 96,
+        "sleep_duration": 4.64,
+        "step_count": 7523
+    },
+    {
+        "timestamp": "2025-10-15 16:44:42",
+        "heart_rate": 110,
+        "sleep_duration": 3.57,
+        "step_count": 8347
+    },
+    {
+        "timestamp": "2025-10-15 16:45:42",
+        "heart_rate": 78,
+        "sleep_duration": 5.97,
+        "step_count": 11056
+    },
+    {
+        "timestamp": "2025-10-15 16:46:42",
+        "heart_rate": 118,
+        "sleep_duration": 3.31,
+        "step_count": 9988
+    },
+    {
+        "timestamp": "2025-10-15 16:47:42",
+        "heart_rate": 117,
+        "sleep_duration": 6.88,
+        "step_count": 8968
+    },
+    {
+        "timestamp": "2025-10-15 16:48:42",
+        "heart_rate": 80,
+        "sleep_duration": 3.25,
+        "step_count": 9152
+    },
+    {
+        "timestamp": "2025-10-15 16:49:42",
+        "heart_rate": 114,
+        "sleep_duration": 3.88,
+        "step_count": 8196
+    },
+    {
+        "timestamp": "2025-10-15 16:50:42",
+        "heart_rate": 104,
+        "sleep_duration": 6.44,
+        "step_count": 8620
+    },
+    {
+        "timestamp": "2025-10-15 16:51:42",
+        "heart_rate": 67,
+        "sleep_duration": 0.02,
+        "step_count": 10812
+    },
+    {
+        "timestamp": "2025-10-15 16:52:42",
+        "heart_rate": 120,
+        "sleep_duration": 0.69,
+        "step_count": 10031
+    },
+    {
+        "timestamp": "2025-10-15 16:53:42",
+        "heart_rate": 109,
+        "sleep_duration": 6.77,
+        "step_count": 9955
+    },
+    {
+        "timestamp": "2025-10-15 16:54:42",
+        "heart_rate": 61,
+        "sleep_duration": 2.94,
+        "step_count": 11875
+    },
+    {
+        "timestamp": "2025-10-15 16:55:42",
+        "heart_rate": 84,
+        "sleep_duration": 9.16,
+        "step_count": 9023
+    },
+    {
+        "timestamp": "2025-10-15 16:56:42",
+        "heart_rate": 70,
+        "sleep_duration": 5.83,
+        "step_count": 10289
+    },
+    {
+        "timestamp": "2025-10-15 16:57:42",
+        "heart_rate": 81,
+        "sleep_duration": 8.21,
+        "step_count": 11919
+    },
+    {
+        "timestamp": "2025-10-15 16:58:42",
+        "heart_rate": 76,
+        "sleep_duration": 4.23,
+        "step_count": 9917
+    },
+    {
+        "timestamp": "2025-10-15 16:59:42",
+        "heart_rate": 55,
+        "sleep_duration": 4.99,
+        "step_count": 10441
+    },
+    {
+        "timestamp": "2025-10-15 17:00:42",
+        "heart_rate": 116,
+        "sleep_duration": 6.94,
+        "step_count": 11095
+    },
+    {
+        "timestamp": "2025-10-15 17:01:42",
+        "heart_rate": 110,
+        "sleep_duration": 6.97,
+        "step_count": 7731
+    },
+    {
+        "timestamp": "2025-10-15 17:02:42",
+        "heart_rate": 65,
+        "sleep_duration": 2.94,
+        "step_count": 10505
+    },
+    {
+        "timestamp": "2025-10-15 17:03:42",
+        "heart_rate": 86,
+        "sleep_duration": 2.94,
+        "step_count": 8978
+    },
+    {
+        "timestamp": "2025-10-15 17:04:42",
+        "heart_rate": 84,
+        "sleep_duration": 0.36,
+        "step_count": 7397
+    },
+    {
+        "timestamp": "2025-10-15 17:05:42",
+        "heart_rate": 79,
+        "sleep_duration": 1.92,
+        "step_count": 9107
+    },
+    {
+        "timestamp": "2025-10-15 17:06:42",
+        "heart_rate": 57,
+        "sleep_duration": 3.18,
+        "step_count": 7356
+    },
+    {
+        "timestamp": "2025-10-15 17:07:42",
+        "heart_rate": 65,
+        "sleep_duration": 8.64,
+        "step_count": 9426
+    },
+    {
+        "timestamp": "2025-10-15 17:08:42",
+        "heart_rate": 97,
+        "sleep_duration": 0.73,
+        "step_count": 11990
+    },
+    {
+        "timestamp": "2025-10-15 17:09:42",
+        "heart_rate": 71,
+        "sleep_duration": 9.51,
+        "step_count": 9965
+    },
+    {
+        "timestamp": "2025-10-15 17:10:42",
+        "heart_rate": 100,
+        "sleep_duration": 3.03,
+        "step_count": 9361
+    },
+    {
+        "timestamp": "2025-10-15 17:11:42",
+        "heart_rate": 93,
+        "sleep_duration": 2.55,
+        "step_count": 8676
+    },
+    {
+        "timestamp": "2025-10-15 17:12:42",
+        "heart_rate": 75,
+        "sleep_duration": 3.77,
+        "step_count": 11633
+    },
+    {
+        "timestamp": "2025-10-15 17:13:42",
+        "heart_rate": 91,
+        "sleep_duration": 5.18,
+        "step_count": 7073
+    },
+    {
+        "timestamp": "2025-10-15 17:14:42",
+        "heart_rate": 107,
+        "sleep_duration": 8.49,
+        "step_count": 11584
+    },
+    {
+        "timestamp": "2025-10-15 17:15:42",
+        "heart_rate": 58,
+        "sleep_duration": 4.02,
+        "step_count": 8229
+    },
+    {
+        "timestamp": "2025-10-15 17:16:42",
+        "heart_rate": 62,
+        "sleep_duration": 1.19,
+        "step_count": 8936
+    },
+    {
+        "timestamp": "2025-10-15 17:17:42",
+        "heart_rate": 90,
+        "sleep_duration": 7.31,
+        "step_count": 8109
+    },
+    {
+        "timestamp": "2025-10-15 17:18:42",
+        "heart_rate": 103,
+        "sleep_duration": 0.52,
+        "step_count": 7102
+    },
+    {
+        "timestamp": "2025-10-15 17:19:42",
+        "heart_rate": 98,
+        "sleep_duration": 0.75,
+        "step_count": 11021
+    },
+    {
+        "timestamp": "2025-10-15 17:20:42",
+        "heart_rate": 88,
+        "sleep_duration": 0.87,
+        "step_count": 7342
+    },
+    {
+        "timestamp": "2025-10-15 17:21:42",
+        "heart_rate": 79,
+        "sleep_duration": 0.7,
+        "step_count": 8390
+    },
+    {
+        "timestamp": "2025-10-15 17:22:42",
+        "heart_rate": 64,
+        "sleep_duration": 7.91,
+        "step_count": 8268
+    },
+    {
+        "timestamp": "2025-10-15 17:23:42",
+        "heart_rate": 96,
+        "sleep_duration": 1.07,
+        "step_count": 11619
+    },
+    {
+        "timestamp": "2025-10-15 17:24:42",
+        "heart_rate": 91,
+        "sleep_duration": 9.15,
+        "step_count": 11206
+    },
+    {
+        "timestamp": "2025-10-15 17:25:42",
+        "heart_rate": 102,
+        "sleep_duration": 8.87,
+        "step_count": 8637
+    },
+    {
+        "timestamp": "2025-10-15 17:26:42",
+        "heart_rate": 83,
+        "sleep_duration": 1.14,
+        "step_count": 11192
+    },
+    {
+        "timestamp": "2025-10-15 17:27:42",
+        "heart_rate": 112,
+        "sleep_duration": 5.78,
+        "step_count": 8506
+    },
+    {
+        "timestamp": "2025-10-15 17:28:42",
+        "heart_rate": 73,
+        "sleep_duration": 6.88,
+        "step_count": 11620
+    },
+    {
+        "timestamp": "2025-10-15 17:29:42",
+        "heart_rate": 102,
+        "sleep_duration": 6.31,
+        "step_count": 10800
+    },
+    {
+        "timestamp": "2025-10-15 17:30:42",
+        "heart_rate": 102,
+        "sleep_duration": 9.78,
+        "step_count": 8340
+    },
+    {
+        "timestamp": "2025-10-15 17:31:42",
+        "heart_rate": 56,
+        "sleep_duration": 8.94,
+        "step_count": 10257
+    },
+    {
+        "timestamp": "2025-10-15 17:32:42",
+        "heart_rate": 108,
+        "sleep_duration": 5.11,
+        "step_count": 10751
+    },
+    {
+        "timestamp": "2025-10-15 17:33:42",
+        "heart_rate": 108,
+        "sleep_duration": 9.68,
+        "step_count": 8918
+    },
+    {
+        "timestamp": "2025-10-15 17:34:42",
+        "heart_rate": 77,
+        "sleep_duration": 7.22,
+        "step_count": 9048
+    },
+    {
+        "timestamp": "2025-10-15 17:35:42",
+        "heart_rate": 119,
+        "sleep_duration": 4.85,
+        "step_count": 7211
+    },
+    {
+        "timestamp": "2025-10-15 17:36:42",
+        "heart_rate": 115,
+        "sleep_duration": 8.04,
+        "step_count": 11125
+    },
+    {
+        "timestamp": "2025-10-15 17:37:42",
+        "heart_rate": 105,
+        "sleep_duration": 7.89,
+        "step_count": 7674
+    },
+    {
+        "timestamp": "2025-10-15 17:38:42",
+        "heart_rate": 63,
+        "sleep_duration": 1.55,
+        "step_count": 7718
+    },
+    {
+        "timestamp": "2025-10-15 17:39:42",
+        "heart_rate": 87,
+        "sleep_duration": 8.94,
+        "step_count": 8832
+    },
+    {
+        "timestamp": "2025-10-15 17:40:42",
+        "heart_rate": 85,
+        "sleep_duration": 5.13,
+        "step_count": 7766
+    },
+    {
+        "timestamp": "2025-10-15 17:41:42",
+        "heart_rate": 74,
+        "sleep_duration": 0.86,
+        "step_count": 10395
+    },
+    {
+        "timestamp": "2025-10-15 17:42:42",
+        "heart_rate": 86,
+        "sleep_duration": 7.46,
+        "step_count": 8299
+    },
+    {
+        "timestamp": "2025-10-15 17:43:42",
+        "heart_rate": 120,
+        "sleep_duration": 8.99,
+        "step_count": 9624
+    },
+    {
+        "timestamp": "2025-10-15 17:44:42",
+        "heart_rate": 64,
+        "sleep_duration": 7.46,
+        "step_count": 11824
+    },
+    {
+        "timestamp": "2025-10-15 17:45:42",
+        "heart_rate": 67,
+        "sleep_duration": 8.98,
+        "step_count": 7707
+    },
+    {
+        "timestamp": "2025-10-15 17:46:42",
+        "heart_rate": 96,
+        "sleep_duration": 1.08,
+        "step_count": 10876
+    },
+    {
+        "timestamp": "2025-10-15 17:47:42",
+        "heart_rate": 116,
+        "sleep_duration": 0.36,
+        "step_count": 11752
+    },
+    {
+        "timestamp": "2025-10-15 17:48:42",
+        "heart_rate": 95,
+        "sleep_duration": 5.95,
+        "step_count": 10161
+    },
+    {
+        "timestamp": "2025-10-15 17:49:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.59,
+        "step_count": 10660
+    },
+    {
+        "timestamp": "2025-10-15 17:50:42",
+        "heart_rate": 79,
+        "sleep_duration": 8.7,
+        "step_count": 10954
+    },
+    {
+        "timestamp": "2025-10-15 17:51:42",
+        "heart_rate": 117,
+        "sleep_duration": 8.85,
+        "step_count": 10518
+    },
+    {
+        "timestamp": "2025-10-15 17:52:42",
+        "heart_rate": 113,
+        "sleep_duration": 5.86,
+        "step_count": 7714
+    },
+    {
+        "timestamp": "2025-10-15 17:53:42",
+        "heart_rate": 82,
+        "sleep_duration": 5.2,
+        "step_count": 9599
+    },
+    {
+        "timestamp": "2025-10-15 17:54:42",
+        "heart_rate": 91,
+        "sleep_duration": 1.33,
+        "step_count": 9660
+    },
+    {
+        "timestamp": "2025-10-15 17:55:42",
+        "heart_rate": 82,
+        "sleep_duration": 0.46,
+        "step_count": 9569
+    },
+    {
+        "timestamp": "2025-10-15 17:56:42",
+        "heart_rate": 74,
+        "sleep_duration": 8.36,
+        "step_count": 9840
+    },
+    {
+        "timestamp": "2025-10-15 17:57:42",
+        "heart_rate": 57,
+        "sleep_duration": 8.29,
+        "step_count": 8165
+    },
+    {
+        "timestamp": "2025-10-15 17:58:42",
+        "heart_rate": 76,
+        "sleep_duration": 7.17,
+        "step_count": 10987
+    },
+    {
+        "timestamp": "2025-10-15 17:59:42",
+        "heart_rate": 103,
+        "sleep_duration": 2.02,
+        "step_count": 10113
+    },
+    {
+        "timestamp": "2025-10-15 18:00:42",
+        "heart_rate": 119,
+        "sleep_duration": 7.17,
+        "step_count": 7529
+    },
+    {
+        "timestamp": "2025-10-15 18:01:42",
+        "heart_rate": 58,
+        "sleep_duration": 8.7,
+        "step_count": 10129
+    },
+    {
+        "timestamp": "2025-10-15 18:02:42",
+        "heart_rate": 94,
+        "sleep_duration": 8.12,
+        "step_count": 10979
+    },
+    {
+        "timestamp": "2025-10-15 18:03:42",
+        "heart_rate": 106,
+        "sleep_duration": 1.07,
+        "step_count": 8819
+    },
+    {
+        "timestamp": "2025-10-15 18:04:42",
+        "heart_rate": 79,
+        "sleep_duration": 2.38,
+        "step_count": 8081
+    },
+    {
+        "timestamp": "2025-10-15 18:05:42",
+        "heart_rate": 75,
+        "sleep_duration": 6.1,
+        "step_count": 9084
+    },
+    {
+        "timestamp": "2025-10-15 18:06:42",
+        "heart_rate": 61,
+        "sleep_duration": 3.56,
+        "step_count": 10639
+    },
+    {
+        "timestamp": "2025-10-15 18:07:42",
+        "heart_rate": 72,
+        "sleep_duration": 8.83,
+        "step_count": 10362
+    },
+    {
+        "timestamp": "2025-10-15 18:08:42",
+        "heart_rate": 107,
+        "sleep_duration": 5.97,
+        "step_count": 8945
+    },
+    {
+        "timestamp": "2025-10-15 18:09:42",
+        "heart_rate": 81,
+        "sleep_duration": 2.59,
+        "step_count": 10688
+    },
+    {
+        "timestamp": "2025-10-15 18:10:42",
+        "heart_rate": 96,
+        "sleep_duration": 2.01,
+        "step_count": 10237
+    },
+    {
+        "timestamp": "2025-10-15 18:11:42",
+        "heart_rate": 83,
+        "sleep_duration": 0.67,
+        "step_count": 7397
+    },
+    {
+        "timestamp": "2025-10-15 18:12:42",
+        "heart_rate": 104,
+        "sleep_duration": 0.91,
+        "step_count": 11370
+    },
+    {
+        "timestamp": "2025-10-15 18:13:42",
+        "heart_rate": 111,
+        "sleep_duration": 1.29,
+        "step_count": 7904
+    },
+    {
+        "timestamp": "2025-10-15 18:14:42",
+        "heart_rate": 83,
+        "sleep_duration": 2.95,
+        "step_count": 11656
+    },
+    {
+        "timestamp": "2025-10-15 18:15:42",
+        "heart_rate": 112,
+        "sleep_duration": 6.13,
+        "step_count": 10581
+    },
+    {
+        "timestamp": "2025-10-15 18:16:42",
+        "heart_rate": 74,
+        "sleep_duration": 8.81,
+        "step_count": 7011
+    },
+    {
+        "timestamp": "2025-10-15 18:17:42",
+        "heart_rate": 88,
+        "sleep_duration": 2.89,
+        "step_count": 10798
+    },
+    {
+        "timestamp": "2025-10-15 18:18:42",
+        "heart_rate": 82,
+        "sleep_duration": 2.76,
+        "step_count": 9618
+    },
+    {
+        "timestamp": "2025-10-15 18:19:42",
+        "heart_rate": 80,
+        "sleep_duration": 7.53,
+        "step_count": 9585
+    },
+    {
+        "timestamp": "2025-10-15 18:20:42",
+        "heart_rate": 90,
+        "sleep_duration": 6.74,
+        "step_count": 8267
+    },
+    {
+        "timestamp": "2025-10-15 18:21:42",
+        "heart_rate": 63,
+        "sleep_duration": 2.72,
+        "step_count": 8706
+    },
+    {
+        "timestamp": "2025-10-15 18:22:42",
+        "heart_rate": 88,
+        "sleep_duration": 3.9,
+        "step_count": 10005
+    },
+    {
+        "timestamp": "2025-10-15 18:23:42",
+        "heart_rate": 90,
+        "sleep_duration": 9.95,
+        "step_count": 9622
+    },
+    {
+        "timestamp": "2025-10-15 18:24:42",
+        "heart_rate": 84,
+        "sleep_duration": 5.4,
+        "step_count": 11169
+    },
+    {
+        "timestamp": "2025-10-15 18:25:42",
+        "heart_rate": 75,
+        "sleep_duration": 1.13,
+        "step_count": 8969
+    },
+    {
+        "timestamp": "2025-10-15 18:26:42",
+        "heart_rate": 88,
+        "sleep_duration": 0.63,
+        "step_count": 11514
+    },
+    {
+        "timestamp": "2025-10-15 18:27:42",
+        "heart_rate": 59,
+        "sleep_duration": 5.29,
+        "step_count": 8108
+    },
+    {
+        "timestamp": "2025-10-15 18:28:42",
+        "heart_rate": 72,
+        "sleep_duration": 2.43,
+        "step_count": 8514
+    },
+    {
+        "timestamp": "2025-10-15 18:29:42",
+        "heart_rate": 72,
+        "sleep_duration": 2.24,
+        "step_count": 11492
+    },
+    {
+        "timestamp": "2025-10-15 18:30:42",
+        "heart_rate": 71,
+        "sleep_duration": 7.27,
+        "step_count": 8347
+    },
+    {
+        "timestamp": "2025-10-15 18:31:42",
+        "heart_rate": 64,
+        "sleep_duration": 9.18,
+        "step_count": 11525
+    },
+    {
+        "timestamp": "2025-10-15 18:32:42",
+        "heart_rate": 68,
+        "sleep_duration": 1.32,
+        "step_count": 11472
+    },
+    {
+        "timestamp": "2025-10-15 18:33:42",
+        "heart_rate": 92,
+        "sleep_duration": 1.48,
+        "step_count": 7264
+    },
+    {
+        "timestamp": "2025-10-15 18:34:42",
+        "heart_rate": 89,
+        "sleep_duration": 0.45,
+        "step_count": 9356
+    },
+    {
+        "timestamp": "2025-10-15 18:35:42",
+        "heart_rate": 56,
+        "sleep_duration": 6.21,
+        "step_count": 9913
+    },
+    {
+        "timestamp": "2025-10-15 18:36:42",
+        "heart_rate": 99,
+        "sleep_duration": 9.72,
+        "step_count": 10877
+    },
+    {
+        "timestamp": "2025-10-15 18:37:42",
+        "heart_rate": 105,
+        "sleep_duration": 3.38,
+        "step_count": 11141
+    },
+    {
+        "timestamp": "2025-10-15 18:38:42",
+        "heart_rate": 67,
+        "sleep_duration": 6.22,
+        "step_count": 9480
+    },
+    {
+        "timestamp": "2025-10-15 18:39:42",
+        "heart_rate": 110,
+        "sleep_duration": 1.13,
+        "step_count": 10452
+    },
+    {
+        "timestamp": "2025-10-15 18:40:42",
+        "heart_rate": 115,
+        "sleep_duration": 5.54,
+        "step_count": 10121
+    },
+    {
+        "timestamp": "2025-10-15 18:41:42",
+        "heart_rate": 107,
+        "sleep_duration": 1.11,
+        "step_count": 10475
+    },
+    {
+        "timestamp": "2025-10-15 18:42:42",
+        "heart_rate": 82,
+        "sleep_duration": 8.63,
+        "step_count": 9048
+    },
+    {
+        "timestamp": "2025-10-15 18:43:42",
+        "heart_rate": 80,
+        "sleep_duration": 6.48,
+        "step_count": 9407
+    },
+    {
+        "timestamp": "2025-10-15 18:44:42",
+        "heart_rate": 60,
+        "sleep_duration": 4.85,
+        "step_count": 7773
+    },
+    {
+        "timestamp": "2025-10-15 18:45:42",
+        "heart_rate": 65,
+        "sleep_duration": 1.65,
+        "step_count": 10750
+    },
+    {
+        "timestamp": "2025-10-15 18:46:42",
+        "heart_rate": 68,
+        "sleep_duration": 8.9,
+        "step_count": 7333
+    },
+    {
+        "timestamp": "2025-10-15 18:47:42",
+        "heart_rate": 100,
+        "sleep_duration": 1.13,
+        "step_count": 9611
+    },
+    {
+        "timestamp": "2025-10-15 18:48:42",
+        "heart_rate": 84,
+        "sleep_duration": 8.88,
+        "step_count": 8805
+    },
+    {
+        "timestamp": "2025-10-15 18:49:42",
+        "heart_rate": 68,
+        "sleep_duration": 3.9,
+        "step_count": 8351
+    },
+    {
+        "timestamp": "2025-10-15 18:50:42",
+        "heart_rate": 75,
+        "sleep_duration": 1.05,
+        "step_count": 10327
+    },
+    {
+        "timestamp": "2025-10-15 18:51:42",
+        "heart_rate": 70,
+        "sleep_duration": 3.05,
+        "step_count": 11130
+    },
+    {
+        "timestamp": "2025-10-15 18:52:42",
+        "heart_rate": 93,
+        "sleep_duration": 9.99,
+        "step_count": 10115
+    },
+    {
+        "timestamp": "2025-10-15 18:53:42",
+        "heart_rate": 56,
+        "sleep_duration": 3.52,
+        "step_count": 8783
+    },
+    {
+        "timestamp": "2025-10-15 18:54:42",
+        "heart_rate": 56,
+        "sleep_duration": 0.98,
+        "step_count": 7075
+    },
+    {
+        "timestamp": "2025-10-15 18:55:42",
+        "heart_rate": 63,
+        "sleep_duration": 6.49,
+        "step_count": 10957
+    },
+    {
+        "timestamp": "2025-10-15 18:56:42",
+        "heart_rate": 60,
+        "sleep_duration": 4.35,
+        "step_count": 9750
+    },
+    {
+        "timestamp": "2025-10-15 18:57:42",
+        "heart_rate": 80,
+        "sleep_duration": 7.95,
+        "step_count": 7701
+    },
+    {
+        "timestamp": "2025-10-15 18:58:42",
+        "heart_rate": 98,
+        "sleep_duration": 3.21,
+        "step_count": 9688
+    },
+    {
+        "timestamp": "2025-10-15 18:59:42",
+        "heart_rate": 71,
+        "sleep_duration": 5.98,
+        "step_count": 9554
+    },
+    {
+        "timestamp": "2025-10-15 19:00:42",
+        "heart_rate": 63,
+        "sleep_duration": 0.36,
+        "step_count": 8576
+    },
+    {
+        "timestamp": "2025-10-15 19:01:42",
+        "heart_rate": 106,
+        "sleep_duration": 6.79,
+        "step_count": 11793
+    },
+    {
+        "timestamp": "2025-10-15 19:02:42",
+        "heart_rate": 56,
+        "sleep_duration": 1.19,
+        "step_count": 9164
+    },
+    {
+        "timestamp": "2025-10-15 19:03:42",
+        "heart_rate": 98,
+        "sleep_duration": 4.78,
+        "step_count": 9659
+    },
+    {
+        "timestamp": "2025-10-15 19:04:42",
+        "heart_rate": 88,
+        "sleep_duration": 9.45,
+        "step_count": 9325
+    },
+    {
+        "timestamp": "2025-10-15 19:05:42",
+        "heart_rate": 114,
+        "sleep_duration": 2.92,
+        "step_count": 7353
+    },
+    {
+        "timestamp": "2025-10-15 19:06:42",
+        "heart_rate": 84,
+        "sleep_duration": 4.01,
+        "step_count": 9761
+    },
+    {
+        "timestamp": "2025-10-15 19:07:42",
+        "heart_rate": 77,
+        "sleep_duration": 2.4,
+        "step_count": 11995
+    },
+    {
+        "timestamp": "2025-10-15 19:08:42",
+        "heart_rate": 59,
+        "sleep_duration": 8.85,
+        "step_count": 10478
+    },
+    {
+        "timestamp": "2025-10-15 19:09:42",
+        "heart_rate": 96,
+        "sleep_duration": 4.61,
+        "step_count": 11983
+    },
+    {
+        "timestamp": "2025-10-15 19:10:42",
+        "heart_rate": 102,
+        "sleep_duration": 1.45,
+        "step_count": 11139
+    },
+    {
+        "timestamp": "2025-10-15 19:11:42",
+        "heart_rate": 92,
+        "sleep_duration": 3.46,
+        "step_count": 9671
+    },
+    {
+        "timestamp": "2025-10-15 19:12:42",
+        "heart_rate": 120,
+        "sleep_duration": 3.52,
+        "step_count": 10116
+    },
+    {
+        "timestamp": "2025-10-15 19:13:42",
+        "heart_rate": 91,
+        "sleep_duration": 1.54,
+        "step_count": 8451
+    },
+    {
+        "timestamp": "2025-10-15 19:14:42",
+        "heart_rate": 69,
+        "sleep_duration": 9.02,
+        "step_count": 10340
+    },
+    {
+        "timestamp": "2025-10-15 19:15:42",
+        "heart_rate": 89,
+        "sleep_duration": 5.59,
+        "step_count": 10912
+    },
+    {
+        "timestamp": "2025-10-15 19:16:42",
+        "heart_rate": 72,
+        "sleep_duration": 2.84,
+        "step_count": 8672
+    },
+    {
+        "timestamp": "2025-10-15 19:17:42",
+        "heart_rate": 106,
+        "sleep_duration": 5.81,
+        "step_count": 8593
+    },
+    {
+        "timestamp": "2025-10-15 19:18:42",
+        "heart_rate": 84,
+        "sleep_duration": 8.48,
+        "step_count": 10643
+    },
+    {
+        "timestamp": "2025-10-15 19:19:42",
+        "heart_rate": 81,
+        "sleep_duration": 8.9,
+        "step_count": 10629
+    },
+    {
+        "timestamp": "2025-10-15 19:20:42",
+        "heart_rate": 119,
+        "sleep_duration": 0.34,
+        "step_count": 9732
+    },
+    {
+        "timestamp": "2025-10-15 19:21:42",
+        "heart_rate": 102,
+        "sleep_duration": 4.79,
+        "step_count": 11702
+    },
+    {
+        "timestamp": "2025-10-15 19:22:42",
+        "heart_rate": 110,
+        "sleep_duration": 8.08,
+        "step_count": 9216
+    },
+    {
+        "timestamp": "2025-10-15 19:23:42",
+        "heart_rate": 86,
+        "sleep_duration": 8.95,
+        "step_count": 8250
+    },
+    {
+        "timestamp": "2025-10-15 19:24:42",
+        "heart_rate": 91,
+        "sleep_duration": 6.66,
+        "step_count": 7953
+    },
+    {
+        "timestamp": "2025-10-15 19:25:42",
+        "heart_rate": 83,
+        "sleep_duration": 8.13,
+        "step_count": 9206
+    },
+    {
+        "timestamp": "2025-10-15 19:26:42",
+        "heart_rate": 77,
+        "sleep_duration": 3.17,
+        "step_count": 8765
+    },
+    {
+        "timestamp": "2025-10-15 19:27:42",
+        "heart_rate": 59,
+        "sleep_duration": 0.45,
+        "step_count": 8911
+    },
+    {
+        "timestamp": "2025-10-15 19:28:42",
+        "heart_rate": 96,
+        "sleep_duration": 7.27,
+        "step_count": 9410
+    },
+    {
+        "timestamp": "2025-10-15 19:29:42",
+        "heart_rate": 93,
+        "sleep_duration": 0.65,
+        "step_count": 10490
+    },
+    {
+        "timestamp": "2025-10-15 19:30:42",
+        "heart_rate": 57,
+        "sleep_duration": 8.43,
+        "step_count": 8821
+    },
+    {
+        "timestamp": "2025-10-15 19:31:42",
+        "heart_rate": 116,
+        "sleep_duration": 5.43,
+        "step_count": 7491
+    },
+    {
+        "timestamp": "2025-10-15 19:32:42",
+        "heart_rate": 72,
+        "sleep_duration": 7.69,
+        "step_count": 11446
+    },
+    {
+        "timestamp": "2025-10-15 19:33:42",
+        "heart_rate": 89,
+        "sleep_duration": 5.43,
+        "step_count": 10435
+    },
+    {
+        "timestamp": "2025-10-15 19:34:42",
+        "heart_rate": 118,
+        "sleep_duration": 5.12,
+        "step_count": 8622
+    },
+    {
+        "timestamp": "2025-10-15 19:35:42",
+        "heart_rate": 83,
+        "sleep_duration": 3.51,
+        "step_count": 11174
+    },
+    {
+        "timestamp": "2025-10-15 19:36:42",
+        "heart_rate": 68,
+        "sleep_duration": 0.09,
+        "step_count": 11613
+    },
+    {
+        "timestamp": "2025-10-15 19:37:42",
+        "heart_rate": 92,
+        "sleep_duration": 7.82,
+        "step_count": 9475
+    },
+    {
+        "timestamp": "2025-10-15 19:38:42",
+        "heart_rate": 105,
+        "sleep_duration": 1.63,
+        "step_count": 10026
+    },
+    {
+        "timestamp": "2025-10-15 19:39:42",
+        "heart_rate": 56,
+        "sleep_duration": 1.27,
+        "step_count": 10114
+    },
+    {
+        "timestamp": "2025-10-15 19:40:42",
+        "heart_rate": 79,
+        "sleep_duration": 5.85,
+        "step_count": 9519
+    },
+    {
+        "timestamp": "2025-10-15 19:41:42",
+        "heart_rate": 97,
+        "sleep_duration": 2.88,
+        "step_count": 9824
+    },
+    {
+        "timestamp": "2025-10-15 19:42:42",
+        "heart_rate": 70,
+        "sleep_duration": 4.58,
+        "step_count": 7323
+    },
+    {
+        "timestamp": "2025-10-15 19:43:42",
+        "heart_rate": 120,
+        "sleep_duration": 1.35,
+        "step_count": 8877
+    },
+    {
+        "timestamp": "2025-10-15 19:44:42",
+        "heart_rate": 113,
+        "sleep_duration": 1.28,
+        "step_count": 11481
+    },
+    {
+        "timestamp": "2025-10-15 19:45:42",
+        "heart_rate": 85,
+        "sleep_duration": 4.52,
+        "step_count": 9693
+    },
+    {
+        "timestamp": "2025-10-15 19:46:42",
+        "heart_rate": 99,
+        "sleep_duration": 3.12,
+        "step_count": 8753
+    },
+    {
+        "timestamp": "2025-10-15 19:47:42",
+        "heart_rate": 110,
+        "sleep_duration": 9.66,
+        "step_count": 11711
+    },
+    {
+        "timestamp": "2025-10-15 19:48:42",
+        "heart_rate": 110,
+        "sleep_duration": 4.97,
+        "step_count": 11712
+    },
+    {
+        "timestamp": "2025-10-15 19:49:42",
+        "heart_rate": 106,
+        "sleep_duration": 1.88,
+        "step_count": 7207
+    },
+    {
+        "timestamp": "2025-10-15 19:50:42",
+        "heart_rate": 68,
+        "sleep_duration": 7.72,
+        "step_count": 11751
+    },
+    {
+        "timestamp": "2025-10-15 19:51:42",
+        "heart_rate": 101,
+        "sleep_duration": 4.1,
+        "step_count": 8645
+    },
+    {
+        "timestamp": "2025-10-15 19:52:42",
+        "heart_rate": 98,
+        "sleep_duration": 5.07,
+        "step_count": 7019
+    },
+    {
+        "timestamp": "2025-10-15 19:53:42",
+        "heart_rate": 108,
+        "sleep_duration": 9.19,
+        "step_count": 9307
+    },
+    {
+        "timestamp": "2025-10-15 19:54:42",
+        "heart_rate": 56,
+        "sleep_duration": 2.52,
+        "step_count": 7615
+    },
+    {
+        "timestamp": "2025-10-15 19:55:42",
+        "heart_rate": 90,
+        "sleep_duration": 9.54,
+        "step_count": 7544
+    },
+    {
+        "timestamp": "2025-10-15 19:56:42",
+        "heart_rate": 89,
+        "sleep_duration": 2.95,
+        "step_count": 10488
+    },
+    {
+        "timestamp": "2025-10-15 19:57:42",
+        "heart_rate": 113,
+        "sleep_duration": 1.42,
+        "step_count": 10201
+    },
+    {
+        "timestamp": "2025-10-15 19:58:42",
+        "heart_rate": 83,
+        "sleep_duration": 0.45,
+        "step_count": 7078
+    },
+    {
+        "timestamp": "2025-10-15 19:59:42",
+        "heart_rate": 119,
+        "sleep_duration": 5.89,
+        "step_count": 8899
+    },
+    {
+        "timestamp": "2025-10-15 20:00:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.39,
+        "step_count": 8948
+    },
+    {
+        "timestamp": "2025-10-15 20:01:42",
+        "heart_rate": 76,
+        "sleep_duration": 3.79,
+        "step_count": 8269
+    },
+    {
+        "timestamp": "2025-10-15 20:02:42",
+        "heart_rate": 79,
+        "sleep_duration": 8.9,
+        "step_count": 10842
+    },
+    {
+        "timestamp": "2025-10-15 20:03:42",
+        "heart_rate": 120,
+        "sleep_duration": 4.44,
+        "step_count": 11181
+    },
+    {
+        "timestamp": "2025-10-15 20:04:42",
+        "heart_rate": 94,
+        "sleep_duration": 5.39,
+        "step_count": 9217
+    },
+    {
+        "timestamp": "2025-10-15 20:05:42",
+        "heart_rate": 68,
+        "sleep_duration": 7.7,
+        "step_count": 8493
+    },
+    {
+        "timestamp": "2025-10-15 20:06:42",
+        "heart_rate": 72,
+        "sleep_duration": 7.62,
+        "step_count": 11489
+    },
+    {
+        "timestamp": "2025-10-15 20:07:42",
+        "heart_rate": 117,
+        "sleep_duration": 3.62,
+        "step_count": 10962
+    },
+    {
+        "timestamp": "2025-10-15 20:08:42",
+        "heart_rate": 117,
+        "sleep_duration": 9.97,
+        "step_count": 11077
+    },
+    {
+        "timestamp": "2025-10-15 20:09:42",
+        "heart_rate": 70,
+        "sleep_duration": 1.36,
+        "step_count": 10709
+    },
+    {
+        "timestamp": "2025-10-15 20:10:42",
+        "heart_rate": 104,
+        "sleep_duration": 7.36,
+        "step_count": 11391
+    },
+    {
+        "timestamp": "2025-10-15 20:11:42",
+        "heart_rate": 84,
+        "sleep_duration": 1.09,
+        "step_count": 9856
+    },
+    {
+        "timestamp": "2025-10-15 20:12:42",
+        "heart_rate": 103,
+        "sleep_duration": 8.15,
+        "step_count": 10589
+    },
+    {
+        "timestamp": "2025-10-15 20:13:42",
+        "heart_rate": 117,
+        "sleep_duration": 0.06,
+        "step_count": 10613
+    },
+    {
+        "timestamp": "2025-10-15 20:14:42",
+        "heart_rate": 83,
+        "sleep_duration": 6.72,
+        "step_count": 9413
+    },
+    {
+        "timestamp": "2025-10-15 20:15:42",
+        "heart_rate": 83,
+        "sleep_duration": 3.64,
+        "step_count": 7900
+    },
+    {
+        "timestamp": "2025-10-15 20:16:42",
+        "heart_rate": 99,
+        "sleep_duration": 3.08,
+        "step_count": 9123
+    },
+    {
+        "timestamp": "2025-10-15 20:17:42",
+        "heart_rate": 86,
+        "sleep_duration": 7.66,
+        "step_count": 8486
+    },
+    {
+        "timestamp": "2025-10-15 20:18:42",
+        "heart_rate": 97,
+        "sleep_duration": 2.94,
+        "step_count": 7175
+    },
+    {
+        "timestamp": "2025-10-15 20:19:42",
+        "heart_rate": 73,
+        "sleep_duration": 7.8,
+        "step_count": 7815
+    },
+    {
+        "timestamp": "2025-10-15 20:20:42",
+        "heart_rate": 79,
+        "sleep_duration": 9.5,
+        "step_count": 10979
+    },
+    {
+        "timestamp": "2025-10-15 20:21:42",
+        "heart_rate": 116,
+        "sleep_duration": 1.8,
+        "step_count": 11741
+    },
+    {
+        "timestamp": "2025-10-15 20:22:42",
+        "heart_rate": 77,
+        "sleep_duration": 7.14,
+        "step_count": 7979
+    },
+    {
+        "timestamp": "2025-10-15 20:23:42",
+        "heart_rate": 71,
+        "sleep_duration": 9.61,
+        "step_count": 8421
+    },
+    {
+        "timestamp": "2025-10-15 20:24:42",
+        "heart_rate": 77,
+        "sleep_duration": 3.73,
+        "step_count": 10598
+    },
+    {
+        "timestamp": "2025-10-15 20:25:42",
+        "heart_rate": 69,
+        "sleep_duration": 0.86,
+        "step_count": 8559
+    },
+    {
+        "timestamp": "2025-10-15 20:26:42",
+        "heart_rate": 67,
+        "sleep_duration": 5.4,
+        "step_count": 10945
+    },
+    {
+        "timestamp": "2025-10-15 20:27:42",
+        "heart_rate": 57,
+        "sleep_duration": 5.35,
+        "step_count": 10652
+    },
+    {
+        "timestamp": "2025-10-15 20:28:42",
+        "heart_rate": 110,
+        "sleep_duration": 7.51,
+        "step_count": 10312
+    },
+    {
+        "timestamp": "2025-10-15 20:29:42",
+        "heart_rate": 77,
+        "sleep_duration": 4.9,
+        "step_count": 9983
+    },
+    {
+        "timestamp": "2025-10-15 20:30:42",
+        "heart_rate": 115,
+        "sleep_duration": 7.28,
+        "step_count": 9620
+    },
+    {
+        "timestamp": "2025-10-15 20:31:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.14,
+        "step_count": 11730
+    },
+    {
+        "timestamp": "2025-10-15 20:32:42",
+        "heart_rate": 67,
+        "sleep_duration": 8.95,
+        "step_count": 7833
+    },
+    {
+        "timestamp": "2025-10-15 20:33:42",
+        "heart_rate": 70,
+        "sleep_duration": 7.55,
+        "step_count": 7062
+    },
+    {
+        "timestamp": "2025-10-15 20:34:42",
+        "heart_rate": 80,
+        "sleep_duration": 0.09,
+        "step_count": 9704
+    },
+    {
+        "timestamp": "2025-10-15 20:35:42",
+        "heart_rate": 108,
+        "sleep_duration": 2.16,
+        "step_count": 7194
+    },
+    {
+        "timestamp": "2025-10-15 20:36:42",
+        "heart_rate": 91,
+        "sleep_duration": 7.85,
+        "step_count": 7103
+    },
+    {
+        "timestamp": "2025-10-15 20:37:42",
+        "heart_rate": 64,
+        "sleep_duration": 5.93,
+        "step_count": 11413
+    },
+    {
+        "timestamp": "2025-10-15 20:38:42",
+        "heart_rate": 103,
+        "sleep_duration": 5.25,
+        "step_count": 9411
+    },
+    {
+        "timestamp": "2025-10-15 20:39:42",
+        "heart_rate": 80,
+        "sleep_duration": 3.94,
+        "step_count": 7085
+    },
+    {
+        "timestamp": "2025-10-15 20:40:42",
+        "heart_rate": 105,
+        "sleep_duration": 1.94,
+        "step_count": 10325
+    },
+    {
+        "timestamp": "2025-10-15 20:41:42",
+        "heart_rate": 62,
+        "sleep_duration": 9.19,
+        "step_count": 9699
+    },
+    {
+        "timestamp": "2025-10-15 20:42:42",
+        "heart_rate": 101,
+        "sleep_duration": 7.7,
+        "step_count": 7263
+    },
+    {
+        "timestamp": "2025-10-15 20:43:42",
+        "heart_rate": 113,
+        "sleep_duration": 4.0,
+        "step_count": 8428
+    },
+    {
+        "timestamp": "2025-10-15 20:44:42",
+        "heart_rate": 94,
+        "sleep_duration": 3.38,
+        "step_count": 10084
+    },
+    {
+        "timestamp": "2025-10-15 20:45:42",
+        "heart_rate": 112,
+        "sleep_duration": 6.7,
+        "step_count": 10671
+    },
+    {
+        "timestamp": "2025-10-15 20:46:42",
+        "heart_rate": 79,
+        "sleep_duration": 8.83,
+        "step_count": 9776
+    },
+    {
+        "timestamp": "2025-10-15 20:47:42",
+        "heart_rate": 113,
+        "sleep_duration": 3.65,
+        "step_count": 7762
+    },
+    {
+        "timestamp": "2025-10-15 20:48:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.19,
+        "step_count": 8773
+    },
+    {
+        "timestamp": "2025-10-15 20:49:42",
+        "heart_rate": 66,
+        "sleep_duration": 5.13,
+        "step_count": 7150
+    },
+    {
+        "timestamp": "2025-10-15 20:50:42",
+        "heart_rate": 100,
+        "sleep_duration": 0.45,
+        "step_count": 10777
+    },
+    {
+        "timestamp": "2025-10-15 20:51:42",
+        "heart_rate": 118,
+        "sleep_duration": 1.22,
+        "step_count": 8919
+    },
+    {
+        "timestamp": "2025-10-15 20:52:42",
+        "heart_rate": 68,
+        "sleep_duration": 1.82,
+        "step_count": 9245
+    },
+    {
+        "timestamp": "2025-10-15 20:53:42",
+        "heart_rate": 94,
+        "sleep_duration": 5.92,
+        "step_count": 8894
+    },
+    {
+        "timestamp": "2025-10-15 20:54:42",
+        "heart_rate": 78,
+        "sleep_duration": 5.7,
+        "step_count": 7066
+    },
+    {
+        "timestamp": "2025-10-15 20:55:42",
+        "heart_rate": 101,
+        "sleep_duration": 2.8,
+        "step_count": 8671
+    },
+    {
+        "timestamp": "2025-10-15 20:56:42",
+        "heart_rate": 81,
+        "sleep_duration": 7.17,
+        "step_count": 11530
+    },
+    {
+        "timestamp": "2025-10-15 20:57:42",
+        "heart_rate": 107,
+        "sleep_duration": 5.35,
+        "step_count": 9639
+    },
+    {
+        "timestamp": "2025-10-15 20:58:42",
+        "heart_rate": 93,
+        "sleep_duration": 3.93,
+        "step_count": 10934
+    },
+    {
+        "timestamp": "2025-10-15 20:59:42",
+        "heart_rate": 86,
+        "sleep_duration": 5.52,
+        "step_count": 11293
+    },
+    {
+        "timestamp": "2025-10-15 21:00:42",
+        "heart_rate": 108,
+        "sleep_duration": 2.26,
+        "step_count": 7284
+    },
+    {
+        "timestamp": "2025-10-15 21:01:42",
+        "heart_rate": 67,
+        "sleep_duration": 2.48,
+        "step_count": 9441
+    },
+    {
+        "timestamp": "2025-10-15 21:02:42",
+        "heart_rate": 65,
+        "sleep_duration": 1.9,
+        "step_count": 10518
+    },
+    {
+        "timestamp": "2025-10-15 21:03:42",
+        "heart_rate": 88,
+        "sleep_duration": 6.64,
+        "step_count": 8665
+    },
+    {
+        "timestamp": "2025-10-15 21:04:42",
+        "heart_rate": 62,
+        "sleep_duration": 6.66,
+        "step_count": 8330
+    },
+    {
+        "timestamp": "2025-10-15 21:05:42",
+        "heart_rate": 73,
+        "sleep_duration": 9.66,
+        "step_count": 9019
+    },
+    {
+        "timestamp": "2025-10-15 21:06:42",
+        "heart_rate": 59,
+        "sleep_duration": 9.2,
+        "step_count": 8293
+    },
+    {
+        "timestamp": "2025-10-15 21:07:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.68,
+        "step_count": 11017
+    },
+    {
+        "timestamp": "2025-10-15 21:08:42",
+        "heart_rate": 85,
+        "sleep_duration": 5.97,
+        "step_count": 7291
+    },
+    {
+        "timestamp": "2025-10-15 21:09:42",
+        "heart_rate": 75,
+        "sleep_duration": 7.75,
+        "step_count": 9455
+    },
+    {
+        "timestamp": "2025-10-15 21:10:42",
+        "heart_rate": 112,
+        "sleep_duration": 2.53,
+        "step_count": 7656
+    },
+    {
+        "timestamp": "2025-10-15 21:11:42",
+        "heart_rate": 56,
+        "sleep_duration": 6.97,
+        "step_count": 9383
+    },
+    {
+        "timestamp": "2025-10-15 21:12:42",
+        "heart_rate": 100,
+        "sleep_duration": 8.74,
+        "step_count": 11456
+    },
+    {
+        "timestamp": "2025-10-15 21:13:42",
+        "heart_rate": 104,
+        "sleep_duration": 5.93,
+        "step_count": 8556
+    },
+    {
+        "timestamp": "2025-10-15 21:14:42",
+        "heart_rate": 78,
+        "sleep_duration": 2.07,
+        "step_count": 7076
+    },
+    {
+        "timestamp": "2025-10-15 21:15:42",
+        "heart_rate": 80,
+        "sleep_duration": 0.33,
+        "step_count": 8219
+    },
+    {
+        "timestamp": "2025-10-15 21:16:42",
+        "heart_rate": 109,
+        "sleep_duration": 5.3,
+        "step_count": 10130
+    },
+    {
+        "timestamp": "2025-10-15 21:17:42",
+        "heart_rate": 80,
+        "sleep_duration": 4.56,
+        "step_count": 10695
+    },
+    {
+        "timestamp": "2025-10-15 21:18:42",
+        "heart_rate": 74,
+        "sleep_duration": 8.91,
+        "step_count": 7312
+    },
+    {
+        "timestamp": "2025-10-15 21:19:42",
+        "heart_rate": 90,
+        "sleep_duration": 5.56,
+        "step_count": 10213
+    },
+    {
+        "timestamp": "2025-10-15 21:20:42",
+        "heart_rate": 78,
+        "sleep_duration": 2.65,
+        "step_count": 8867
+    },
+    {
+        "timestamp": "2025-10-15 21:21:42",
+        "heart_rate": 61,
+        "sleep_duration": 7.74,
+        "step_count": 8830
+    },
+    {
+        "timestamp": "2025-10-15 21:22:42",
+        "heart_rate": 116,
+        "sleep_duration": 9.49,
+        "step_count": 11037
+    },
+    {
+        "timestamp": "2025-10-15 21:23:42",
+        "heart_rate": 81,
+        "sleep_duration": 2.22,
+        "step_count": 8602
+    },
+    {
+        "timestamp": "2025-10-15 21:24:42",
+        "heart_rate": 116,
+        "sleep_duration": 6.13,
+        "step_count": 9464
+    },
+    {
+        "timestamp": "2025-10-15 21:25:42",
+        "heart_rate": 90,
+        "sleep_duration": 1.56,
+        "step_count": 7297
+    },
+    {
+        "timestamp": "2025-10-15 21:26:42",
+        "heart_rate": 77,
+        "sleep_duration": 6.03,
+        "step_count": 9959
+    },
+    {
+        "timestamp": "2025-10-15 21:27:42",
+        "heart_rate": 88,
+        "sleep_duration": 9.23,
+        "step_count": 8072
+    },
+    {
+        "timestamp": "2025-10-15 21:28:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.19,
+        "step_count": 7637
+    },
+    {
+        "timestamp": "2025-10-15 21:29:42",
+        "heart_rate": 81,
+        "sleep_duration": 4.17,
+        "step_count": 10859
+    },
+    {
+        "timestamp": "2025-10-15 21:30:42",
+        "heart_rate": 63,
+        "sleep_duration": 3.17,
+        "step_count": 9972
+    },
+    {
+        "timestamp": "2025-10-15 21:31:42",
+        "heart_rate": 89,
+        "sleep_duration": 10.0,
+        "step_count": 7815
+    },
+    {
+        "timestamp": "2025-10-15 21:32:42",
+        "heart_rate": 87,
+        "sleep_duration": 4.75,
+        "step_count": 10302
+    },
+    {
+        "timestamp": "2025-10-15 21:33:42",
+        "heart_rate": 86,
+        "sleep_duration": 3.44,
+        "step_count": 11031
+    },
+    {
+        "timestamp": "2025-10-15 21:34:42",
+        "heart_rate": 99,
+        "sleep_duration": 4.71,
+        "step_count": 9732
+    },
+    {
+        "timestamp": "2025-10-15 21:35:42",
+        "heart_rate": 89,
+        "sleep_duration": 3.37,
+        "step_count": 9789
+    },
+    {
+        "timestamp": "2025-10-15 21:36:42",
+        "heart_rate": 86,
+        "sleep_duration": 4.11,
+        "step_count": 11637
+    },
+    {
+        "timestamp": "2025-10-15 21:37:42",
+        "heart_rate": 90,
+        "sleep_duration": 3.51,
+        "step_count": 7605
+    },
+    {
+        "timestamp": "2025-10-15 21:38:42",
+        "heart_rate": 90,
+        "sleep_duration": 3.51,
+        "step_count": 10890
+    },
+    {
+        "timestamp": "2025-10-15 21:39:42",
+        "heart_rate": 90,
+        "sleep_duration": 2.29,
+        "step_count": 9054
+    },
+    {
+        "timestamp": "2025-10-15 20:08:42",
+        "heart_rate": 117,
+        "sleep_duration": 9.97,
+        "step_count": 8928
+    },
+    {
+        "timestamp": "2025-10-15 20:09:42",
+        "heart_rate": 70,
+        "sleep_duration": 1.36,
+        "step_count": 8301
+    },
+    {
+        "timestamp": "2025-10-15 20:10:42",
+        "heart_rate": 104,
+        "sleep_duration": 7.36,
+        "step_count": 11845
+    },
+    {
+        "timestamp": "2025-10-15 20:11:42",
+        "heart_rate": 84,
+        "sleep_duration": 1.09,
+        "step_count": 9596
+    },
+    {
+        "timestamp": "2025-10-15 20:12:42",
+        "heart_rate": 103,
+        "sleep_duration": 8.15,
+        "step_count": 10615
+    },
+    {
+        "timestamp": "2025-10-15 20:13:42",
+        "heart_rate": 117,
+        "sleep_duration": 0.06,
+        "step_count": 8364
+    },
+    {
+        "timestamp": "2025-10-15 20:14:42",
+        "heart_rate": 83,
+        "sleep_duration": 6.72,
+        "step_count": 11688
+    },
+    {
+        "timestamp": "2025-10-15 20:15:42",
+        "heart_rate": 83,
+        "sleep_duration": 3.64,
+        "step_count": 10282
+    },
+    {
+        "timestamp": "2025-10-15 20:16:42",
+        "heart_rate": 99,
+        "sleep_duration": 3.08,
+        "step_count": 10349
+    },
+    {
+        "timestamp": "2025-10-15 20:17:42",
+        "heart_rate": 86,
+        "sleep_duration": 7.66,
+        "step_count": 9319
+    },
+    {
+        "timestamp": "2025-10-15 20:18:42",
+        "heart_rate": 97,
+        "sleep_duration": 2.94,
+        "step_count": 9238
+    },
+    {
+        "timestamp": "2025-10-15 20:19:42",
+        "heart_rate": 73,
+        "sleep_duration": 7.8,
+        "step_count": 9613
+    },
+    {
+        "timestamp": "2025-10-15 20:20:42",
+        "heart_rate": 79,
+        "sleep_duration": 9.5,
+        "step_count": 10293
+    },
+    {
+        "timestamp": "2025-10-15 20:21:42",
+        "heart_rate": 116,
+        "sleep_duration": 1.8,
+        "step_count": 7007
+    },
+    {
+        "timestamp": "2025-10-15 20:22:42",
+        "heart_rate": 77,
+        "sleep_duration": 7.14,
+        "step_count": 11557
+    },
+    {
+        "timestamp": "2025-10-15 20:23:42",
+        "heart_rate": 71,
+        "sleep_duration": 9.61,
+        "step_count": 9893
+    },
+    {
+        "timestamp": "2025-10-15 20:24:42",
+        "heart_rate": 77,
+        "sleep_duration": 3.73,
+        "step_count": 11312
+    },
+    {
+        "timestamp": "2025-10-15 20:25:42",
+        "heart_rate": 69,
+        "sleep_duration": 0.86,
+        "step_count": 10591
+    },
+    {
+        "timestamp": "2025-10-15 20:26:42",
+        "heart_rate": 67,
+        "sleep_duration": 5.4,
+        "step_count": 7851
+    },
+    {
+        "timestamp": "2025-10-15 20:27:42",
+        "heart_rate": 57,
+        "sleep_duration": 5.35,
+        "step_count": 9628
+    },
+    {
+        "timestamp": "2025-10-15 20:28:42",
+        "heart_rate": 110,
+        "sleep_duration": 7.51,
+        "step_count": 7721
+    },
+    {
+        "timestamp": "2025-10-15 20:29:42",
+        "heart_rate": 77,
+        "sleep_duration": 4.9,
+        "step_count": 9291
+    },
+    {
+        "timestamp": "2025-10-15 20:30:42",
+        "heart_rate": 115,
+        "sleep_duration": 7.28,
+        "step_count": 11370
+    },
+    {
+        "timestamp": "2025-10-15 20:31:42",
+        "heart_rate": 92,
+        "sleep_duration": 5.14,
+        "step_count": 8357
+    },
+    {
+        "timestamp": "2025-10-15 20:32:42",
+        "heart_rate": 67,
+        "sleep_duration": 8.95,
+        "step_count": 7320
+    },
+    {
+        "timestamp": "2025-10-15 20:33:42",
+        "heart_rate": 70,
+        "sleep_duration": 7.55,
+        "step_count": 9471
+    },
+    {
+        "timestamp": "2025-10-15 20:34:42",
+        "heart_rate": 80,
+        "sleep_duration": 0.09,
+        "step_count": 7931
+    },
+    {
+        "timestamp": "2025-10-15 20:35:42",
+        "heart_rate": 108,
+        "sleep_duration": 2.16,
+        "step_count": 9532
+    },
+    {
+        "timestamp": "2025-10-15 20:36:42",
+        "heart_rate": 91,
+        "sleep_duration": 7.85,
+        "step_count": 9274
+    },
+    {
+        "timestamp": "2025-10-15 20:37:42",
+        "heart_rate": 64,
+        "sleep_duration": 5.93,
+        "step_count": 9583
+    },
+    {
+        "timestamp": "2025-10-15 20:38:42",
+        "heart_rate": 103,
+        "sleep_duration": 5.25,
+        "step_count": 11427
+    },
+    {
+        "timestamp": "2025-10-15 20:39:42",
+        "heart_rate": 80,
+        "sleep_duration": 3.94,
+        "step_count": 9399
+    },
+    {
+        "timestamp": "2025-10-15 20:40:42",
+        "heart_rate": 105,
+        "sleep_duration": 1.94,
+        "step_count": 8795
+    },
+    {
+        "timestamp": "2025-10-15 20:41:42",
+        "heart_rate": 62,
+        "sleep_duration": 9.19,
+        "step_count": 11730
+    },
+    {
+        "timestamp": "2025-10-15 20:42:42",
+        "heart_rate": 101,
+        "sleep_duration": 7.7,
+        "step_count": 10408
+    },
+    {
+        "timestamp": "2025-10-15 20:43:42",
+        "heart_rate": 113,
+        "sleep_duration": 4.0,
+        "step_count": 11210
+    },
+    {
+        "timestamp": "2025-10-15 20:44:42",
+        "heart_rate": 94,
+        "sleep_duration": 3.38,
+        "step_count": 11994
+    },
+    {
+        "timestamp": "2025-10-15 20:45:42",
+        "heart_rate": 112,
+        "sleep_duration": 6.7,
+        "step_count": 7932
+    },
+    {
+        "timestamp": "2025-10-15 20:46:42",
+        "heart_rate": 79,
+        "sleep_duration": 8.83,
+        "step_count": 9567
+    },
+    {
+        "timestamp": "2025-10-15 20:47:42",
+        "heart_rate": 113,
+        "sleep_duration": 3.65,
+        "step_count": 11476
+    },
+    {
+        "timestamp": "2025-10-15 20:48:42",
+        "heart_rate": 63,
+        "sleep_duration": 8.19,
+        "step_count": 8881
+    },
+    {
+        "timestamp": "2025-10-15 20:49:42",
+        "heart_rate": 66,
+        "sleep_duration": 5.13,
+        "step_count": 8969
+    },
+    {
+        "timestamp": "2025-10-15 20:50:42",
+        "heart_rate": 100,
+        "sleep_duration": 0.45,
+        "step_count": 8713
+    },
+    {
+        "timestamp": "2025-10-15 20:51:42",
+        "heart_rate": 118,
+        "sleep_duration": 1.22,
+        "step_count": 7871
+    },
+    {
+        "timestamp": "2025-10-15 20:52:42",
+        "heart_rate": 68,
+        "sleep_duration": 1.82,
+        "step_count": 11626
+    },
+    {
+        "timestamp": "2025-10-15 20:53:42",
+        "heart_rate": 94,
+        "sleep_duration": 5.92,
+        "step_count": 10742
+    },
+    {
+        "timestamp": "2025-10-15 20:54:42",
+        "heart_rate": 78,
+        "sleep_duration": 5.7,
+        "step_count": 10031
+    },
+    {
+        "timestamp": "2025-10-15 20:55:42",
+        "heart_rate": 101,
+        "sleep_duration": 2.8,
+        "step_count": 11176
+    },
+    {
+        "timestamp": "2025-10-15 20:56:42",
+        "heart_rate": 81,
+        "sleep_duration": 7.17,
+        "step_count": 11348
+    },
+    {
+        "timestamp": "2025-10-15 20:57:42",
+        "heart_rate": 107,
+        "sleep_duration": 5.35,
+        "step_count": 7851
+    },
+    {
+        "timestamp": "2025-10-15 20:58:42",
+        "heart_rate": 93,
+        "sleep_duration": 3.93,
+        "step_count": 10733
+    },
+    {
+        "timestamp": "2025-10-15 20:59:42",
+        "heart_rate": 86,
+        "sleep_duration": 5.52,
+        "step_count": 8171
+    },
+    {
+        "timestamp": "2025-10-15 21:00:42",
+        "heart_rate": 108,
+        "sleep_duration": 2.26,
+        "step_count": 7394
+    },
+    {
+        "timestamp": "2025-10-15 21:01:42",
+        "heart_rate": 67,
+        "sleep_duration": 2.48,
+        "step_count": 9867
+    },
+    {
+        "timestamp": "2025-10-15 21:02:42",
+        "heart_rate": 65,
+        "sleep_duration": 1.9,
+        "step_count": 8104
+    },
+    {
+        "timestamp": "2025-10-15 21:03:42",
+        "heart_rate": 88,
+        "sleep_duration": 6.64,
+        "step_count": 11315
+    },
+    {
+        "timestamp": "2025-10-15 21:04:42",
+        "heart_rate": 62,
+        "sleep_duration": 6.66,
+        "step_count": 7402
+    },
+    {
+        "timestamp": "2025-10-15 20:25:42",
+        "heart_rate": 69,
+        "sleep_duration": 0.86,
+        "step_count": 8047
     }
 ]
